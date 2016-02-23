@@ -2,6 +2,7 @@
 This repository contains code for CS169 group projects using Ruby on Rails.
 
 ### Heroku App
+https://cs169-apds.herokuapp.com/
 
 ### Pivotal Tracker
 https://www.pivotaltracker.com/n/projects/1541745
