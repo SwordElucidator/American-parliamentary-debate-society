@@ -12,7 +12,7 @@ Here are the **topics** that we are going to implement.
 ### Backend
 * mainpage
 * registration
-* [forums](backend/forums.md))
+* [forums](backend/forums.md)
 * debate-sign-up
 
 ### Database(AR)
