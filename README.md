@@ -16,5 +16,5 @@ https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society
 https://codeclimate.com/repos/56cbc888afbada0069003f94/feed
 
 ## Documentation
-[overall documentation](documentations/overall.md)
-[database documentation](documentations/database.md)
+* [overall documentation](documentations/overall.md)
+* [database documentation](documentations/database.md)

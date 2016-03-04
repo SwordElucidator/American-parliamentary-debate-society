@@ -16,7 +16,7 @@ Here are the **topics** that we are going to implement.
 * debate-sign-up
 
 ### Database(AR)
-[database documentation](documentations/database.md)
+[database documentation](database.md)
 * User
 * Debate
 * Forum_section
