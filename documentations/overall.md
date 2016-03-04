@@ -12,13 +12,8 @@ Here are the **topics** that we are going to implement.
 ### Backend
 * mainpage
 * registration
-* forums
+* [forums](backend/forums.md))
 * debate-sign-up
 
 ### Database(AR)
 [database documentation](database.md)
-* User
-* Debate
-* Forum_section
-* Forum_topic
-* Forum_reply
