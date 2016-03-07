@@ -1,9 +1,9 @@
 %html
   %head
     = stylesheet_link_tag 'home'
-        
   %body
-    %nav.navbar.navbar-inverse{:role => "navigation"}
+    // a cool website: http://www.djuradj.net/
+    %nav.navbar.navbar-default{:role => "navigation"}
       .container-fluid
         / Brand and toggle get grouped for better mobile display
         .navbar-header
@@ -16,7 +16,7 @@
         / Collect the nav links, forms, and other content for toggling
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
-            %li.active
+            %li
               %a{:href => "#about"} About
             %li
               %a{:href => "#culture"} Culture
@@ -61,13 +61,11 @@
           .item.active
             %img{:src => "@path header.jpg", :alt => ""}/
           .item
-            %img{:src => "@path slider2.jpg", :alt => ""}/
+            %img{:src => "../../../assets/images/header.jpg", :alt => ""}/
           .item
-            %img{:src => "@path slider3.jpg", :alt => ""}/
+            %img{:src => "http://debate.berkeley.edu/img/header.jpg", :alt => ""}/
           .item
-            %img{:src => "@path slider4.jpg", :alt => ""}/
-          .item
-            %img{:src => "@path slider5.jpg", :alt => ""}/
+            %img{:src => "", :alt => ""}/
         %a.left.carousel-control{:href => "#slide-images", :data => {:slide => "prev"}}
           %span.glyphicon.glyphicon-chevron-left
         %a.right.carousel-control{:href => "#slide-images", :data => {:slide => "next"}}
@@ -76,8 +74,9 @@
       %h1.title Join Us
       %a.btn.btn-primary.btn-lg{:href => "http://debate.berkeley.edu/join.html"} Send Us Your Information
       %a.btn.btn-primary.btn-lg{:href => "mailto:aberl@berkeley.edu"} Email the President
-      %a.btn.btn-primary.btn-lg{:href => "https://www.facebook.com/groups/279524538903584/"} Get on Facebook
-    %footer.container-fluid{:role => "closing"}
-      %p We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
-      <a href="https://www.ocf.berkeley.edu">
-      <img style="text-align: center"src="https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" width="98" height="39" style="border:0" />
+      %a.btn.btn-primary.btn-lg{:href => "https://www.facebook.com/groups/279524538903584/"} Contact Our Facebook
+    %footer.container{:role => "closing"}
+      %p <strong>The Debate Society of Berkeley</strong> &copy; 2016
+      %p{:class => "description"} We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
+      %img#ocf-logo{:src => "https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png", :alt =>"Hosted by the OCF", :href => "https://www.ocf.berkeley.edu"}
+      </a>
