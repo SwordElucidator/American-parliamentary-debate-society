@@ -1,27 +1,28 @@
 %html
   %head
     = stylesheet_link_tag 'home'
+    // = javascript_include_tag 'scrolling-nav'
   %body
     // a cool website: http://www.djuradj.net/
     %nav.navbar.navbar-default{:role => "navigation"}
       .container-fluid
         / Brand and toggle get grouped for better mobile display
-        .navbar-header
+        .navbar-header.page-scroll
           %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
             %span.sr-only Toggle navigation
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand{:href => "#home"} Debate
+          %a.navbar-brand.page-scroll{:href => "#home"} Debate
         / Collect the nav links, forms, and other content for toggling
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
-              %a{:href => "#about"} About
+              %a.page-scroll{:href => "#about"} About
             %li
-              %a{:href => "#culture"} Culture
+              %a.page-scroll{:href => "#culture"} Culture
             %li
-              %a{:href => "#join"} Join
+              %a.page-scroll{:href => "#join"} Join
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
               %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
@@ -36,8 +37,6 @@
                   %a{:href => "#"} Sign Up For Mock Debate
                 %li
                   %a{:href => "#"} Forum
-        / /.navbar-collapse
-      / /.container-fluid
     %div.container-fluid{:role => "header", :id => "home"}
       %div.jumbotron
         %h1.title The Debate Society of Berkeley
@@ -59,7 +58,7 @@
           %li{:data => {:target => "slide-images", :slid1_to => "2"}}
         .carousel-inner
           .item.active
-            %img{:src => "@path header.jpg", :alt => ""}/
+            %img{:src => "header.jpg", :alt => ""}/
           .item
             %img{:src => "../../../assets/images/header.jpg", :alt => ""}/
           .item
@@ -72,6 +71,7 @@
           %span.glyphicon.glyphicon-chevron-right
     %div.container-fluid{:role => "information", :id => "join"}
       %h1.title Join Us
+      // Fix this link later
       %a.btn.btn-primary.btn-lg{:href => "http://debate.berkeley.edu/join.html"} Send Us Your Information
       %a.btn.btn-primary.btn-lg{:href => "mailto:aberl@berkeley.edu"} Email the President
       %a.btn.btn-primary.btn-lg{:href => "https://www.facebook.com/groups/279524538903584/"} Contact Our Facebook

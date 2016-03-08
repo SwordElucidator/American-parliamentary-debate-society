@@ -35864,3 +35864,1067 @@ Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/assets/header.jpg" for 136.152.142.30 at 2016-03-07 23:49:40 +0000
 Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-07 23:56:14 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (35.7ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...utes({}, nil, link_to image_tag("1.jpg", :alt => "Slide1"))}...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected ')', expecting tSTRING_DEND
+...tag("1.jpg", :alt => "Slide1"))}>\n            <!-- / %img{:...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected $undefined, expecting keyword_do_LAMBDA or tLAMBEG
+...ader.jpg\", :alt => \"\"}/ -->\n          </div>\n          ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: unknown regexp options - at
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...../../assets/images/header.jpg'>\n          </div>\n        ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...iv>\n          <div class='item'>\n            <img alt='' s...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...          <img alt='' src='http://debate.berkeley.edu/img/he...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: unknown regexp options - dbat
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...te.berkeley.edu/img/header.jpg'>\n          </div>\n        ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...iv>\n          <div class='item'>\n            <img alt='' s...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:70: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...         <span class='glyphicon glyphicon-chevron-left'></sp...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:70: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...yphicon glyphicon-chevron-left'></span>\n        </a>\n     ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...         <span class='glyphicon glyphicon-chevron-right'></s...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...phicon glyphicon-chevron-right'></span>\n        </a>\n     ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...div>\n    <div class='container-fluid' id='join' role='infor...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...   <div class='container-fluid' id='join' role='information'...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...lass='container-fluid' id='join' role='information'>\n      ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...id' id='join' role='information'>\n      <h1 class='title'>J...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...ation'>\n      <h1 class='title'>Join Us</h1>\n      <a clas...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...in Us</h1>\n      <a class='btn btn-primary btn-lg' href='ht...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  <a class='btn btn-primary btn-lg' href='http://debate.berk...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... class='btn btn-primary btn-lg' href='http://debate.berkeley...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+... btn-primary btn-lg' href='http://debate.berkeley.edu/join.h...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - dbat
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+.../debate.berkeley.edu/join.html'>Send Us Your Information</a>...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...mation</a>\n      <a class='btn btn-primary btn-lg' href='ma...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  <a class='btn btn-primary btn-lg' href='mailto:aberl@berke...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... class='btn btn-primary btn-lg' href='mailto:aberl@berkeley....
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...tn-primary btn-lg' href='mailto:aberl@berkeley.edu'>Email th...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...sident</a>\n      <a class='btn btn-primary btn-lg' href='ht...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  <a class='btn btn-primary btn-lg' href='https://www.facebo...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... class='btn btn-primary btn-lg' href='https://www.facebook.c...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...btn-primary btn-lg' href='https://www.facebook.com/groups/27...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - www
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...>\n    <footer class='container' role='closing'>\n      <p><...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...class='container' role='closing'>\n      <p><strong>The Deba...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...p>\n      <p class='description'>We are a student group acti...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tCONSTANT, expecting tSTRING_DEND
+...te.</p>\n      <img alt='Hosted by the OCF' href='https://ww...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...'Hosted by the OCF' href='https://www.ocf.berkeley.edu' id='...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - www
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...//www.ocf.berkeley.edu' id='ocf-logo' src='https://www.ocf.b...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ocf.berkeley.edu' id='ocf-logo' src='https://www.ocf.berkele...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...y.edu' id='ocf-logo' src='https://www.ocf.berkeley.edu/image...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - www
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...osted-logos/ocfbadge_mini8.png'>\n      </a>\n    </footer>\...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unterminated string meets end of file):
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:62: syntax error, unexpected ')', expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected $undefined, expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/home/index.html.haml:62: unknown regexp options - at
+  app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: unknown regexp options - dbat
+  app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:70: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:70: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - dbat
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - www
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tCONSTANT, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - www
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - www
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unterminated string meets end of file
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (177.9ms)
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-07 23:56:29 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...utes({}, nil, link_to image_tag("header.jpg", :alt => "Slide...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected ')', expecting tSTRING_DEND
+...header.jpg", :alt => "Slide1"))}>\n            <!-- / %img{:...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected $undefined, expecting keyword_do_LAMBDA or tLAMBEG
+...ader.jpg\", :alt => \"\"}/ -->\n          </div>\n          ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: unknown regexp options - at
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...../../assets/images/header.jpg'>\n          </div>\n        ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...iv>\n          <div class='item'>\n            <img alt='' s...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...          <img alt='' src='http://debate.berkeley.edu/img/he...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: unknown regexp options - dbat
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...te.berkeley.edu/img/header.jpg'>\n          </div>\n        ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...iv>\n          <div class='item'>\n            <img alt='' s...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:70: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...         <span class='glyphicon glyphicon-chevron-left'></sp...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:70: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...yphicon glyphicon-chevron-left'></span>\n        </a>\n     ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...         <span class='glyphicon glyphicon-chevron-right'></s...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...phicon glyphicon-chevron-right'></span>\n        </a>\n     ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...div>\n    <div class='container-fluid' id='join' role='infor...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...   <div class='container-fluid' id='join' role='information'...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...lass='container-fluid' id='join' role='information'>\n      ...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...id' id='join' role='information'>\n      <h1 class='title'>J...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...ation'>\n      <h1 class='title'>Join Us</h1>\n      <a clas...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...in Us</h1>\n      <a class='btn btn-primary btn-lg' href='ht...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  <a class='btn btn-primary btn-lg' href='http://debate.berk...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... class='btn btn-primary btn-lg' href='http://debate.berkeley...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+... btn-primary btn-lg' href='http://debate.berkeley.edu/join.h...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - dbat
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+.../debate.berkeley.edu/join.html'>Send Us Your Information</a>...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...mation</a>\n      <a class='btn btn-primary btn-lg' href='ma...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  <a class='btn btn-primary btn-lg' href='mailto:aberl@berke...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... class='btn btn-primary btn-lg' href='mailto:aberl@berkeley....
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...tn-primary btn-lg' href='mailto:aberl@berkeley.edu'>Email th...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...sident</a>\n      <a class='btn btn-primary btn-lg' href='ht...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...  <a class='btn btn-primary btn-lg' href='https://www.facebo...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... class='btn btn-primary btn-lg' href='https://www.facebook.c...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...btn-primary btn-lg' href='https://www.facebook.com/groups/27...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - www
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...>\n    <footer class='container' role='closing'>\n      <p><...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...class='container' role='closing'>\n      <p><strong>The Deba...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...p>\n      <p class='description'>We are a student group acti...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tCONSTANT, expecting tSTRING_DEND
+...te.</p>\n      <img alt='Hosted by the OCF' href='https://ww...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...'Hosted by the OCF' href='https://www.ocf.berkeley.edu' id='...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - www
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...//www.ocf.berkeley.edu' id='ocf-logo' src='https://www.ocf.b...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ocf.berkeley.edu' id='ocf-logo' src='https://www.ocf.berkele...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...y.edu' id='ocf-logo' src='https://www.ocf.berkeley.edu/image...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unknown regexp options - www
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+...osted-logos/ocfbadge_mini8.png'>\n      </a>\n    </footer>\...
+...                               ^
+/home/ubuntu/workspace/debate/app/views/home/index.html.haml:72: unterminated string meets end of file):
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:62: syntax error, unexpected ')', expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected $undefined, expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/home/index.html.haml:62: unknown regexp options - at
+  app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: unknown regexp options - dbat
+  app/views/home/index.html.haml:62: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:62: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:70: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:70: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - dbat
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - www
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tCONSTANT, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - www
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/home/index.html.haml:72: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unknown regexp options - www
+  app/views/home/index.html.haml:72: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
+  app/views/home/index.html.haml:72: unterminated string meets end of file
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (33.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.3ms)
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-07 23:57:27 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5444.0ms)
+Completed 200 OK in 5563ms (Views: 5562.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e28363f1ba09ca952fd83a7bd7c4c648bd35cf693a3e3d391f62db4bbf337c55.css?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f9dc76778074cd5f5f8ee316fda82db64571666553ee704d1fd35476fb35a4a1.css?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 136.152.142.30 at 2016-03-07 23:57:33 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/header.jpg" for 136.152.142.30 at 2016-03-07 23:57:34 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.7ms)
+
+
+Started GET "/assets/images/header.jpg" for 136.152.142.30 at 2016-03-07 23:57:34 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (135.5ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.30 at 2016-03-07 23:57:34 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for 136.152.142.30 at 2016-03-07 23:57:34 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-08 00:02:22 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (27.8ms)
+Completed 200 OK in 221ms (Views: 219.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e28363f1ba09ca952fd83a7bd7c4c648bd35cf693a3e3d391f62db4bbf337c55.css?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f9dc76778074cd5f5f8ee316fda82db64571666553ee704d1fd35476fb35a4a1.css?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/header.jpg" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (117.4ms)
+
+
+Started GET "/assets/images/header.jpg" for 136.152.142.30 at 2016-03-08 00:02:23 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for 136.152.142.30 at 2016-03-08 00:02:24 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-08 00:06:18 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (594.5ms)
+Completed 500 Internal Server Error in 635ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( scrolling-nav.js )` to `config/initializers/assets.rb` and restart your server):
+    1: %html
+    2:   %head
+    3:     = stylesheet_link_tag 'home'
+    4:     = javascript_include_tag 'scrolling-nav'
+    5:   %body
+    6:     // a cool website: http://www.djuradj.net/
+    7:     %nav.navbar.navbar-default{:role => "navigation"}
+  app/views/home/index.html.haml:4:in `_app_views_home_index_html_haml__786108639388504877_44765440'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (102.6ms)
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-08 00:06:53 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (329.8ms)
+Completed 200 OK in 608ms (Views: 588.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f9dc76778074cd5f5f8ee316fda82db64571666553ee704d1fd35476fb35a4a1.css?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e28363f1ba09ca952fd83a7bd7c4c648bd35cf693a3e3d391f62db4bbf337c55.css?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:54 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scrolling-nav.self-3d5a6042f3bbecc36d4f8fbc63160a05d7335f7caeb208e6e07cfa0a707ab79f.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/header.jpg" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (147.2ms)
+
+
+Started GET "/assets/images/header.jpg" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (112.4ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for 136.152.142.30 at 2016-03-08 00:06:55 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.30 at 2016-03-08 00:13:04 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 200ms (Views: 199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e28363f1ba09ca952fd83a7bd7c4c648bd35cf693a3e3d391f62db4bbf337c55.css?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f9dc76778074cd5f5f8ee316fda82db64571666553ee704d1fd35476fb35a4a1.css?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scrolling-nav.self-33f242ca5d4368dd96d795567165667863032fb874610910de4c810153167e6a.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/header.jpg" for 136.152.142.30 at 2016-03-08 00:13:05 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.5ms)
+
+
+Started GET "/assets/images/header.jpg" for 136.152.142.30 at 2016-03-08 00:13:06 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (107.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for 136.152.142.30 at 2016-03-08 00:13:06 +0000
+Cannot render console from 136.152.142.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
