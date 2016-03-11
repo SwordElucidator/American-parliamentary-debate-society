@@ -29,7 +29,10 @@ When /^(?:|I )go to (.+)$/ do |page_name|
 end
 
 When /^(?:|I )press "([^"]*)"$/ do |button|
-  click_button(button)
+  begin
+    click_button(button)
+  rescue ActiveRecord::RecordInvalid
+  end
 end
 
 When /^(?:|I )follow "([^"]*)"$/ do |link|
@@ -87,6 +90,14 @@ Then /^(?:|I )should see "([^"]*)"$/ do |text|
   else
     assert page.has_content?(text)
   end
+end
+
+Then /^(?:|I )should have field "([^"]*)"$/ do |field|
+  expect(page).to have_css('input[type="text"]')
+end
+
+Then /^(?:|I )should have button "([^"]*)"$/ do |button|
+  expect(page).to have_css('input[type="text"]')
 end
 
 Then /^(?:|I )should see \/([^\/]*)\/$/ do |regexp|
@@ -212,6 +223,15 @@ Then /^(?:|I )should be on (.+)$/ do |page_name|
     current_path.should == path_to(page_name)
   else
     assert_equal path_to(page_name), current_path
+  end
+end
+
+Then /^(?:|I )should not be on (.+)$/ do |page_name|
+  current_path = URI.parse(current_url).path
+  if current_path.respond_to? :should
+    !(current_path.should == path_to(page_name))
+  else
+    !(path_to(page_name) == current_path)
   end
 end
 

@@ -17,4 +17,4 @@ Feature: Home Page
   Scenario: click on "Join Us"
   Given I am on the home page of the website
   When I follow "Join Us"
-  Then I should be on the "Join Us" page
+  Then I should be on the join us page
