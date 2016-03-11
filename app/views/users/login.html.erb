@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <style>
-    div.login {
+    <script src = /assets/login.js></script>
+    <style src = /assets/login.css></style>
+    <!--div.login {
         background-color: #F0F0F0 ;
         width: 500px;
         height: 150px;  
@@ -26,7 +27,7 @@
         width: 500px;
         height: 200px;
     }
-    </style>
+    </style>-->
   </head>
   <body>
       <div class = "transbox">
@@ -36,12 +37,12 @@
       <%= form_tag("/login", method: "post") do %>
         <div class = "form">
         <div class="col-sm-9">
-          <input class="form-control input-lg" id="focusedInput1" type="text" value="Enter Username" name = "username">
+          <input class="form-control input-lg" id="myUsername" type="text" value="Enter Username" name = "username" onclick = "enterUsername();"/>
         </div>
         <br></br>
         <br></br>
         <div class="col-sm-9">
-          <input class="form-control input-lg" id="focusedInput1" type="password" value="Enter Password" name = "password">
+          <input class="form-control input-lg" type="text" id = "myPassword" value="Enter Password" name = "password" onclick ="enterPassword();"/> 
         </div>
         </div>
         <button type="submit" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
