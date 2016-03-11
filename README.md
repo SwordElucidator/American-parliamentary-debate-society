@@ -10,10 +10,12 @@ https://cs169-apds.herokuapp.com/
 https://www.pivotaltracker.com/n/projects/1541745
 
 ### Travis CI
+[![Build Status](https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society.svg?branch=master)](https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society)
 https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society
 
 ### Code Climate
-https://codeclimate.com/repos/56cbc888afbada0069003f94/feed
+[![Code Climate](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/gpa.svg)](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society)
+https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society
 
 ## Documentation
 * [overall documentation](documentations/overall.md)
