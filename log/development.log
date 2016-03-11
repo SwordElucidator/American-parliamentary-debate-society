@@ -2385,3 +2385,621 @@ Processing by PostsController#index as HTML
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered posts/index.html.haml within layouts/application (11.6ms)
 Completed 200 OK in 63ms (Views: 59.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:09:05 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 73ms (Views: 68.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:09:52 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 97ms (Views: 93.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:09:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:11:19 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (23.1ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (Invalid CSS after "...-width = 1140px": expected "{", was ";"):
+    2: %html
+    3: %head
+    4:   %title APDS Forum
+    5:   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:   = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    7:   = csrf_meta_tags 
+    8:   
+  app/assets/stylesheets/application.scss:19
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___3902621749063384631_69870815430140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (119.1ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:11:47 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (Invalid CSS after "...-width = 1140px": expected "{", was ";"):
+    2: %html
+    3: %head
+    4:   %title APDS Forum
+    5:   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:   = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    7:   = csrf_meta_tags 
+    8:   
+  app/assets/stylesheets/application.scss:19
+  app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml___3902621749063384631_69870815430140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (40.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (166.4ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:12:27 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 200ms (Views: 196.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-a4adacff1c1fc376ee584ae2231c0822baa38e364565d92014f85241e96d6411.css?body=1" for 40.129.246.4 at 2016-03-11 19:12:27 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:14:05 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (37.5ms)
+Completed 200 OK in 148ms (Views: 142.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:18:16 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (26.1ms)
+Completed 200 OK in 80ms (Views: 73.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:19:30 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 111ms (Views: 105.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-b8317f70fe8627cf8f7269054a0de67e64ac586459d064fe12d62628ef9728d7.css?body=1" for 40.129.246.4 at 2016-03-11 19:19:31 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:24:03 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 105ms (Views: 100.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:24:04 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:24:56 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.8ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 154ms (Views: 146.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.self-cb721a7ecdf5ee80e8a4112785b62c8f369c0eb2cddf043ab02f98a7b75f8efb.css?body=1" for 40.129.246.4 at 2016-03-11 19:24:57 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:25:03 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:25:04 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:25:09 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (9.4ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-cb721a7ecdf5ee80e8a4112785b62c8f369c0eb2cddf043ab02f98a7b75f8efb.css?body=1" for 40.129.246.4 at 2016-03-11 19:25:09 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 40.129.246.4 at 2016-03-11 19:25:09 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:09 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 94ms (Views: 91.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-cb721a7ecdf5ee80e8a4112785b62c8f369c0eb2cddf043ab02f98a7b75f8efb.css?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 40.129.246.4 at 2016-03-11 19:25:37 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:26:19 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (2.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 52ms (Views: 46.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:26:44 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 116ms (Views: 112.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-03cdd6d2d613be4b9304b3004a97a33409433ccd82f6571a0d1aa8d3137d5fbc.css?body=1" for 40.129.246.4 at 2016-03-11 19:26:44 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:29:29 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 133ms (Views: 127.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-3b6a6c8d459800385435965bcff32725a6a005dc2701f72f628f4eb9155cc20c.css?body=1" for 40.129.246.4 at 2016-03-11 19:29:29 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:29:50 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 165ms (Views: 162.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-be296d3cf09fa10f51d09cf88949b91fbbec92fe128403bdaed012d2c14656d2.css?body=1" for 40.129.246.4 at 2016-03-11 19:29:50 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:33:20 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 56ms (Views: 51.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:33:22 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 62ms (Views: 57.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:37:42 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 143ms (Views: 138.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-3fa455f4b816870aee7c54ed25d9f732033acca1ff71486c0412f2a8c32cf499.css?body=1" for 40.129.246.4 at 2016-03-11 19:37:43 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:39:03 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (17.6ms)
+Completed 200 OK in 149ms (Views: 140.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-f580a9efe558b68e8600544ae5f8d314ed1d01e38c3c71d1bf220456c8d34546.css?body=1" for 40.129.246.4 at 2016-03-11 19:39:03 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/5" for 40.129.246.4 at 2016-03-11 19:39:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered posts/show.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 47.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:39:13 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.3ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (35.7ms)
+Completed 200 OK in 87ms (Views: 83.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:40:28 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 156ms (Views: 153.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-8b3772dd3bdf5a2b1176bb3a71ff41fe2fb697666cb2de7c56fff951f2bc95d7.css?body=1" for 40.129.246.4 at 2016-03-11 19:40:29 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 36ms (Views: 31.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-8b3772dd3bdf5a2b1176bb3a71ff41fe2fb697666cb2de7c56fff951f2bc95d7.css?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 40.129.246.4 at 2016-03-11 19:40:34 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:44:22 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 143ms (Views: 135.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eb6460299233f048e481948ae095b1a4d4f02982024a93e41b97a9f2c127524d.css?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:44:27 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 147ms (Views: 143.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:44:32 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:44:38 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 84ms (Views: 81.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:44:44 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 95ms (Views: 91.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-cb9a608c011475d19b19515f5746134f6c392391e8db4d5c4c6c60d1bfe00605.css?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 40.129.246.4 at 2016-03-11 19:44:54 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:46:21 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 140ms (Views: 133.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-5f41c8c73194486ad4d7d24a57c1b196e942e7ad91890e95af02617b447efdeb.css?body=1" for 40.129.246.4 at 2016-03-11 19:46:21 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:49:17 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 130ms (Views: 122.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-d6d3bd054739ab48e05afe3be022d0cd44e1d5f42de929a41122ecdff553eddb.css?body=1" for 40.129.246.4 at 2016-03-11 19:49:18 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/new" for 40.129.246.4 at 2016-03-11 19:49:23 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered posts/_form.html.haml (17.0ms)
+  Rendered posts/new.html.haml within layouts/application (21.8ms)
+Completed 200 OK in 114ms (Views: 98.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/posts" for 40.129.246.4 at 2016-03-11 19:49:27 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"syQRL78StNJSHlxJ7fsgMt+Ci2lO8PeL/wrH18paGSk8ABmbhNtp1HuJIXQpsw5+BKrPRFQsV2n2XzuprRdLkg==", "post"=>{"title"=>"asd", "content"=>"asdasdada"}, "commit"=>"Create Post"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "asd"], ["content", "asdasdada"], ["user_id", 1], ["created_at", "2016-03-11 19:49:27.631216"], ["updated_at", "2016-03-11 19:49:27.631216"]]
+  [1m[35m (21.3ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 35ms (ActiveRecord: 22.5ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 19:49:27 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered posts/show.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 19:49:29 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 54ms (Views: 51.6ms | ActiveRecord: 0.7ms)
