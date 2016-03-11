@@ -1,25 +1,56 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <style>
+    div.login {
+        background-color: #F0F0F0 ;
+        width: 500px;
+        height: 150px;  
+        font-family:fantasy;
+        font-size:360%;
+        text-align:center;
+        line-height:150px;
+    }
+    div.transbox {
+      background-color: #F0F0F0 ;
+      filter: alpha(opacity=30); /* For IE8 and earlier */
+      position: absolute;
+      top: 75px;
+      right: 350px;
+      width: 500px;
+      height: 500px;
+    }
+    div.form {
+        background-color: #F0F0F0 ;
+        width: 500px;
+        height: 200px;
+    }
+    </style>
   </head>
   <body>
-    <%= form_tag("/login", method: "post") do %>
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input type="username" class="form-control" id="username" name = "username">
+      <div class = "transbox">
+      <div class = "login">
+        Login Information
+      </div> 
+      <%= form_tag("/login", method: "post") do %>
+        <div class = "form">
+        <div class="col-sm-9">
+          <input class="form-control input-lg" id="focusedInput1" type="text" value="Enter Username" name = "username">
+        </div>
+        <br></br>
+        <br></br>
+        <div class="col-sm-9">
+          <input class="form-control input-lg" id="focusedInput1" type="password" value="Enter Password" name = "password">
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
+        right: 310px;">Login</button> 
+      <%end%>
+      <%= form_tag("/signup", method: "get") do %>
+      <button type="submit" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
+        right: 60px;">Signup</button>
       </div>
-      <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="password" name = "password">
-      </div>
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-      <input name="commit" type="submit" value="Login" />
-    <%end%>
-    <% if flash[:notice] %>
-      <div id = "notice">
-        <%= flash[:notice] %>
-      </div>
-    <%end%>
+      <%end%>
   </body>
 </html>
