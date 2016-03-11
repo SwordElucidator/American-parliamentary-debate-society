@@ -3677,3 +3677,387 @@ Processing by Devise::SessionsController#new as HTML
   Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (14.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (26.4ms)
 Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20160311201541)
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "comment" text, "post_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_comments_on_post_id" ON "comments" ("post_id")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_comments_on_user_id" ON "comments" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160311201541"]]
+  [1m[36m (16.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:27:45 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.haml (25.5ms)
+  Rendered posts/show.html.haml within layouts/application (55.4ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 327ms (Views: 299.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 40.129.246.4 at 2016-03-11 20:27:46 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 40.129.246.4 at 2016-03-11 20:27:46 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/posts/6/comments" for 40.129.246.4 at 2016-03-11 20:28:14 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KffLsXqjHmOVL79lCfjCzoJ+ztOHJZtFA2XwIuZ6bhym08MFQWrDZby4wljNsOyCWVaK/p35O6cKMAxcgTc8pw==", "comment"=>{"comment"=>"I reply!"}, "commit"=>"Create Comment", "post_id"=>"6"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "comments" ("comment", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["comment", "I reply!"], ["post_id", 6], ["created_at", "2016-03-11 20:28:14.133412"], ["updated_at", "2016-03-11 20:28:14.133412"]]
+  [1m[35m (13.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 34ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:28:14 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  Rendered comments/_comment.html.haml (2.1ms)
+  Rendered comments/_form.html.haml (12.7ms)
+  Rendered posts/show.html.haml within layouts/application (31.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 101ms (Views: 95.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/posts/6/comments" for 40.129.246.4 at 2016-03-11 20:28:20 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8ImNz2yxz372U1M1NYdkDICnUaz3k2hTSUw76m6EVfl/rYV7V3gSeN/ELgjxz0pAW48Vge1PyLFAGceUCckHQg==", "comment"=>{"comment"=>"hahaha"}, "commit"=>"Create Comment", "post_id"=>"6"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "comments" ("comment", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["comment", "hahaha"], ["post_id", 6], ["created_at", "2016-03-11 20:28:20.409523"], ["updated_at", "2016-03-11 20:28:20.409523"]]
+  [1m[35m (13.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 31ms (ActiveRecord: 15.2ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:28:20 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  Rendered comments/_comment.html.haml (0.4ms)
+  Rendered comments/_form.html.haml (42.2ms)
+  Rendered posts/show.html.haml within layouts/application (57.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 103ms (Views: 96.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/posts/6/comments" for 40.129.246.4 at 2016-03-11 20:32:38 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"90Kg6krotJcsVkSNPV9OcNILBBoG/ou0Rn78Tl8WhBd4ZqhecSFpkQXBObD5F2A8CSNANxwiK1ZPKwAwOFvWrA==", "comment"=>{"comment"=>"a?"}, "commit"=>"Create Comment", "post_id"=>"6"}
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "comments" ("comment", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["comment", "a?"], ["post_id", 6], ["created_at", "2016-03-11 20:32:39.204037"], ["updated_at", "2016-03-11 20:32:39.204037"]]
+  [1m[35m (24.8ms)[0m  commit transaction
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["user_id", 1], ["updated_at", "2016-03-11 20:32:39.257812"], ["id", 3]]
+  [1m[35m (21.0ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 142ms (ActiveRecord: 55.6ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:32:39 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (3.5ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (11.9ms)
+  Rendered comments/_form.html.haml (10.2ms)
+  Rendered posts/show.html.haml within layouts/application (45.4ms)
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 107ms (Views: 97.4ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:33:12 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  Rendered comments/_comment.html.haml (8.5ms)
+  Rendered posts/show.html.haml within layouts/application (35.9ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 2.7ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: .comment
+    2:     %p= comment.comment
+    3:     %p= comment.user.email
+  app/views/comments/_comment.html.haml:3:in `_app_views_comments__comment_html_haml__922858025122719000_69870804766000'
+  app/views/posts/show.html.haml:7:in `_app_views_posts_show_html_haml___4030855047712347477_48158640'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (135.9ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:33:35 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (21.6ms)
+  Rendered comments/_form.html.haml (8.5ms)
+  Rendered posts/show.html.haml within layouts/application (40.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 87ms (Views: 81.8ms | ActiveRecord: 2.2ms)
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 1]]
+  [1m[35m (14.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = ?  [["id", 2]]
+  [1m[36m (23.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 3]]
+  [1m[35m (16.0ms)[0m  commit transaction
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:36:55 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (2.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.haml (10.5ms)
+  Rendered posts/show.html.haml within layouts/application (20.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 80ms (Views: 72.1ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/posts/6/comments" for 40.129.246.4 at 2016-03-11 20:36:58 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M/JvNUY2JHpsRohufWuOHe2MDJ7z98PKLvWTJE4ehFi81meBff/5fEXR9VO5I6BRNqRIs+krYygnoG9aKVPW4w==", "comment"=>{"comment"=>"asda"}, "commit"=>"Create Comment", "post_id"=>"6"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "comments" ("comment", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["comment", "asda"], ["post_id", 6], ["created_at", "2016-03-11 20:36:58.166502"], ["updated_at", "2016-03-11 20:36:58.166502"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?  [["user_id", 1], ["updated_at", "2016-03-11 20:36:58.183991"], ["id", 4]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 36ms (ActiveRecord: 24.7ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:36:58 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (7.3ms)
+  Rendered comments/_form.html.haml (13.0ms)
+  Rendered posts/show.html.haml within layouts/application (29.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 99ms (Views: 95.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:40:07 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (35.3ms)
+  Rendered comments/_form.html.haml (10.6ms)
+  Rendered posts/show.html.haml within layouts/application (82.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 177ms (Views: 142.4ms | ActiveRecord: 10.5ms)
+
+
+Started POST "/posts/6/comments" for 40.129.246.4 at 2016-03-11 20:40:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uHua8AE4zf/inhViTd/DQkrRnQtW4TUS2IleSMNMJq83X5JEOvEQ+csJaF+Jl+0OkfnZJkw9lfDR3KI2pAF0FA==", "comment"=>{"comment"=>"asdsada"}, "commit"=>"Create Comment", "post_id"=>"6"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "comments" ("comment", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["comment", "asdsada"], ["post_id", 6], ["created_at", "2016-03-11 20:40:10.410900"], ["updated_at", "2016-03-11 20:40:10.410900"]]
+  [1m[36m (18.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?  [["user_id", 1], ["updated_at", "2016-03-11 20:40:10.439520"], ["id", 5]]
+  [1m[36m (17.2ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 54ms (ActiveRecord: 37.2ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:40:10 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (4.3ms)
+  Rendered comments/_form.html.haml (7.0ms)
+  Rendered posts/show.html.haml within layouts/application (22.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 66ms (Views: 61.2ms | ActiveRecord: 1.5ms)
+
+
+Started DELETE "/posts/6/comments/5" for 40.129.246.4 at 2016-03-11 20:40:20 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VWAhuLzZX/vq7b540+ICCkYJIYgQb+HTiOFgCQRzG/LaRCkMhxCC/cN6w0UXqixGnSFlpQqzQTGBtJx3Yz5JSQ==", "post_id"=>"6", "id"=>"5"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1[0m  [["post_id", 6], ["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = ?[0m  [["id", 5]]
+  [1m[35m (13.1ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 22ms (ActiveRecord: 14.4ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:40:20 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (2.5ms)
+  Rendered comments/_form.html.haml (11.0ms)
+  Rendered posts/show.html.haml within layouts/application (24.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 78ms (Views: 74.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:46:57 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (25.3ms)
+  Rendered comments/_form.html.haml (8.2ms)
+  Rendered posts/show.html.haml within layouts/application (98.4ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 177ms (Views: 150.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/posts/6/comments/4/edit" for 40.129.246.4 at 2016-03-11 20:46:59 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#edit as HTML
+  Parameters: {"post_id"=>"6", "id"=>"4"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1  [["post_id", 6], ["id", 4]]
+  Rendered comments/edit.html.haml within layouts/application (10.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 72ms (Views: 61.6ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/posts/6/comments/4" for 40.129.246.4 at 2016-03-11 20:47:01 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oc2Ihcbt+GpLemu7zmEp+XIRYptvQbWU0cUAECpMUTou6YAx/SQlbGLtFoYKKQe1qTkmtnWdFXbYkPxuTQEDgQ==", "comment"=>{"comment"=>"asdaasdad"}, "commit"=>"Update Comment", "post_id"=>"6", "id"=>"4"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1[0m  [["post_id", 6], ["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "comments" SET "comment" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["comment", "asdaasdad"], ["updated_at", "2016-03-11 20:47:01.495352"], ["id", 4]]
+  [1m[35m (13.9ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/posts/6
+Completed 302 Found in 26ms (ActiveRecord: 15.1ms)
+
+
+Started GET "/posts/6" for 40.129.246.4 at 2016-03-11 20:47:01 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (4.4ms)
+  Rendered comments/_form.html.haml (11.5ms)
+  Rendered posts/show.html.haml within layouts/application (30.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 73ms (Views: 69.1ms | ActiveRecord: 1.4ms)
