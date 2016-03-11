@@ -4,43 +4,67 @@ Feature: Login to the user account
   So that I can get access to the forum edit my frofile and signup for the open debate by signing in
   I want to be able to sign in to my account
   
-  Scenario: click sigin to go to the login page
-  Given I am on the home page of the website
-  When I click on signin
-  Then I should be redirected to the signin page
-  And I should see username 
-  And I should see password
-  And I should see username field
-  And I should see password field
-  And I should see sigin button
-  And I should see signup button
+  Background: users database is exist as follows
+    Given the following users exist:
+    | username   | password |
+    | Aladdin    | G        |
+    | Terminator | R        |
+    | WHMS       | R        |
+    | The0Help   | PG-13    |
+
+  Scenario: I'm an unregistered user on the login page, but I want to signup
+    Given I am on the login page
+    Then I should have field "myUsername"
+    And I should have field "myPassword"
+    And I should have button "signin"
+    And I should have button "signup"
+    When I press "signup"
+    Then I should be on the signup page
+    
+  Scenario: I'm an unregistered user on the login page, and I try to hack around
+    Given I am on the login page
+    When I fill in "myUsername" with "Terminator"
+    And I fill in "myPassword" with "Gaga"
+    And I press "signin"
+    Then I should not be on the "Terminator" user page
+
+  Scenario: I'm an registered user on the login page, and I want to login
+    Given I am on the login page
+    When I fill in "myUsername" with "Aladdin"
+    And I fill in "myPassword" with "G"
+    And I press "signin"
+    Then I should be on the "Aladdin" user page
+    Given I am on the login page
+    When I fill in "myUsername" with "The0Help"
+    And I fill in "myPassword" with "PG-13"
+    And I press "signin"
+    Then I should be on the "The0Help" user page
+
+  Scenario: I'm an unregistered user on the signup page, and I do want to signup, so that I can login
+    Given I am on the signup page
+    Then I should have field "myUsername"
+    And I should have field "myPassword"
+    And I should have button "submit"
+    When I fill in "myUsername" with "abcde"
+    And I fill in "myPassword" with "12345"
+    And I press "submit"
+    Then I should be on the login page
+    Then I should have field "myUsername"
+    And I should have field "myPassword"
+    And I should have button "signin"
+    And I should have button "signup"
+    When I fill in "myUsername" with "abcde"
+    And I fill in "myPassword" with "12345"
+    And I press "signin"
+    Then I should be on the "abcde" user page
   
-  
-  Scenario: fill in the form correctly to signin
-  Given I am on the signin page of the website
-  When I fill in the form with username:testusername
-  #Then I should see the username is correct (If we decide to use AJAX, then consider of adding this)
-  And I fill in the form with password:testpassword
-  #Then I should see the password matches the username (If we decide to use AJAX, then consider of adding this)
-  And I press Sign In button
-  Then I should be redirected to the homepage
-  And I should see Hello, testusername
-  And I should see Edit Profile
-  And I should see Forum
-  And I should see Signup Debate
-  
-  Scenario: fill in the form incorrectly
-  Given I am on the signin page of the website
-  When I fill in the form with username:incorrecttestusername 
-  #Then I should see the username is incorrect (If we decide to use AJAX, then consider of adding this)
-  And I fill in the form with password:incorrectpassword
-  #Then I should see the password is incorrect (If we decide to use AJAX, then consider of adding this)
-  And I press Sign In button
-  Then I should see the username doesn't exist or the password doesn't match the username
-  
-  Scenario: go to the signup page of the website
-  Given I am on the signin page of the website
-  When I click on Sign Up button
-  Then I should be redirected to the signup page
-  
-  
+  Scenario: However, I decided to use strange name to sign up our test the extreme of the website
+    Given I am on the signup page
+    And I press "submit"
+    Then I should not be on the login page
+    Given I am on the signup page
+    When I fill in "myUsername" with "G*(&F*(TF&OTR#Goqy  efhw"
+    And I fill in "myPassword" with "gotohell"    
+    And I press "submit"
+    Then I should not be on the login page
+    

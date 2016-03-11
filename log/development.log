@@ -11851,3 +11851,96 @@ Completed 200 OK in 169ms (Views: 136.9ms | ActiveRecord: 3.3ms)
 
 Started GET "/assets/login.js" for 192.31.105.188 at 2016-03-11 05:19:19 +0000
 Cannot render console from 192.31.105.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.41 at 2016-03-11 05:22:48 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 6269ms (Views: 6242.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.self-5ece7f3cc5599605da82c369fc9643fe348b39bd14d394fdd1a24944b173e6ab.js?body=1" for 136.152.142.41 at 2016-03-11 05:22:55 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 136.152.142.41 at 2016-03-11 05:22:55 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.js" for 136.152.142.41 at 2016-03-11 05:22:55 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.41 at 2016-03-11 05:22:55 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 136.152.142.41 at 2016-03-11 05:23:05 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kVw4CPkLcEULY38qAk/SWg6gYqlFix9D80OCqLro9V2Ex2eCFgzVc/79sXAA4veWXa4nGRM2xUgpBZ0tJBpi3Q==", "username"=>"a", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "a"]]
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 159ms (Views: 125.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/login.js" for 136.152.142.41 at 2016-03-11 05:23:06 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/signup?utf8=%E2%9C%93" for 136.152.142.41 at 2016-03-11 05:23:09 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓"}
+  Rendered users/signup.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 115ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.js" for 136.152.142.41 at 2016-03-11 05:23:09 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/signup" for 136.152.142.41 at 2016-03-11 05:23:13 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NJNTuNmWiLciiVwReurQpT4RmbNPHITvDLTXZmkYbQchCAwyNpEtgdcXkkt4R/VpbR/cAxmhXuTW8sjj9+r6hw==", "username"=>"abc", "password"=>"[FILTERED]"}
+Unpermitted parameters: utf8, authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "abc"]]
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "abc"], ["password", "123"], ["created_at", "2016-03-11 05:23:13.713593"], ["updated_at", "2016-03-11 05:23:13.713593"]]
+  [1m[35m (19.7ms)[0m  commit transaction
+Redirected to https://bobgreatsite-xingchunwang.c9users.io/login
+Completed 302 Found in 39ms (ActiveRecord: 21.5ms)
+
+
+Started GET "/login" for 136.152.142.41 at 2016-03-11 05:23:13 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.js" for 136.152.142.41 at 2016-03-11 05:23:14 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 136.152.142.41 at 2016-03-11 05:23:21 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uoXDnlFPNPd9qxUAeIp9eKjojK6KXrlxwbjPFb8dtzmvHpwUvkiRwYg121p6J1i0++bJHtzjY3ob/tCQIe8guQ==", "username"=>"abc", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "abc"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "abc"]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "abc"]]
+Redirected to https://bobgreatsite-xingchunwang.c9users.io/index/16
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/index/16" for 136.152.142.41 at 2016-03-11 05:23:22 +0000
+Cannot render console from 136.152.142.41! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#homepage as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered users/homepage.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 111.6ms | ActiveRecord: 0.3ms)

@@ -80,6 +80,7 @@ GEM
     cucumber-rails-training-wheels (1.0.0)
       cucumber-rails (>= 1.1.1)
     cucumber-wire (0.0.1)
+    database_cleaner (1.4.1)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     erubis (2.7.0)
@@ -190,6 +191,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   cucumber-rails
   cucumber-rails-training-wheels
+  database_cleaner
   jbuilder (~> 2.0)
   jquery-rails
   pg
