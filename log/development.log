@@ -1319,3 +1319,44 @@ Processing by PostsController#show as HTML
   [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
   Rendered posts/show.html.haml within layouts/application (1.1ms)
 Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/3" for 40.129.246.4 at 2016-03-11 15:25:21 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered posts/show.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 31.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 15:25:24 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 15:26:18 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.haml within layouts/application (47.0ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 40.129.246.4 at 2016-03-11 15:27:24 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (11.6ms)
+Completed 200 OK in 68ms (Views: 63.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new" for 40.129.246.4 at 2016-03-11 15:27:25 +0000
+Cannot render console from 40.129.246.4! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.haml (19.8ms)
+  Rendered posts/new.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 75ms (Views: 73.5ms | ActiveRecord: 0.0ms)
