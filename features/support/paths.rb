@@ -15,7 +15,7 @@ module NavigationHelpers
     when /^the home page of the website$/
       '/'
     when /^the home page of the forum$/
-      '/forum/'
+      '/forum'
     when /^the new post page$/
       '/posts/new'
       

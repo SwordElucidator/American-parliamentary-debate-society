@@ -19,13 +19,13 @@ Feature: forum
  
  Scenario: users can go to forum from landing page
  Given I am on the home page of the website
- When I press forum
- Then I should be redirected to the home page of the forum
+ When I follow "Forum"
+ Then I should be on the home page of the forum
  
  Scenario: users can go to landing page from forum
  Given I am on the home page of the forum
- When I click logo
- Then I should be redirected to the home page of the website 
+ When I follow "American Parliamentary Debate Society Forum"
+ Then I should be on the home page of the website 
  
  
   
