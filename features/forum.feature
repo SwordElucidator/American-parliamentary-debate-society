@@ -5,7 +5,10 @@ Feature: forum
  #   | email            | encrypted_password |
  #   | aabbcc@gmail.com | abc                |
 
-
+  # Background: database is exist as follows
+  #   Given the following posts exist:
+  #   | title   | content     |
+  #   | TEST    | aaaa        |
  
  # Scenario: users can write posts
  # Given I am on the home page of the forum
@@ -14,8 +17,8 @@ Feature: forum
  
  # Scenario: users can read posts
  # Given I am on the home page of the forum
- # When I follow "test"
- # Then I should be redirected to "/posts/9"
+ # When I follow "TEST"
+ # Then I should be on the "TEST" detail page
  
  Scenario: users can go to forum from landing page
  Given I am on the home page of the website
