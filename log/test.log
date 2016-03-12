@@ -23392,3 +23392,260 @@ Unpermitted parameter: utf8
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
 Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.1ms)
   [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 05:55:33 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (382.1ms)
+Completed 200 OK in 448ms (Views: 421.1ms | ActiveRecord: 0.0ms)
+Started GET "/forum" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 39ms (Views: 25.2ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/forum" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+Started GET "/" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.4ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "Aladdin"], ["password", "G"], ["created_at", "2016-03-12 05:55:34.681870"], ["updated_at", "2016-03-12 05:55:34.681870"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "WHMS"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "WHMS"], ["password", "R"], ["created_at", "2016-03-12 05:55:34.696418"], ["updated_at", "2016-03-12 05:55:34.696418"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "The0Help"], ["password", "PG-13"], ["created_at", "2016-03-12 05:55:34.699534"], ["updated_at", "2016-03-12 05:55:34.699534"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+Started GET "/signup?utf8=%E2%9C%93" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓"}
+  Rendered users/signup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "Aladdin"], ["password", "G"], ["created_at", "2016-03-12 05:55:34.760004"], ["updated_at", "2016-03-12 05:55:34.760004"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.0ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "WHMS"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "WHMS"], ["password", "R"], ["created_at", "2016-03-12 05:55:34.763774"], ["updated_at", "2016-03-12 05:55:34.763774"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "The0Help"], ["password", "PG-13"], ["created_at", "2016-03-12 05:55:34.766728"], ["updated_at", "2016-03-12 05:55:34.766728"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"Terminator", "password"=>"[FILTERED]"}
+  [1m[36mSignUser Load (0.1ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "Terminator"]]
+  Rendered users/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Terminator"]]
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "Aladdin"], ["password", "G"], ["created_at", "2016-03-12 05:55:34.804561"], ["updated_at", "2016-03-12 05:55:34.804561"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.0ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "WHMS"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "WHMS"], ["password", "R"], ["created_at", "2016-03-12 05:55:34.808065"], ["updated_at", "2016-03-12 05:55:34.808065"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.0ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "The0Help"], ["password", "PG-13"], ["created_at", "2016-03-12 05:55:34.810270"], ["updated_at", "2016-03-12 05:55:34.810270"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"Aladdin", "password"=>"[FILTERED]"}
+  [1m[36mSignUser Load (0.1ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+Redirected to http://www.example.com/index/1
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms)
+Started GET "/index/1" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#homepage as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/homepage.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+  [1m[36mSignUser Load (0.1ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+Started GET "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"The0Help", "password"=>"[FILTERED]"}
+  [1m[36mSignUser Load (0.1ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
+Redirected to http://www.example.com/index/3
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+Started GET "/index/3" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#homepage as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered users/homepage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[36mSignUser Load (0.1ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "Aladdin"], ["password", "G"], ["created_at", "2016-03-12 05:55:34.870324"], ["updated_at", "2016-03-12 05:55:34.870324"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "WHMS"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "WHMS"], ["password", "R"], ["created_at", "2016-03-12 05:55:34.874752"], ["updated_at", "2016-03-12 05:55:34.874752"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "The0Help"], ["password", "PG-13"], ["created_at", "2016-03-12 05:55:34.878027"], ["updated_at", "2016-03-12 05:55:34.878027"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"abcde", "password"=>"[FILTERED]"}
+Unpermitted parameter: utf8
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "abcde"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "abcde"], ["password", "12345"], ["created_at", "2016-03-12 05:55:34.901687"], ["updated_at", "2016-03-12 05:55:34.901687"]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/login
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+Started GET "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"abcde", "password"=>"[FILTERED]"}
+  [1m[36mSignUser Load (0.2ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "abcde"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "abcde"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "abcde"]]
+Redirected to http://www.example.com/index/4
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+Started GET "/index/4" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#homepage as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered users/homepage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[36mSignUser Load (0.2ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1[0m  [["username", "abcde"]]
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "abcde"]]
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.3ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "Aladdin"], ["password", "G"], ["created_at", "2016-03-12 05:55:34.954476"], ["updated_at", "2016-03-12 05:55:34.954476"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "WHMS"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "WHMS"], ["password", "R"], ["created_at", "2016-03-12 05:55:34.959064"], ["updated_at", "2016-03-12 05:55:34.959064"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSignUser Load (0.1ms)[0m  SELECT  "sign_users".* FROM "sign_users" WHERE "sign_users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "sign_users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "The0Help"], ["password", "PG-13"], ["created_at", "2016-03-12 05:55:34.962407"], ["updated_at", "2016-03-12 05:55:34.962407"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"Enter Username", "password"=>"[FILTERED]"}
+Unpermitted parameter: utf8
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 0.2ms)
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 05:55:34 +0000
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"G*(&F*(TF&OTR#Goqy  efhw", "password"=>"[FILTERED]"}
+Unpermitted parameter: utf8
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 422 Unprocessable Entity in 3ms (ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
