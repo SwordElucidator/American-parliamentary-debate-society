@@ -55,6 +55,7 @@ end
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
+  gem 'simplecov', :require => false
 end
 
 group :development do
