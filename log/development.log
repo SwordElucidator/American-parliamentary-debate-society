@@ -55615,8 +55615,13 @@ Cannot render console from 136.152.142.43! Allowed networks: 127.0.0.1, ::1, 127
 >>>>>>> 58234a9c9a582ad59099bdce3ecf80708feaf752
 
 
+<<<<<<< HEAD
 Started GET "/" for 192.31.105.145 at 2016-03-12 01:28:42 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+Started GET "/" for 136.152.142.28 at 2016-03-12 02:13:11 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 
 ActiveRecord::PendingMigrationError (
@@ -55658,6 +55663,7 @@ Migrations are pending. To resolve this issue, run:
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -55675,6 +55681,25 @@ Migrating to CreateUsers (20160310135647)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   [1m[36m (0.2ms)[0m  [1m            SELECT sql
+=======
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (99.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160310135647)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
             FROM sqlite_master
             WHERE name='index_comments_on_user_id' AND type='index'
             UNION ALL
@@ -55682,7 +55707,11 @@ Migrating to CreateUsers (20160310135647)
             FROM sqlite_temp_master
             WHERE name='index_comments_on_user_id' AND type='index'
 [0m
+<<<<<<< HEAD
   [1m[35m (0.2ms)[0m              SELECT sql
+=======
+  [1m[35m (0.3ms)[0m              SELECT sql
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
             FROM sqlite_master
             WHERE name='index_comments_on_post_id' AND type='index'
             UNION ALL
@@ -55690,7 +55719,11 @@ Migrating to CreateUsers (20160310135647)
             FROM sqlite_temp_master
             WHERE name='index_comments_on_post_id' AND type='index'
 
+<<<<<<< HEAD
   [1m[36m (0.1ms)[0m  [1m            SELECT sql
+=======
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
             FROM sqlite_master
             WHERE name='index_users_on_reset_password_token' AND type='index'
             UNION ALL
@@ -55708,6 +55741,7 @@ Migrating to CreateUsers (20160310135647)
 
 
 
+<<<<<<< HEAD
 Started GET "/" for 192.31.105.145 at 2016-03-12 01:30:52 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -55803,6 +55837,18 @@ Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/header.jpg" for 192.31.105.145 at 2016-03-12 01:31:01 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+Started GET "/" for 136.152.142.28 at 2016-03-12 02:14:59 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (9012.2ms)
+Completed 200 OK in 9381ms (Views: 9360.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.28 at 2016-03-12 02:15:09 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 
 ActionController::RoutingError (No route matches [GET] "/header.jpg"):
   actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -55828,6 +55874,7 @@ ActionController::RoutingError (No route matches [GET] "/header.jpg"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -55842,6 +55889,22 @@ ActionController::RoutingError (No route matches [GET] "/header.jpg"):
 
 Started GET "/assets/images/header.jpg" for 192.31.105.145 at 2016-03-12 01:31:01 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (217.9ms)
+
+
+Started GET "/assets/images/header.jpg" for 136.152.142.28 at 2016-03-12 02:15:09 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 
 ActionController::RoutingError (No route matches [GET] "/assets/images/header.jpg"):
   actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -55867,6 +55930,7 @@ ActionController::RoutingError (No route matches [GET] "/assets/images/header.jp
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -55932,6 +55996,40 @@ ActionController::RoutingError (No route matches [GET] "/header.jpg"):
 
 Started GET "/assets/images/header.jpg" for 192.31.105.145 at 2016-03-12 01:32:00 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (208.1ms)
+
+
+Started GET "/login" for 136.152.142.28 at 2016-03-12 02:15:16 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/login.js" for 136.152.142.28 at 2016-03-12 02:15:16 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.28 at 2016-03-12 02:15:18 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (30.1ms)
+Completed 200 OK in 150ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/header.jpg" for 136.152.142.28 at 2016-03-12 02:15:18 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 
 ActionController::RoutingError (No route matches [GET] "/assets/images/header.jpg"):
   actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -55957,6 +56055,7 @@ ActionController::RoutingError (No route matches [GET] "/assets/images/header.jp
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -55979,6 +56078,22 @@ Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.2ms)
 
 Started GET "/header.jpg" for 192.31.105.145 at 2016-03-12 01:32:00 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (21.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (170.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.28 at 2016-03-12 02:15:18 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 
 ActionController::RoutingError (No route matches [GET] "/header.jpg"):
   actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -56004,6 +56119,7 @@ ActionController::RoutingError (No route matches [GET] "/header.jpg"):
   rack (1.6.4) lib/rack/lock.rb:17:in `call'
   rack (1.6.4) lib/rack/content_length.rb:15:in `call'
   rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+<<<<<<< HEAD
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
   /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
@@ -56069,10 +56185,27 @@ Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/forum" for 192.31.105.145 at 2016-03-12 01:32:18 +0000
 Cannot render console from 192.31.105.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (63.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (239.6ms)
+
+
+Started GET "/forum" for 136.152.142.28 at 2016-03-12 02:15:19 +0000
+Cannot render console from 136.152.142.28! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by PostsController#index as HTML
   [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+<<<<<<< HEAD
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
@@ -60376,3 +60509,10 @@ Processing by PostsController#new as HTML
   Rendered posts/_form.html.haml (11.2ms)
   Rendered posts/new.html.haml within layouts/application (14.3ms)
 Completed 200 OK in 190ms (Views: 184.3ms | ActiveRecord: 0.3ms)
+=======
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (94.4ms)
+Completed 200 OK in 233ms (Views: 215.5ms | ActiveRecord: 1.7ms)
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484

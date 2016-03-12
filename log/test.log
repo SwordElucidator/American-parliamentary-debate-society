@@ -7328,14 +7328,25 @@ Unpermitted parameter: utf8
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
 Completed 422 Unprocessable Entity in 5ms (ActiveRecord: 0.2ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+=======
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35m (0.0ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
+<<<<<<< HEAD
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
@@ -7348,10 +7359,21 @@ Completed 200 OK in 9886ms (Views: 9858.5ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
+=======
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:10:04 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (11174.0ms)
+Completed 200 OK in 11234ms (Views: 11217.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2016-03-12 01:27:14 +0000
 Processing by HomeController#index as HTML
   Rendered home/index.html.haml within layouts/application (1.2ms)
@@ -7372,16 +7394,43 @@ Started GET "/" for 127.0.0.1 at 2016-03-12 01:27:14 +0000
 Processing by HomeController#index as HTML
   Rendered home/index.html.haml within layouts/application (1.5ms)
 Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+<<<<<<< HEAD
   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+=======
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+<<<<<<< HEAD
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "WHMS"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
@@ -7392,12 +7441,25 @@ Processing by UsersController#login as HTML
   Rendered users/login.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
 Started GET "/signup?utf8=%E2%9C%93" for 127.0.0.1 at 2016-03-12 01:27:14 +0000
+=======
+  [1m[36mUser Load (3.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "WHMS"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Started GET "/login" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+Started GET "/signup?utf8=%E2%9C%93" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by UsersController#signup as HTML
   Parameters: {"utf8"=>"✓"}
   Rendered users/signup.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
@@ -7405,12 +7467,22 @@ Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+=======
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "WHMS"]]
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+<<<<<<< HEAD
 Started GET "/login" for 127.0.0.1 at 2016-03-12 01:27:14 +0000
 Processing by UsersController#login as HTML
   Rendered users/login.html.erb within layouts/application (0.7ms)
@@ -7423,6 +7495,20 @@ Processing by UsersController#login as HTML
 Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Terminator"]]
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+Started GET "/login" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"Terminator", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Terminator"]]
+  Rendered users/login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Terminator"]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
@@ -7431,6 +7517,7 @@ Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "WHMS"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
@@ -7442,17 +7529,35 @@ Processing by UsersController#login as HTML
   Rendered users/login.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
 Started POST "/login" for 127.0.0.1 at 2016-03-12 01:27:14 +0000
+=======
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "WHMS"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Started GET "/login" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 02:10:15 +0000
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by UsersController#login as HTML
   Parameters: {"utf8"=>"✓", "username"=>"Aladdin", "password"=>"[FILTERED]"}
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
   Rendered users/login.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+<<<<<<< HEAD
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+  [1m[35m (0.1ms)[0m  rollback transaction
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.0ms)[0m  commit transaction
   [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+<<<<<<< HEAD
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
@@ -7479,6 +7584,34 @@ Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 0.3ms)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  commit transaction
   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+=======
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "WHMS"]]
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 02:10:16 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 02:10:16 +0000
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"abcde", "password"=>"[FILTERED]"}
+Unpermitted parameter: utf8
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "abcde"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 6ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
@@ -7487,6 +7620,7 @@ Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 0.3ms)
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "WHMS"]]
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
@@ -7495,18 +7629,36 @@ Processing by UsersController#signup as HTML
   Rendered users/signup.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
 Started POST "/signup" for 127.0.0.1 at 2016-03-12 01:27:14 +0000
+=======
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 02:10:16 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 02:10:16 +0000
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by UsersController#signup as HTML
   Parameters: {"utf8"=>"✓", "username"=>"Enter Username", "password"=>"[FILTERED]"}
 Unpermitted parameter: utf8
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+<<<<<<< HEAD
 Completed 422 Unprocessable Entity in 5ms (ActiveRecord: 0.1ms)
+=======
+Completed 422 Unprocessable Entity in 4ms (ActiveRecord: 0.1ms)
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
+<<<<<<< HEAD
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+=======
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
@@ -7514,10 +7666,17 @@ Completed 422 Unprocessable Entity in 5ms (ActiveRecord: 0.1ms)
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
   [1m[35m (0.0ms)[0m  begin transaction
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2016-03-12 01:33:54 +0000
 Processing by HomeController#index as HTML
   Rendered home/index.html.haml within layouts/application (346.7ms)
 Completed 200 OK in 414ms (Views: 393.1ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:12:31 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (9007.0ms)
+Completed 200 OK in 9064ms (Views: 9044.3ms | ActiveRecord: 0.0ms)
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
@@ -7525,6 +7684,7 @@ Completed 200 OK in 414ms (Views: 393.1ms | ActiveRecord: 0.0ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  begin transaction
 Started GET "/" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
 Processing by HomeController#index as HTML
@@ -7573,6 +7733,56 @@ Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.3ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.2ms)[0m  commit transaction
+=======
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "WHMS"]]
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Started GET "/login" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+Started GET "/signup?utf8=%E2%9C%93" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#signup as HTML
+  Parameters: {"utf8"=>"✓"}
+  Rendered users/signup.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
@@ -7583,6 +7793,7 @@ Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "WHMS"]]
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+<<<<<<< HEAD
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
 Started GET "/login" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
@@ -7590,15 +7801,29 @@ Processing by UsersController#login as HTML
   Rendered users/login.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
 Started POST "/login" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
+=======
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Started GET "/login" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by UsersController#login as HTML
   Parameters: {"utf8"=>"✓", "username"=>"Terminator", "password"=>"[FILTERED]"}
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Terminator"]]
   Rendered users/login.html.erb within layouts/application (0.4ms)
+<<<<<<< HEAD
 Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+=======
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Terminator"]]
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+<<<<<<< HEAD
   [1m[35m (0.0ms)[0m  begin transaction
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
@@ -7628,6 +7853,37 @@ Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.1ms)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+=======
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "WHMS"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "The0Help"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Started GET "/login" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#login as HTML
+  Rendered users/login.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"Aladdin", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "Aladdin"]]
+  Rendered users/login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
@@ -7637,43 +7893,71 @@ Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.1ms)
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+<<<<<<< HEAD
 Started GET "/signup" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
 Processing by UsersController#signup as HTML
   Rendered users/signup.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
 Started POST "/signup" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
+=======
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by UsersController#signup as HTML
   Parameters: {"utf8"=>"✓", "username"=>"abcde", "password"=>"[FILTERED]"}
 Unpermitted parameter: utf8
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "abcde"]]
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+<<<<<<< HEAD
 Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 0.3ms)
+=======
+Completed 422 Unprocessable Entity in 6ms (ActiveRecord: 0.2ms)
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35m (0.1ms)[0m  rollback transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "Aladdin"]]
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+=======
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "WHMS"]]
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "The0Help"]]
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+<<<<<<< HEAD
 Started GET "/signup" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
 Processing by UsersController#signup as HTML
   Rendered users/signup.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
 Started POST "/signup" for 127.0.0.1 at 2016-03-12 01:33:55 +0000
+=======
+Started GET "/signup" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+Processing by UsersController#signup as HTML
+  Rendered users/signup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started POST "/signup" for 127.0.0.1 at 2016-03-12 02:12:40 +0000
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
 Processing by UsersController#signup as HTML
   Parameters: {"utf8"=>"✓", "username"=>"Enter Username", "password"=>"[FILTERED]"}
 Unpermitted parameter: utf8
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+<<<<<<< HEAD
 Completed 422 Unprocessable Entity in 7ms (ActiveRecord: 0.2ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -13408,3 +13692,7 @@ Unpermitted parameter: utf8
   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
 Completed 422 Unprocessable Entity in 6ms (ActiveRecord: 0.2ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+=======
+Completed 422 Unprocessable Entity in 4ms (ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+>>>>>>> c537c9d55e33bd3f412227c9ff0fba0531ae3484
