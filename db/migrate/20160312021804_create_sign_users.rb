@@ -1,6 +1,6 @@
-class CreateUsers < ActiveRecord::Migration
+class CreateSignUsers < ActiveRecord::Migration
   def change
-    create_table :users do |t|
+    create_table :sign_users do |t|
       t.string :username
       t.string :password
 
