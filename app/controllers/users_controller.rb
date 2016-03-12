@@ -4,13 +4,13 @@ class UsersController < ApplicationController
     def login
       if (params[:username])
         @customer = params[:username]
-        if (User.find_by_username(@customer))
+        if (SignUser.find_by_username(@customer))
           puts "The username does exist"
-          if (User.find_by_username(@customer).password != params[:password])
+          if (SignUser.find_by_username(@customer).password != params[:password])
             puts "The username doesn't match the password"
             flash[:notice] = "The username doesn't match the password"
           else
-            redirect_to customer_path(User.find_by_username(@customer).id)
+            redirect_to customer_path(SignUser.find_by_username(@customer).id)
           end
           
         else
@@ -28,12 +28,12 @@ class UsersController < ApplicationController
       @id = params[:id]
       puts "the id is"
       puts @id
-      @username = User.find_by_id(@id).username
+      @username = SignUser.find_by_id(@id).username
     end
     
     def signup
       if (params[:username])
-        @user = User.create!(user_params)
+        @user = SignUser.create!(user_params)
         flash[:notice] = "#{@user.username} was successfully created."
         redirect_to login_path
       else

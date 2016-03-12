@@ -11,11 +11,12 @@ module NavigationHelpers
     when /^the signup page$/ then '/signup'
     when /^the login page$/ then '/login'
     when /^the join us page$/ then '/'
-    when /^the "(.*)" user page$/ then '/index/'+String(User.find_by(username: $1) ? User.find_by_username($1).id : '')
+    when /^the "(.*)" user page$/ then '/index/'+String(SignUser.find_by(username: $1) ? SignUser.find_by_username($1).id : '')
     when /^the home page of the website$/
       '/'
     when /^the home page of the forum$/
       '/forum'
+
     when /^the new post page$/
       '/posts/new'
       
