@@ -45,6 +45,8 @@ ActiveRecord::Schema.define(version: 20160311201541) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "username"
+    t.string   "password"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
