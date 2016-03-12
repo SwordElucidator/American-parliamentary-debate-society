@@ -12,11 +12,8 @@
     #logo 
       %h1= link_to "American Parliamentary Debate Society Forum", root_path
     #buttons
-      - if user_signed_in?
-        = link_to "New Post", new_post_path
-      - else
-        = link_to "Sign Up", new_user_registration_path
-        = link_to "Sign In", new_user_session_path
+      = link_to "New_Post", new_post_path, :id => "New_Post"
+
     
   .wrapper
     %p.notice= notice

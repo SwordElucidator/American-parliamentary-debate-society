@@ -14,6 +14,10 @@ module NavigationHelpers
     when /^the "(.*)" user page$/ then '/index/'+String(User.find_by(username: $1) ? User.find_by_username($1).id : '')
     when /^the home page of the website$/
       '/'
+    when /^the home page of the forum$/
+      '/forum/'
+    when /^the new post page$/
+      '/posts/new'
       
     when /^the (.*) section$/
       page_name =~ /^the (.*) page$/

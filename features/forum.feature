@@ -1,18 +1,25 @@
 Feature: forum
  
- Scenario: users can write posts
- Given I am on the home page of the forum
- When I click new post
- Then I should see input field
+ # Background: users database is exist as follows
+ #   Given the following users exist
+ #   | email            | encrypted_password |
+ #   | aabbcc@gmail.com | abc                |
+
+
  
- Scenario: users can read posts
- Given I am on the home page of the forum
- When I click a post
- Then I should be redirected to the post detail page
+ # Scenario: users can write posts
+ # Given I am on the home page of the forum
+ # When I follow "New_Post"
+ # Then I should be on the new post page
+ 
+ # Scenario: users can read posts
+ # Given I am on the home page of the forum
+ # When I follow "test"
+ # Then I should be redirected to "/posts/9"
  
  Scenario: users can go to forum from landing page
  Given I am on the home page of the website
- When I click forum
+ When I press forum
  Then I should be redirected to the home page of the forum
  
  Scenario: users can go to landing page from forum
