@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/home_controller.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/controllers/home_controller.rb": [
         1,
         null,
         1,
@@ -10,30 +10,30 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/application_controller.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/application_helper.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/comments_helper.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/helpers/comments_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/posts_helper.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/helpers/posts_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/users_helper.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/posts_controller.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/controllers/posts_controller.rb": [
         1,
         1,
         1,
@@ -89,13 +89,13 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/post.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/models/post.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/users_controller.rb": [
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/controllers/users_controller.rb": [
         1,
         null,
         null,
@@ -145,9 +145,77 @@
         2,
         null,
         null
+      ],
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/controllers/comments_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/models/user.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/APDS-1-2/American-parliamentary-debate-society/app/models/comment.rb": [
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1457755398
+    "timestamp": 1457757316
   },
   "RSpec": {
     "coverage": {
