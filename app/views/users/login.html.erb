@@ -45,11 +45,11 @@
           <input class="form-control input-lg" type="text" id = "myPassword" value="Enter Password" name = "password" onclick ="enterPassword();"/> 
         </div>
         </div>
-        <button type="submit" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
+        <button type="submit" id="signin" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
         right: 310px;">Login</button> 
       <%end%>
       <%= form_tag("/signup", method: "get") do %>
-      <button type="submit" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
+      <button type="submit" id="signup" class="btn btn-primary" style ="height:50px;width:150px;position: absolute; top: 350px;
         right: 60px;">Signup</button>
       </div>
       <%end%>

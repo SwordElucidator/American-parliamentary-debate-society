@@ -1,0 +1,82 @@
+%html
+  %head
+    = stylesheet_link_tag 'home'
+    // = javascript_include_tag 'scrolling-nav'
+  %body
+    // a cool website: http://www.djuradj.net/
+    %nav.navbar.navbar-default{:role => "navigation"}
+      .container-fluid
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header.page-scroll
+          %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand.page-scroll{:href => "#home"} Debate
+        / Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a.page-scroll{:href => "#about"} About
+            %li
+              %a.page-scroll{:href => "#culture"} Culture
+            %li
+              %a.page-scroll{:href => "#join"} Join
+          %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                Sign In
+                %span.caret
+              %ul.dropdown-menu{:role => "menu"}
+                %li
+                  %a{:href => "/login"} Sign In
+                %li
+                  %a{:href => "#"} Edit Profile
+                %li
+                  %a{:href => "#"} Sign Up For Mock Debate
+                %li
+                  %a{:href => "/forum"} Forum
+    %div.container-fluid{:role => "header", :id => "home"}
+      %div.jumbotron
+        %h1.title The Debate Society of Berkeley
+      %a.btn.btn-primary.btn-lg.page-scroll{:href => "#join"} Join Us
+    %div.container{:role => "information", :id => "about"}
+      .row
+        .col-lg-8.col-lg-offset-2
+          %h1.title We're the Debate Society of Berkeley!
+          %p We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.
+          %p Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.
+          %p New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.
+          %p No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.
+    %div.container-fluid{:role => "information", :id => "culture"}
+      %h1.title Culture
+      .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel"}}
+        %ol
+          %li.active{:data => {:target => "slide-images", :slide_to => "0"}}
+          %li{:data => {:target => "slide-images", :slide_to => "1"}}
+          %li{:data => {:target => "slide-images", :slid1_to => "2"}}
+        .carousel-inner
+          .item.active
+            %img{:src => "header.jpg", :alt => ""}/
+          .item
+            %img{:src => "../../../assets/images/header.jpg", :alt => ""}/
+          .item
+            %img{:src => "http://debate.berkeley.edu/img/header.jpg", :alt => ""}/
+          .item
+            %img{:src => "", :alt => ""}/
+        %a.left.carousel-control{:href => "#slide-images", :data => {:slide => "prev"}}
+          %span.glyphicon.glyphicon-chevron-left
+        %a.right.carousel-control{:href => "#slide-images", :data => {:slide => "next"}}
+          %span.glyphicon.glyphicon-chevron-right
+    %div.container-fluid{:role => "information", :id => "join"}
+      %h1.title Join Us
+      // Fix this link later
+      %a.btn.btn-primary.btn-lg{:href => "http://debate.berkeley.edu/join.html"} Send Us Your Information
+      %a.btn.btn-primary.btn-lg{:href => "mailto:aberl@berkeley.edu"} Email the President
+      %a.btn.btn-primary.btn-lg{:href => "https://www.facebook.com/groups/279524538903584/"} Contact Our Facebook
+    %footer.container{:role => "closing"}
+      %p <strong>The Debate Society of Berkeley</strong> &copy; 2016
+      %p{:class => "description"} We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
+      %img#ocf-logo{:src => "https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png", :alt =>"Hosted by the OCF", :href => "https://www.ocf.berkeley.edu"}
+      </a>

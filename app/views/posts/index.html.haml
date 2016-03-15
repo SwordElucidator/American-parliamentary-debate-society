@@ -1,0 +1,29 @@
+%html
+%head
+  %title APDS Forum
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+  %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700", type: "text/css"}
+  = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+  = csrf_meta_tags 
+  
+%body
+  %header.main_header
+    #logo 
+      %h1= link_to "American Parliamentary Debate Society Forum", root_path
+    #buttons
+      = link_to "New_Post", new_post_path, :id => "New_Post"
+    #posts
+    - @posts.each do |post|
+      .post
+        %h2.title
+          = link_to post.title, post
+        %p.date
+          Published at
+          = time_ago_in_words(post.created_at)
+          by
+          = post.user.email
+      .wrapper
+        %p.notice= notice
+        %p.alert= alert
+      .wrapper
+        = yield
