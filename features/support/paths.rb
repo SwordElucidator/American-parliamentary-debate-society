@@ -16,11 +16,17 @@ module NavigationHelpers
       '/'
     when /^the home page of the forum$/
       '/forum'
-    when /^the new post page$/ then '/posts/new'
+
+    when /^the new post page$/
+      '/posts/new'
+      
     when /^the (.*) section$/
       page_name =~ /^the (.*) page$/
       section_name = $1
       '/'
+      
+    when /^the "(.*)" detail page$/ then '/posts/'+String(Post.find_by_title($1).id)
+
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
@@ -40,5 +46,7 @@ module NavigationHelpers
     end
   end
 end
+
+
 
 World(NavigationHelpers)
