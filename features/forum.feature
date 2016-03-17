@@ -1,4 +1,7 @@
 Feature: forum
+  
+  As a user of the forum, I want to go to the forum page from landing page (and vice versa),
+  so that I can using the website smoothly.
  
  # Background: users database is exist as follows
  #   Given the following users exist
