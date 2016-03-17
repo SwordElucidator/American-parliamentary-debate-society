@@ -1,0 +1,1201 @@
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:11:59 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (18.9ms)
+Completed 200 OK in 24072ms (Views: 24037.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.self-53cededd7cc67dd3feae136812430cec7615cbcf742e2b6cec3e4198173e658d.css?body=1" for 136.152.142.42 at 2016-03-17 02:12:23 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:12:24 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (58.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (254.9ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:12:24 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 204ms (Views: 202.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:12:24 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:12:32 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 158ms (Views: 157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:12:33 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 163ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:12:33 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 154ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 136.152.142.42 at 2016-03-17 02:12:34 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"login"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.3ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (36.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (22.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (88.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (14.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (4.4ms)
+Completed 404 Not Found in 1143ms (Views: 850.1ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/admin" for 136.152.142.42 at 2016-03-17 02:12:35 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.2ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (21.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (21.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (7.7ms)
+Completed 200 OK in 324ms (Views: 293.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.5ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (31.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (15.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (2.9ms)
+Completed 200 OK in 359ms (Views: 340.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/jquery-ui/autocomplete.self-3befc48aba87cead090cfd014562b2771a662ac6d2c8197b24c08b2d9f3d9f2d.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/rails_admin.self-afe9e399c04d42e6381e808314f378b44571d52de89930f5ed8380d3ef40c8a2.css?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/menu.self-7abc1c9401509a7e4fc609b1e461be6fd17e8116e8fda19cc59d05ba79aefb68.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.self-357a8f834a6b278f578acd51708542bff0852a75d8d583d0d761d3f387af5b4c.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/effect.self-3acdb29e7da09c8f0195b994d2f04d73bfef50dc539c84fd2c835d964d33e5c1.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.iframe-transport.self-9d6de1e3d97369f20a85456477db38a3d2b674761f4a252275201ec0272793a4.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/moment-with-locales.self-c29e385ac561ac8d380cf9a68428251c3dd6b6f0f05f6114c6ae7e8114678db8.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/autocomplete.self-3befc48aba87cead090cfd014562b2771a662ac6d2c8197b24c08b2d9f3d9f2d.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap-datetimepicker.self-9bf8b50ba86095fb5caaadd1ee11eaf661b3f4879f3ea5263d541e9804fd7b15.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.self-65a540a6a8e61569a39a37bd1456543ae5e5bbe48868247372bed40a1dff2bcf.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.iframe-transport.self-9d6de1e3d97369f20a85456477db38a3d2b674761f4a252275201ec0272793a4.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/rails_admin.self-afe9e399c04d42e6381e808314f378b44571d52de89930f5ed8380d3ef40c8a2.css?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.self-357a8f834a6b278f578acd51708542bff0852a75d8d583d0d761d3f387af5b4c.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/effect.self-3acdb29e7da09c8f0195b994d2f04d73bfef50dc539c84fd2c835d964d33e5c1.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/menu.self-7abc1c9401509a7e4fc609b1e461be6fd17e8116e8fda19cc59d05ba79aefb68.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.self-0eadfce64f22b8e533f96e573e738fdf5af614af5729c772838b8d1383739035.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/moment-with-locales.self-c29e385ac561ac8d380cf9a68428251c3dd6b6f0f05f6114c6ae7e8114678db8.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filter-box.self-7a15aaeea6101fb1e648df5848917eddd01c5c193ffae1e121224ec7e96d8647.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.self-29fedc7e0063905fecd8485d5a526f85b0d0c3f04de8416c2b56227e5b530528.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.self-65a540a6a8e61569a39a37bd1456543ae5e5bbe48868247372bed40a1dff2bcf.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap-datetimepicker.self-9bf8b50ba86095fb5caaadd1ee11eaf661b3f4879f3ea5263d541e9804fd7b15.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.remote-form.self-6ee31242b35c47eae247621696152697683860be737fcb9fc7705305736c9370.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.pjax.self-aa02343d5b755c77fd76db8b2d2864cf2aebdba056b56e74b3b91f2e65207444.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_nested_form.self-d38045d10ebdd28aac44152cb451796232091957b86b47bedad1ab171a3a12cd.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.self-abecd3cd4d55ce44cbf00b87d2f612d570af5e7fe5701d05135d60f8c07e7d37.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.i18n.self-725ab24c454e18d4832f68df96ec4fffa6190faed5636160923a6d1162a1a0ba.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filter-box.self-7a15aaeea6101fb1e648df5848917eddd01c5c193ffae1e121224ec7e96d8647.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.self-0eadfce64f22b8e533f96e573e738fdf5af614af5729c772838b8d1383739035.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.self-29fedc7e0063905fecd8485d5a526f85b0d0c3f04de8416c2b56227e5b530528.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.pjax.self-aa02343d5b755c77fd76db8b2d2864cf2aebdba056b56e74b3b91f2e65207444.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.remote-form.self-6ee31242b35c47eae247621696152697683860be737fcb9fc7705305736c9370.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_nested_form.self-d38045d10ebdd28aac44152cb451796232091957b86b47bedad1ab171a3a12cd.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.self-abecd3cd4d55ce44cbf00b87d2f612d570af5e7fe5701d05135d60f8c07e7d37.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.i18n.self-725ab24c454e18d4832f68df96ec4fffa6190faed5636160923a6d1162a1a0ba.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-typeahead.self-2621ced336904d375bef144d46edd9d304889e09c6559d64df325bbd10f4ce8a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:38 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap.self-94f59a48294d99f8d9b7632cd5a1742670c7735fe37ec7c555aab939b635fdde.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.widgets.self-b707ff6592e3d3359ef77e61d1161a0370c5663c303eb0a5cec459fbf1fa7229.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ui.self-5f1671365225e7918e5bf4cb99fc38b189e81884fb859682f79a683f41ee19b7.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/custom/ui.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/rails_admin.self-ab9f3e5c71b96d0ca434851ecacc97b0fc3a0e8d96ab171916e9d5fdd10ef15b.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap.self-94f59a48294d99f8d9b7632cd5a1742670c7735fe37ec7c555aab939b635fdde.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-typeahead.self-2621ced336904d375bef144d46edd9d304889e09c6559d64df325bbd10f4ce8a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.widgets.self-b707ff6592e3d3359ef77e61d1161a0370c5663c303eb0a5cec459fbf1fa7229.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ui.self-5f1671365225e7918e5bf4cb99fc38b189e81884fb859682f79a683f41ee19b7.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:39 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?v=4.5.0" for 136.152.142.42 at 2016-03-17 02:12:40 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/custom/ui.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:40 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/rails_admin.self-ab9f3e5c71b96d0ca434851ecacc97b0fc3a0e8d96ab171916e9d5fdd10ef15b.js?body=1" for 136.152.142.42 at 2016-03-17 02:12:40 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:13:33 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (117.7ms)
+Completed 200 OK in 144ms (Views: 131.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/sign_user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:13:45 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"sign_user"}
+  [1m[35mSignUser Load (1.4ms)[0m  SELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "sign_users"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (48.5ms)
+Completed 200 OK in 83ms (Views: 61.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:13:58 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.id desc LIMIT 20 OFFSET 0
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (219.7ms)
+Completed 200 OK in 239ms (Views: 230.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:14:33 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" IN (12, 15, 13, 14, 8, 9, 11, 10)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (393.9ms)
+Completed 200 OK in 416ms (Views: 407.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/sign_user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:14:35 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"sign_user"}
+  [1m[36mSignUser Load (0.3ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (26.4ms)
+Completed 200 OK in 49ms (Views: 42.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:14:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (43.6ms)
+Completed 200 OK in 74ms (Views: 67.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/user/new?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:14:49 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (11.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY posts.id desc
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (70.3ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments"  ORDER BY comments.id desc[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" IN (12, 15, 13, 14, 8, 9, 11, 10, 5, 6)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 2)[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (19.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (257.2ms)
+Completed 200 OK in 287ms (Views: 277.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/rails_admin/multiselect/icon_sprite-34a30806fcba43a2effc9739cb7a370a865199a7d38bfcbc7c2474ef3ff70ded.png" for 136.152.142.42 at 2016-03-17 02:14:50 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin/user/export?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:14:59 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#export as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/export.html.haml within layouts/rails_admin/pjax (21.9ms)
+Completed 200 OK in 90ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/user/new?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:15:01 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY posts.id desc
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (14.2ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"  ORDER BY comments.id desc
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (12, 15, 13, 14, 8, 9, 11, 10, 5, 6)[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1, 2)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (22.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (114.9ms)
+Completed 200 OK in 139ms (Views: 129.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/admin/sign_user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:16:14 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"sign_user"}
+  [1m[36mSignUser Load (0.6ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (35.1ms)
+Completed 200 OK in 68ms (Views: 48.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:16:23 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (44.9ms)
+Completed 200 OK in 77ms (Views: 62.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:16:26 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (166.3ms)
+Completed 200 OK in 187ms (Views: 178.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:16:28 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (12, 15, 13, 14, 8, 9, 11, 10)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (358.4ms)
+Completed 200 OK in 395ms (Views: 384.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D&page=2&sort=id&sort_reverse=false&_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:16:58 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "page"=>"2", "sort"=>"id", "sort_reverse"=>"false", "model_name"=>"comment"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 20
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (10, 8, 9, 5, 6)[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1, 2)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (174.0ms)
+Completed 200 OK in 209ms (Views: 186.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D&sort=id&sort_reverse=false&_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:17:00 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "sort"=>"id", "sort_reverse"=>"false", "model_name"=>"comment"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (12, 15, 13, 14, 8, 9, 11, 10)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (347.3ms)
+Completed 200 OK in 366ms (Views: 358.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:17:30 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.3ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (44.0ms)
+Completed 200 OK in 87ms (Views: 72.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:17:33 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 199ms (Views: 197.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:17:34 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (162.1ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:17:34 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:17:34 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 203ms (Views: 201.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:17:40 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 164ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:17:40 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (199.0ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:17:41 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 244ms (Views: 243.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:17:41 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin" for 136.152.142.42 at 2016-03-17 02:17:41 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.3ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (25.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (11.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (2.2ms)
+Completed 200 OK in 350ms (Views: 336.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/admin" for 136.152.142.42 at 2016-03-17 02:17:41 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.3ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (30.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (13.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (3.1ms)
+Completed 200 OK in 404ms (Views: 386.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:18:22 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (12, 15, 13, 14, 8, 9, 11, 10)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (457.7ms)
+Completed 200 OK in 480ms (Views: 471.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:18:26 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.id desc LIMIT 20 OFFSET 0
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "posts"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (161.0ms)
+Completed 200 OK in 187ms (Views: 176.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/sign_user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:18:29 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"sign_user"}
+  [1m[36mSignUser Load (0.4ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (33.4ms)
+Completed 200 OK in 57ms (Views: 48.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:18:30 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (52.5ms)
+Completed 200 OK in 75ms (Views: 66.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/sign_user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:18:35 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"sign_user"}
+  [1m[36mSignUser Load (0.5ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (77.6ms)
+Completed 200 OK in 101ms (Views: 91.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:19:49 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sign_users"[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (17.2ms)
+Completed 200 OK in 62ms (Views: 51.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:10 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 270ms (Views: 269.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:11 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (349.2ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:12 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:12 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 294ms (Views: 293.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 136.152.142.42 at 2016-03-17 02:41:13 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sign_users"[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (15.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (13.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (1.6ms)
+Completed 200 OK in 354ms (Views: 340.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/" for 136.152.142.42 at 2016-03-17 02:41:19 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sign_users"[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (12.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (3.5ms)
+Completed 200 OK in 306ms (Views: 297.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/" for 136.152.142.42 at 2016-03-17 02:41:21 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "sign_users"[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (16.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (1.9ms)
+Completed 200 OK in 280ms (Views: 270.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.42 at 2016-03-17 02:41:24 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "sign_users"[0m
+  [1m[35mSignUser Load (0.2ms)[0m  SELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (37.8ms)
+Completed 200 OK in 92ms (Views: 71.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:36 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.8ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (140.5ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 181ms (Views: 179.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:37 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:52 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 181ms (Views: 180.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:53 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (187.4ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:53 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:53 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 203ms (Views: 201.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:53 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 174ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:54 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/header.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.4) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.4) lib/rack/lint.rb:37:in `call'
+  rack (1.6.4) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.4) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.4) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (175.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.42 at 2016-03-17 02:41:54 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.42 at 2016-03-17 02:41:54 +0000
+Cannot render console from 136.152.142.42! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as */*
+  Rendered home/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 175ms (Views: 174.1ms | ActiveRecord: 0.0ms)
