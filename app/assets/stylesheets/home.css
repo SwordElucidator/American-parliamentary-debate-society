@@ -1,28 +1,43 @@
-.jumbotron {
-    background-color: transparent;
-    padding-top: 100px;
+#home h1{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    color: white;
+    font-size: 50px;
+}
+#join-button{
+    position: absolute;
+    top: 75%;
+    z-index: 100;
+    margin: auto;
+    left: 47%;
+    background-color: #0C0240;
+    color: white;
 }
 .navbar {
     margin-bottom: 0px;
     width: 100%;
     z-index: 100;
+    color: #0C0240;
 }
 .container-fluid {
     text-align: center;
+    color: white;
 }
 #home {
-    background-image: url("header.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 100%;
-    color: white;
+    padding: 0px;
+    text-align: center;
 }
-#about {
+#about, #announcements {
     font-size: 20px;
-    /*background-color: #337ab7;*/
+    background-color: #0C0240;
     width: 100%;
     padding: 5% 10%;
     line-height: 150%;
@@ -30,14 +45,9 @@
     text-align: justify;
     text-justify: auto;
 }
-#about h1 {
+#about h1, #announcements h1 {
     text-align: center;
     padding-bottom: 10px;
-}
-#culture {
-    padding-top: 5%;
-    border: 1px solid black;
-    width: 100%;
 }
 .item {
     height: 100%;
@@ -46,25 +56,26 @@
     margin-top: -70px;
 }
 #join {
-    border: 1px solid black;
     padding: 5% 10%;
+    background-color: #0C0240;
 }
 #join .btn.btn-primary.btn-lg {
     margin: 2px;
 }
 footer.container {
     padding: 10% 25%;
-    border: 1px solid black;
     width: 100%;
     text-align: center;
+    background-color: #0C0240;
+    color: white;
 }
 footer .description {
     text-align: justify;
     text-justify: auto;
 }
 .btn.btn-primary.btn-lg {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #0C0240;
     border: 1px solid black;
     display: inline-block;
 }
