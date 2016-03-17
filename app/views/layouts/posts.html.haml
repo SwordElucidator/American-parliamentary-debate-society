@@ -1,26 +1,26 @@
 !!!
 %html
-%head
-  %title APDS Forum
-  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
-  %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700", type: "text/css"}
-  = javascript_include_tag 'application', 'data-turbolinks-track' => true 
-  = csrf_meta_tags 
-  
-%body
-  %header.main_header
-    #logo 
-      %h1= link_to "American Parliamentary Debate Society Forum", forum_path
-    #buttons
-      - if user_signed_in?
-        = link_to "New Post", new_post_path
-      - else
-        = link_to "Sign Up", new_user_registration_path
-        = link_to "Sign In", new_user_session_path
-      = link_to "Home Page", root_path
+  %head
+    %title Debate of Berkeley Forum
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700", type: "text/css"}
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    = csrf_meta_tags 
     
-  .wrapper
-    %p.notice= notice
-    %p.alert= alert
-  .wrapper
-    = yield
+  %body
+    %header.main_header
+      #logo 
+        %h1= link_to "American Parliamentary Debate Society Forum", forum_path
+      #buttons
+        - if user_signed_in?
+          = link_to "New Post", new_post_path
+        - else
+          = link_to "Sign Up", new_user_registration_path
+          = link_to "Sign In", new_user_session_path
+        = link_to "Home Page", root_path
+      
+    .wrapper
+      %p.notice= notice
+      %p.alert= alert
+    .wrapper
+      = yield
