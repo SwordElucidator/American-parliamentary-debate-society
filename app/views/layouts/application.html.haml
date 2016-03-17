@@ -7,4 +7,35 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
     = csrf_meta_tags
   %body
+    %nav.navbar.navbar-fixed-top{:role => "navigation"}
+      .container-fluid
+        .navbar-header.page-scroll
+          %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand.page-scroll{:href => "#home"} Debate
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a.page-scroll{:href => "#about"} About
+            %li
+              %a.page-scroll{:href => "#announcements"} Announcements
+            %li
+              %a.page-scroll{:href => "#join"} Join
+          %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "/login"}
+                Sign In
+                %span.caret
+              %ul.dropdown-menu{:role => "menu"}
+                %li
+                  %a{:href => "/login"} Sign In
+                %li
+                  %a{:href => "#"} Edit Profile
+                %li
+                  %a{:href => "#"} Sign Up For Mock Debate
+                %li
+                  %a{:href => "/forum"} Forum
     = yield
