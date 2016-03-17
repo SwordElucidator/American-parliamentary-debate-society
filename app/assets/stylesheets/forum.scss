@@ -1,0 +1,162 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+ body{
+    font-family: 'Lato', san-serif;
+    background: ghostwhite;
+ }
+ 
+.wrapper {
+    width: 60%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main_header {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    #logo {
+        a{
+            /*text-transform: uppercase;*/
+            letter-spacing: -1px;
+            text-decoration: none;
+            color: #397cac;
+        }
+    }
+}
+
+#buttons {
+    a{
+        line-height: 60px;
+        background: #397CAC;
+        padding: .5em 1em;
+        border-radius: 0.2em;
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+    }
+}
+
+#posts {
+    background: white;
+    padding: 2em 5%;
+    border-radius: .5em;
+    .post{
+        margin: 1em 0;
+        padding: 1em 0;
+        border-bottom: 1px solid #d1d1d1;
+        
+        .title{
+            margin: 0;
+            a {
+                color: #397CAC;
+                text-decoration: none;
+                font-weight: 100;
+                font-size: 1.6rem;
+            }
+        }
+        .date{
+            margin-top: .25rem;
+            font-size: 1.1rem;
+            color: #B2BAC2;
+        }
+    }
+}
+
+#post_content {
+    background: white;
+    padding: 2em 5%;
+    border-radius: .5em;
+    h1{
+        margin: 0;
+        color: #397CAC;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 2.2rem;
+    }
+    p{
+        font-weight: 100;
+        font-size: 1.4rem;
+        color: #B2BAC2;
+        line-height: 1.5;
+    }
+}
+
+.button{
+    color: #397cac;
+    border: 1px solid #397cac;
+    padding: .5em 1em;
+    border-radius: 0.2em;
+    text-decoration: none;
+}
+
+#comments {
+    .comment{
+        overflow:auto; 
+        border-bottom: 1px solid #d1d1d1;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        .comment_content{
+            margin: 0;
+            padding: 0;
+        }
+        .comment_author{
+            color: #397CAC;
+            margin-top: .5rem;
+            font-size: 0.6em;
+            font-weight: 700;
+        }
+        .content{
+            width: 80%;
+            float: left;
+            p{
+                font-size: 1em;
+            }
+        }
+        
+        .buttons{
+            width: 20%;
+            float: left;
+            font-size: .8em;
+            padding-top: 1.5em;
+            a {
+                color: #397cac;
+                border: 1px solid #397cac;
+                padding: .5em 1em;
+                border-radius: 0.2em;
+                text-decoration: none;
+            }
+        }
+    }
+    textarea{
+        width: 100%;
+        min-height: 200px;
+        border: 1px solid #d1d1d1;
+        border-radius: .2em;
+        margin: 1em 0;
+        
+    }
+    input[type="submit"] {
+        line-height: 20px;
+        border: none;
+        background: #397CAC;
+        padding: .5em 1em;
+        border-radius: 0.2em;
+        color: white;
+        font-weight: 100;
+    }
+}
