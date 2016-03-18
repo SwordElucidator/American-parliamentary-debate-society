@@ -42,3 +42,5 @@ exclude_paths:
 - features/
 - script/
 - vendor/
+- public/assets/
+- coverage/assets/
