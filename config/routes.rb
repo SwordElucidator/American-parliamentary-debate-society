@@ -20,4 +20,12 @@ Rails.application.routes.draw do
   post '/login', to: 'users#login'
   get '/forum', to: "posts#index"
   post '/forum', to: "posts#index"
+  
+  get '/dashboard' => 'myadmin/dashboard#index'
+  get '/dashboard/users' => 'myadmin/users#index'
+  get '/dashboard/users/show' => 'myadmin/users#show'
+  get '/dashboard/users/new' => 'myadmin/users#create'
+  get '/dashboard/users/edit' => 'myadmin/users#edit'
+  get '/dashboard/users/destroy' => 'myadmin/users#destroy'
+  get '/dashboard/invitation' => 'myadmin/invitation#index'
 end

@@ -1,0 +1,17 @@
+<%= render 'myadmin/users/navigation'%>
+<div class="container">
+  <%= render 'myadmin/dashboard/catalog' %>
+  <div class="col-sm-9">
+    <div class="col-lg-offset-3 col-sm-9" >
+      <%= form_tag(dashboard_invitation_path, :method => "get", id: "invitation_code") do %>
+        <div class="input-group">
+          <%= text_field_tag :search, params[:search], placeholder: "enter the email address you want to send", class: "form-control" %>
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit">Send Invitation Code</button>
+          </span>
+        </div>
+      <% end %>
+    </div>
+    <div> <%=  SecureRandom.uuid  %> </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">American Parliamentary Debate Society</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+          <% if user_signed_in? %>
+            <a href="#"><span class="glyphicon glyphicon-user"></span><%= current_user.email %></a>
+            <%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
+          <% else %>
+            <%= link_to 'Register', new_user_registration_path %>  
+            <%= link_to 'Sign in', new_user_session_path %>
+          <% end %>
+        </li>
+      <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+    </ul>
+  </div>
+</nav>
