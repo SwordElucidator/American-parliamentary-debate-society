@@ -41,9 +41,11 @@
     width: 100%;
     padding: 5% 10%;
     line-height: 150%;
-    border: 1px solid black;
     text-align: justify;
     text-justify: auto;
+}
+#announcements {
+    background-color: #397CAC;
 }
 #about h1, #announcements h1 {
     text-align: center;
@@ -57,7 +59,11 @@
 }
 #join {
     padding: 5% 10%;
-    background-color: #0C0240;
+    background-image: url('header.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 #join .btn.btn-primary.btn-lg {
     margin: 2px;
@@ -68,6 +74,7 @@ footer.container {
     text-align: center;
     background-color: #0C0240;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 footer .description {
     text-align: justify;
@@ -85,4 +92,7 @@ footer .description {
     border: 0px;
     text-align: center;
     margin: 10px auto;
+}
+body {
+    font-family: 'Playfair Display', serif;
 }
