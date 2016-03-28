@@ -4969,3 +4969,1065 @@ Started GET "/" for ::1 at 2016-03-28 00:55:36 -0700
 Processing by HomeController#index as HTML
   Rendered home/index.html.haml within layouts/application (2.9ms)
 Completed 200 OK in 130ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-03-28 00:57:49 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+LoadError (Unable to autoload constant UsersController, expected /Users/Tiffany1/Desktop/CS 169/debate/app/controllers/users_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Tiffany1/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tiffany1/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tiffany1/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.1ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (120.1ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (247.4ms)
+
+
+Started GET "/login" for ::1 at 2016-03-28 00:57:49 -0700
+
+LoadError (Unable to autoload constant UsersController, expected /Users/Tiffany1/Desktop/CS 169/debate/app/controllers/users_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Tiffany1/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Tiffany1/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Tiffany1/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.6ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.0ms)
+
+
+Started GET "/forum" for ::1 at 2016-03-28 00:57:57 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (71.8ms)
+Completed 200 OK in 1802ms (Views: 1781.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 00:58:04 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (12.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (85.8ms)
+Completed 200 OK in 243ms (Views: 236.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-03-28 00:58:51 -0700
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb__2125727705798953454_70182318141460 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:8)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb__2125727705798953454_70182318141460 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:9)
+  Rendered devise/shared/_links.html.erb (5.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (28.7ms)
+Completed 200 OK in 156ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 00:58:56 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (19.9ms)
+Completed 200 OK in 116ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-03-28 01:03:57 -0700
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb__2125727705798953454_70182318141460 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:8)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb__2125727705798953454_70182318141460 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:9)
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (62.9ms)
+Completed 200 OK in 326ms (Views: 311.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:04:12 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (6.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (40.6ms)
+Completed 200 OK in 134ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:05:17 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (7.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (21.8ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 4 spaces.):
+    2: %html
+    3:   %head
+    4:     %title Debate of Berkeley Forum
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:     %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700", type: "text/css"}
+    7:     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    8:     = csrf_meta_tags 
+  app/assets/stylesheets/application.css.sass:29
+  app/views/layouts/devise.html.haml:5:in `_app_views_layouts_devise_html_haml__1459090631134407098_70182333823480'
+
+
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (99.2ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.7ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (144.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:05:32 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (5.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (20.8ms)
+Completed 200 OK in 6213ms (Views: 6210.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/application.self-41df80bbb9b12670165935822c28888feb8daa945cfa960f6ac19efda04c8943.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:05:39 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:05:53 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182276682880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (32.2ms)
+Completed 200 OK in 3918ms (Views: 3915.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/application.self-0522e9cab395211b52c7580ed21deba25e0c23086fce58d40cd6aafaafba6bd0.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:05:57 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:07:11 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182262958400 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182262958400 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:8)
+  Rendered devise/shared/_links.html.erb (10.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (36.8ms)
+Completed 200 OK in 300ms (Views: 297.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-87d095af6bf40487f84d371b04e16e94b288135fb28ebf70e4ae6019c75b9d99.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:07:12 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:07:37 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182272408380 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182272408380 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:8)
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (28.0ms)
+Completed 200 OK in 4657ms (Views: 4654.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/application.self-e1f659d43f0059a1d7e08c2399c045a2dba87637571e2c4aaf618ff6004d41d3.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:07:42 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:07:43 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:07:43 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:07:43 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:08:00 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:8)
+  Rendered devise/shared/_links.html.erb (9.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (24.3ms)
+Completed 200 OK in 109ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e1f659d43f0059a1d7e08c2399c045a2dba87637571e2c4aaf618ff6004d41d3.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:08:01 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:08:30 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:8)
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (18.1ms)
+Completed 200 OK in 4132ms (Views: 4130.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/application.self-c96d4150d7f70380f44f97425af15c3001508766c0b25e7eeecd85e2a0229dec.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:08:34 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:08:35 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:08:35 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:08:35 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:08:35 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:08:56 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:8)
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (21.3ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "0.2em": expected expression (e.g. 1px, bold), was ";"):
+    2: %html
+    3:   %head
+    4:     %title Debate of Berkeley Forum
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    6:     %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700", type: "text/css"}
+    7:     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    8:     = csrf_meta_tags 
+  app/assets/stylesheets/application.css.sass:31
+  app/views/layouts/devise.html.haml:5:in `_app_views_layouts_devise_html_haml__1459090631134407098_70182333823480'
+
+
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.6ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (99.3ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (90.9ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (175.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-28 01:09:10 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___692821218875676266_70182266905880 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:8)
+  Rendered devise/shared/_links.html.erb (7.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (27.8ms)
+Completed 200 OK in 4946ms (Views: 4944.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/application.self-48a5856634a96b2d7159a9d0aa12c656c843b00e84f8c4b3f401d599b78b2e78.css?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:09:15 -0700
+
+
+Started GET "/forum" for ::1 at 2016-03-28 01:09:33 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (12.3ms)
+Completed 200 OK in 139ms (Views: 134.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/forum" for ::1 at 2016-03-28 01:10:12 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (11.5ms)
+Completed 200 OK in 176ms (Views: 174.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/application.self-48a5856634a96b2d7159a9d0aa12c656c843b00e84f8c4b3f401d599b78b2e78.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/forum.self-f8e8de3c10f98cadd65ae77fedc4c8dd10cf91ca423e6e2be4a84cfbc1395a0b.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/home.self-74253573100a1f232bd006a5540cce931ad6d3fe82a5948d6e5eb6280ab1d931.css?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/login.self-e8db521ca41fd0b7dab8c7b0528846c242ac676625ed628f397fc345fad0e2a3.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-03-28 01:10:13 -0700
