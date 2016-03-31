@@ -1,6 +1,4 @@
 class UsersController < ApplicationController
-  
-  
     def login
       if (params[:username])
         @customer = params[:username]
@@ -9,8 +7,8 @@ class UsersController < ApplicationController
           puts params[:username]
           puts @customer
           if (SignUser.find_by_username(@customer).password != params[:password])
-            #puts "The username doesn't match the password"
-            #flash[:notice] = "The username doesn't match the password"
+            puts "The username doesn't match the password"
+            flash[:notice] = "The username doesn't match the password"
           else
             redirect_to customer_path(SignUser.find_by_username(@customer).id)
           end
@@ -22,9 +20,6 @@ class UsersController < ApplicationController
       else
       end
     end 
-     
-   
-      
     
     def homepage
       @id = params[:id]
