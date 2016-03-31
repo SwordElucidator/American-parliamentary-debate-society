@@ -1,0 +1,8 @@
+.comment
+    .content
+        %p.comment_content= comment.comment
+        %p.comment_author= comment.user.email
+    .buttons
+        - if comment.user == current_user
+            = link_to "Edit", edit_post_comment_path(comment.post, comment)
+            = link_to "Delete", [comment.post, comment], method: :delete, data: {confirm: "Are you sure?"}

@@ -1,0 +1,75 @@
+.jumbotron {
+    background-color: transparent;
+    padding-top: 100px;
+}
+.navbar {
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 100;
+}
+.container-fluid {
+    text-align: center;
+}
+#home {
+    background-image: url("header.jpg");
+    background-position: center;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    color: white;
+}
+#about {
+    font-size: 20px;
+    /*background-color: #337ab7;*/
+    width: 100%;
+    padding: 5% 10%;
+    line-height: 150%;
+    border: 1px solid black;
+    text-align: justify;
+    text-justify: auto;
+}
+#about h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#culture {
+    padding-top: 5%;
+    border: 1px solid black;
+    width: 100%;
+}
+.item {
+    height: 100%;
+}
+.carousel-inner {
+    margin-top: -70px;
+}
+#join {
+    border: 1px solid black;
+    padding: 5% 10%;
+}
+#join .btn.btn-primary.btn-lg {
+    margin: 2px;
+}
+footer.container {
+    padding: 10% 25%;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+footer .description {
+    text-align: justify;
+    text-justify: auto;
+}
+.btn.btn-primary.btn-lg {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+}
+#ocf-logo {
+    width: 98px;
+    height: 39px;
+    border: 0px;
+    text-align: center;
+    margin: 10px auto;
+}
