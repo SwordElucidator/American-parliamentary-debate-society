@@ -12,6 +12,7 @@ Feature: Forum
     Given the following posts exist:
     | title   | content     |
     | TEST    | aaaa        |
+    Given a logged in user
     
     Scenario: users can write posts
     Given I am on the home page of the forum

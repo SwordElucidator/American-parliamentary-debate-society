@@ -251,3 +251,23 @@ end
 Then /^show me the page$/ do
   save_and_open_page
 end
+
+Given /^a valid user$/ do
+  @user = User.create!({
+             :email => "aabbcc@gmail.com",
+             :password => "12345678",
+             :password_confirmation => "12345678"
+           })
+end
+
+Given /^a logged in user$/ do
+  @user = User.create!({
+             :email => "aabbcc@gmail.com",
+             :password => "12345678",
+             :password_confirmation => "12345678"
+           })
+  visit path_to("the login page")
+  fill_in "Email", :with => "aabbcc@gmail.com"
+  fill_in "Password", :with => "12345678"
+  click_button "Sign in"
+end
