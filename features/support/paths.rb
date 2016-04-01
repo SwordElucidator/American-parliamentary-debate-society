@@ -11,6 +11,8 @@ module NavigationHelpers
     when /^the signup page$/ then '/users/sign_up'
     when /^the login page$/ then '/users/sign_in'
     when /^the join us page$/ then '/'
+    when /^the admin page$/ then '/admin'
+    when /^the profile page$/ then '/profile'
     when /^the "(.*)" user page$/ then '/index/'+String(SignUser.find_by(username: $1) ? SignUser.find_by_username($1).id : '')
     when /^the home page of the website$/
       '/'

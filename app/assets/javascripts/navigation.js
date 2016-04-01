@@ -3,7 +3,7 @@
   $(document).ready(function(){
 
     // reappearing nav, source: http://stackoverflow.com/questions/23315031/how-to-create-a-hidden-navbar-with-bootstrap-that-shows-after-you-scroll
-    $(".navbar.hide-on-top").hide();
+//    $(".navbar.hide-on-top").hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.navbar.hide-on-top').fadeIn();
