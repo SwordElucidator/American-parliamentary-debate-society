@@ -30,7 +30,7 @@
                   Sign In
                   %span.caret
               -else
-                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#", :id => "menu"}
                   Welcome, 
                   - if not current_user.firstname
                     = current_user.email
