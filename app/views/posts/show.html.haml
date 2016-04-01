@@ -7,8 +7,9 @@
             = @post.comments.count
             Comments
         = render @post.comments
-        %h3 Reply to thread
-        = render "comments/form"
+        - if user_signed_in?
+            %h3 Reply to thread
+            = render "comments/form"
     
     
     %br/

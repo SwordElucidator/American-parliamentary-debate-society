@@ -1,0 +1,37 @@
+#post_content
+  %h2.title
+    Welcome, 
+    - if not current_user.firstname
+      = current_user.email
+    - else
+      = current_user.firstname
+    !
+    %p 
+      Your email is
+      = current_user.email
+      %br/
+      - if not current_user.firstname or current_user.firstname == ''
+        You have not input your name!
+      -else
+        Your current name is
+        = current_user.firstname
+        - if current_user.lastname
+          ,
+          = current_user.lastname
+      %br/
+      - if not current_user.major or current_user.major == ''
+        You have not input your major!
+      -else
+        Your current major is
+        = current_user.major
+  %h2.title
+    Edit Your Profile:
+  %p
+    = simple_form_for current_user, :url => update_profile_path, :method => :post do |f|
+      = f.input :firstname
+      = f.input :lastname
+      = f.input :major
+      = f.submit
+     
+      
+      

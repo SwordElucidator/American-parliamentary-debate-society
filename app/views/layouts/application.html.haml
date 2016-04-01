@@ -6,7 +6,7 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
     = csrf_meta_tags
   %body
-    %nav.navbar.navbar-fixed-top{:role => "navigation"}
+    %nav.navbar.hide-on-top.navbar-fixed-top{:role => "navigation"}
       .container-fluid
         .navbar-header.page-scroll
           %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
@@ -32,7 +32,10 @@
               -else
                 %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Welcome, 
-                  = current_user.email
+                  - if not current_user.firstname
+                    = current_user.email
+                  - else
+                    = current_user.firstname
                   %span.caret
               %ul.dropdown-menu{:role => "menu"}
                 - if not user_signed_in?
@@ -42,7 +45,7 @@
                     %a{:href => new_user_registration_path} Sign Up For Mock Debate
                 - else
                   %li
-                    %a{:href => "#"} Edit Profile
+                    %a{:href => profile_path} Edit Profile
                 %li
                   %a{:href => "/forum"} Forum
                 - if user_signed_in?

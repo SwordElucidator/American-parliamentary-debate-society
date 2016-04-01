@@ -20,4 +20,6 @@ Rails.application.routes.draw do
   #post '/login', to: 'users#login'
   get '/forum', to: "posts#index"
   post '/forum', to: "posts#index"
+  get '/profile', to: "profile#profile"
+  post '/profile', to: "profile#profile", as: 'update_profile'
 end
