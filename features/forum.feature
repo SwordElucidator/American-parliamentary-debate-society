@@ -30,7 +30,7 @@ Feature: forum
  
  Scenario: users can go to landing page from forum
  Given I am on the home page of the forum
- When I follow "American Parliamentary Debate Society Forum"
+ When I follow "Debate"
  Then I should be on the home page of the website 
  
  
