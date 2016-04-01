@@ -6,53 +6,52 @@ Feature: Login to the user account
   
   Background: users database is exist as follows
     Given the following users exist:
-    | username   | password |
-    | Aladdin    | G        |
-    | Terminator | R        |
-    | WHMS       | R        |
-    | The0Help   | PG-13    |
+    | email   | password |
+    | abc@efg.com    | asdfghjk        |
+
 
   Scenario: I'm an unregistered user on the login page, but I want to signup
     Given I am on the login page
-    Then I should have field "email"
-    And I should have field "password"
+    Then I should have field "user_email"
+    And I should have field "user_password"
     And I should have button "Sign In"
     When I follow "Sign Up"
     Then I should be on the signup page
     
   Scenario: I'm an unregistered user on the login page, and I try to hack around
     Given I am on the login page
-    When I fill in "myUsername" with "Terminator"
-    And I fill in "myPassword" with "Gaga"
-    And I press "signin"
+    When I fill in "user_email" with "Terminator"
+    And I fill in "user_password" with "Gaga123"
+    And I press "Sign In"
     Then I should not be on the "Terminator" user page
 
   Scenario: I'm an registered user on the login page, and I want to login
     Given I am on the login page
-    When I fill in "Email" with "The0Help"
-    And I fill in "Password" with "PG-13"
+    When I fill in "user_email" with "abc@efg.com"
+    And I fill in "user_password" with "asdfghjk"
     And I press "Sign In"
     Then I should be on the home page of the website
 
   Scenario: I'm an unregistered user on the signup page, and I do want to signup, so that I can login
     Given I am on the signup page
-    Then I should have field "Email"
-    And I should have field "Password"
-    And I should have field "Password confirmation"
+    Then I should have field "user_email"
+    And I should have field "user_password"
+    And I should have field "user_password_confirmation"
     And I should have button "Sign Up"
-    When I fill in "Email" with "abcde@fg.com"
-    And I fill in "Password" with "12345"
+    When I fill in "user_email" with "abcde@fg.com"
+    And I fill in "user_password" with "123456789"
+    And I fill in "user_password_confirmation" with "123456789"
     And I press "Sign Up"
     Then I should be on the home page of the website
 
   
   Scenario: However, I decided to use strange name to sign up our test the extreme of the website
     Given I am on the signup page
-    And I press "submit"
+    And I press "Sign Up"
     Then I should not be on the login page
     Given I am on the signup page
-    When I fill in "myUsername" with "G*(&F*(TF&OTR#Goqy  efhw"
-    And I fill in "myPassword" with "gotohell"    
-    And I press "submit"
+    When I fill in "user_email" with "G*(&F*(TF&OTR#Goqy  efhw"
+    And I fill in "user_password" with "gotohell"    
+    And I press "Sign Up"
     Then I should not be on the login page
     

@@ -95,11 +95,13 @@ Then /^(?:|I )should see "([^"]*)"$/ do |text|
 end
 
 Then /^(?:|I )should have field "([^"]*)"$/ do |field|
-  expect(page).to have_css('input[type="text"]')
+  page.has_field?(field)
+  # expect(page).to have_field(:type => field)
 end
 
 Then /^(?:|I )should have button "([^"]*)"$/ do |button|
-  expect(page).to have_css('input[type="text"]')
+  # expect(page).to have_css('input[type="text"]')
+  page.has_button?(button)
 end
 
 Then /^(?:|I )should see \/([^\/]*)\/$/ do |regexp|
