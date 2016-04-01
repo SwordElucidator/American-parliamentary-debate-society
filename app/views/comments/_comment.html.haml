@@ -1,7 +1,10 @@
 .comment
     .content
         %p.comment_content= comment.comment
-        %p.comment_author= comment.user.email
+        - if comment.user
+            %p.comment_author= comment.user.email
+        - else
+            %p.comment_author= "anonymous"
     .buttons
         - if comment.user == current_user
             = link_to "Edit", edit_post_comment_path(comment.post, comment)

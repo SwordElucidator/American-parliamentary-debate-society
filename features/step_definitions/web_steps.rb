@@ -29,15 +29,17 @@ When /^(?:|I )go to (.+)$/ do |page_name|
 end
 
 When /^(?:|I )press "([^"]*)"$/ do |button|
-  begin
+  if button == "Create Comment"
+    click_button "Create Comment"
+  else
     click_button(button)
-  rescue ActiveRecord::RecordInvalid
   end
 end
 
 When /^(?:|I )follow "([^"]*)"$/ do |link|
   click_link(link)
 end
+
 
 When /^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ do |field, value|
   fill_in(field, :with => value)
@@ -250,4 +252,24 @@ end
 
 Then /^show me the page$/ do
   save_and_open_page
+end
+
+Given /^a valid user$/ do
+  @user = User.create!({
+             :email => "aabbcc@gmail.com",
+             :password => "12345678",
+             :password_confirmation => "12345678"
+           })
+end
+
+Given /^a logged in user$/ do
+  @user = User.create!({
+             :email => "aabbcc@gmail.com",
+             :password => "12345678",
+             :password_confirmation => "12345678"
+           })
+  visit path_to("the login page")
+  fill_in "Email", :with => "aabbcc@gmail.com"
+  fill_in "Password", :with => "12345678"
+  click_button "Sign In"
 end

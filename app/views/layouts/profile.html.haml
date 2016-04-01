@@ -1,0 +1,51 @@
+%html
+  %head
+    %title Debate of Berkeley Profile
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700", type: "text/css"}
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    = csrf_meta_tags 
+    
+  %body
+    / %header.main_header
+    /   #buttons
+    /     - if user_signed_in?
+    /       = link_to "New Post", new_post_path
+    /     - else
+    /       = link_to "Sign Up", new_user_registration_path
+    /       = link_to "Sign In", new_user_session_path
+    /     = link_to "Home Page", root_path
+    %nav.navbar.navbar-fixed-top{:role => "navigation"}
+      .container-fluid
+        .navbar-header.page-scroll
+          %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand.page-scroll{:href => root_path} Debate
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                Welcome, 
+                - if not current_user.firstname
+                  = current_user.email
+                - else
+                  = current_user.firstname
+                %span.caret
+              %ul.dropdown-menu{:role => "menu"}
+                %li
+                  %a{:href => forum_path} Forum
+                %li
+                  %a{:href => destroy_user_session_path} Sign out
+                  
+    %header.main_header
+      #logo 
+      
+    .wrapper
+      %p.notice= notice
+      %p.alert= alert
+    .wrapper
+      = yield
+

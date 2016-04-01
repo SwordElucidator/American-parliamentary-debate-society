@@ -14,11 +14,10 @@ Feature: Login to the user account
 
   Scenario: I'm an unregistered user on the login page, but I want to signup
     Given I am on the login page
-    Then I should have field "myUsername"
-    And I should have field "myPassword"
-    And I should have button "signin"
-    And I should have button "signup"
-    When I press "signup"
+    Then I should have field "email"
+    And I should have field "password"
+    And I should have button "Sign In"
+    When I follow "Sign Up"
     Then I should be on the signup page
     
   Scenario: I'm an unregistered user on the login page, and I try to hack around
@@ -30,33 +29,22 @@ Feature: Login to the user account
 
   Scenario: I'm an registered user on the login page, and I want to login
     Given I am on the login page
-    When I fill in "myUsername" with "Aladdin"
-    And I fill in "myPassword" with "G"
-    And I press "signin"
-    Then I should be on the "Aladdin" user page
-    Given I am on the login page
-    When I fill in "myUsername" with "The0Help"
-    And I fill in "myPassword" with "PG-13"
-    And I press "signin"
-    Then I should be on the "The0Help" user page
+    When I fill in "Email" with "The0Help"
+    And I fill in "Password" with "PG-13"
+    And I press "Sign In"
+    Then I should be on the home page of the website
 
   Scenario: I'm an unregistered user on the signup page, and I do want to signup, so that I can login
     Given I am on the signup page
-    Then I should have field "myUsername"
-    And I should have field "myPassword"
-    And I should have button "submit"
-    When I fill in "myUsername" with "abcde"
-    And I fill in "myPassword" with "12345"
-    And I press "submit"
-    Then I should be on the login page
-    Then I should have field "myUsername"
-    And I should have field "myPassword"
-    And I should have button "signin"
-    And I should have button "signup"
-    When I fill in "myUsername" with "abcde"
-    And I fill in "myPassword" with "12345"
-    And I press "signin"
-    Then I should be on the "abcde" user page
+    Then I should have field "Email"
+    And I should have field "Password"
+    And I should have field "Password confirmation"
+    And I should have button "Sign Up"
+    When I fill in "Email" with "abcde@fg.com"
+    And I fill in "Password" with "12345"
+    And I press "Sign Up"
+    Then I should be on the home page of the website
+
   
   Scenario: However, I decided to use strange name to sign up our test the extreme of the website
     Given I am on the signup page

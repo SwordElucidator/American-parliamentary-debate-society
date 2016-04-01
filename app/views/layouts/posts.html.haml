@@ -31,20 +31,34 @@
             - if user_signed_in?
               %li
                 %a.page-scroll{:href => new_post_path} New Post
-            %li
-              %a.page-scroll{:href => new_user_registration_path} Sign Up
+            - else
+              %li
+                %a.page-scroll{:href => new_user_session_path} Sign In
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
-              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => new_user_session_path}
-                Sign In
-                %span.caret
+              - if not user_signed_in?
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => new_user_session_path}
+                  Sign In
+                  %span.caret
+              -else
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                  Welcome, 
+                  - if not current_user.firstname
+                    = current_user.email
+                  - else
+                    = current_user.firstname
+                  %span.caret
               %ul.dropdown-menu{:role => "menu"}
-                %li
-                  %a{:href => new_user_session_path} Sign In
-                %li
-                  %a{:href => "#"} Edit Profile
-                %li
-                  %a{:href => "#"} Sign Up For Mock Debate
+                - if not user_signed_in?
+                  %li
+                    %a{:href => new_user_session_path} Sign In
+                  %li
+                    %a{:href => new_user_registration_path} Sign Up For Mock Debate
+                - else
+                  %li
+                    %a{:href => profile_path} Edit Profile
+                  %li
+                    %a{:href => destroy_user_session_path} Sign out
     %header.main_header
       #logo 
         %h1= link_to "American Parliamentary Debate Society Forum", forum_path
