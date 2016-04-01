@@ -20228,3 +20228,90 @@ DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-e
   Rendered devise/shared/_links.html.erb (6.0ms)
   Rendered devise/sessions/new.html.erb within layouts/devise (71.7ms)
 Completed 200 OK in 224ms (Views: 222.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_out" for 136.152.142.9 at 2016-03-31 20:57:34 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+Redirected to https://apds-viscentliu.c9users.io/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 55ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 136.152.142.9 at 2016-03-31 20:57:34 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (74.5ms)
+Completed 200 OK in 549ms (Views: 548.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 136.152.142.9 at 2016-03-31 20:57:44 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___3607896240611765881_69876356445620 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___3607896240611765881_69876356445620 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (7.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (50.1ms)
+Completed 200 OK in 275ms (Views: 272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 136.152.142.9 at 2016-03-31 20:57:50 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb__4503031298883274008_69876308962540 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/registrations/new.html.erb:9)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb__4503031298883274008_69876308962540 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/registrations/new.html.erb:10)
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (38.3ms)
+Completed 200 OK in 247ms (Views: 244.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 136.152.142.9 at 2016-03-31 21:02:54 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___3607896240611765881_69876356445620 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___3607896240611765881_69876356445620 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (9.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (61.1ms)
+Completed 200 OK in 278ms (Views: 275.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forum" for 136.152.142.9 at 2016-03-31 21:05:25 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (50.2ms)
+Completed 200 OK in 172ms (Views: 170.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/17" for 136.152.142.9 at 2016-03-31 21:05:27 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 17]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered comments/_comment.html.haml (3.5ms)
+  Rendered comments/_form.html.haml (7.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered posts/show.html.haml within layouts/posts (18.4ms)
+Completed 200 OK in 150ms (Views: 147.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_in" for 136.152.142.9 at 2016-03-31 21:06:42 +0000
+Cannot render console from 136.152.142.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___3607896240611765881_69876356445620 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___3607896240611765881_69876356445620 at /home/ubuntu/workspace/new/American-parliamentary-debate-society/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (160.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (181.5ms)
+Completed 200 OK in 306ms (Views: 304.2ms | ActiveRecord: 0.0ms)

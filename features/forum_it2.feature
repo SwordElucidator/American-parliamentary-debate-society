@@ -25,7 +25,7 @@ Feature: Forum
     Then I should be on the "TEST" detail page
     
     Scenario: users can write comments
-    Given: I am on the "TEST" detail page
+    Given I am on the "TEST" detail page
     When I press "Create Comment"
     Then I should be on the "TEST" detail page
     
