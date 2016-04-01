@@ -22854,3 +22854,395 @@ Processing by HomeController#index as HTML
   Rendered home/index.html.haml within layouts/application (3.9ms)
   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
 Completed 200 OK in 200ms (Views: 198.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/manage_attendance" for ::1 at 2016-04-01 13:05:19 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"manage_attendance"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (2.7ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "sign_users"
+  [1m[36mSignUser Load (0.2ms)[0m  [1mSELECT  "sign_users".* FROM "sign_users"  ORDER BY sign_users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (2.7ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (35.5ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (11.8ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (56.1ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (7.0ms)
+  Rendered /Users/Tiffany1/.rvm/gems/ruby-2.2.1/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (5.1ms)
+Completed 404 Not Found in 17012ms (Views: 16730.9ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:05:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (9.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Completed 200 OK in 316ms (Views: 314.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/application.self-cba9892784316bd701d40cae34ad94ef07006448413239dab77359c59aaabf74.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/forum.self-90f2141c97a83c35d5ecb76f75dcce93eaf7f6a7d29dd81d4a2872614703adc2.css?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-01 13:05:37 -0700
+
+
+Started GET "/assets/navigation.self-4581dadf43434edd08b8a6a03c8f6fbcb3776b9b10da4a1771d8369162f5ca48.js?body=1" for ::1 at 2016-04-01 13:05:38 -0700
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-01 13:05:38 -0700
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-01 13:05:38 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-01 13:05:38 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-01 13:05:38 -0700
+
+
+Started GET "/assets/header.jpg" for ::1 at 2016-04-01 13:05:38 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2016-04-01 13:05:44 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2754409542159230317_70349915031520 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2754409542159230317_70349915031520 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (18.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (79.6ms)
+Completed 200 OK in 202ms (Views: 196.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forum" for ::1 at 2016-04-01 13:05:47 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (48.2ms)
+Completed 200 OK in 140ms (Views: 137.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:05:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:13:54 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1479.1ms)
+Completed 200 OK in 1961ms (Views: 1947.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-04-01 13:14:01 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (12.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (119.7ms)
+Completed 200 OK in 243ms (Views: 221.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-04-01 13:14:03 -0700
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb___3435470302469884519_70340476624720 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:9)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb___3435470302469884519_70340476624720 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:10)
+  Rendered devise/shared/_links.html.erb (4.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (22.3ms)
+Completed 200 OK in 131ms (Views: 129.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2016-04-01 13:14:09 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sldZYuSKNysv55qHOgSNDgZNH0lrAHtEUdTSTOxeaY0TDMdfN4PWEfuQxUiOuHtjLBuxPGyGm9CaudexWJWC3A==", "user"=>{"email"=>"tiffany19qi@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (2.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'tiffany19qi@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (5.3ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "tiffany19qi@gmail.com"], ["encrypted_password", "$2a$10$3Z6esXddpc.TKZeqgFC6h.lDoKNE.spCD0bylfBr5x.G/XBNHHwYS"], ["created_at", "2016-04-01 20:14:09.283219"], ["updated_at", "2016-04-01 20:14:09.283219"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-04-01 20:14:09.295222"], ["current_sign_in_at", "2016-04-01 20:14:09.295222"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2016-04-01 20:14:09.296439"], ["id", 5]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 209ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:14:09 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:14:14 -0700
+Processing by ProfileController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (8.5ms)
+Completed 200 OK in 106ms (Views: 104.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:16:07 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (32.1ms)
+Completed 200 OK in 423ms (Views: 398.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/forum" for ::1 at 2016-04-01 13:16:13 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (2.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (78.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 209ms (Views: 175.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:16:38 -0700
+Processing by ProfileController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (7.3ms)
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/profile" for ::1 at 2016-04-01 13:17:00 -0700
+Processing by ProfileController#profile as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ksh9B/21sG+9vMSeMigdtIKVFyfOCZjbEdMMc2zv6pOLk+M6LrxRVWnLm1GGlOvZqMO5UsmPeE/avgmO2CQBwg==", "user"=>{"firstname"=>"Tiffany", "lastname"=>"Qi", "major"=>""}, "commit"=>"Update User"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.6ms)[0m  [1mUPDATE "users" SET "firstname" = ?, "lastname" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["firstname", "Tiffany"], ["lastname", "Qi"], ["updated_at", "2016-04-01 20:17:00.704210"], ["id", 5]]
+  [1m[35m (3.4ms)[0m  commit transaction
+  Rendered profile/profile.html.haml within layouts/profile (8.4ms)
+Completed 200 OK in 99ms (Views: 87.4ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:17:11 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 117ms (Views: 116.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:19:10 -0700
+Processing by ProfileController#profile as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (34.9ms)
+Completed 200 OK in 496ms (Views: 472.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_out" for ::1 at 2016-04-01 13:19:17 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:19:17 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 192ms (Views: 191.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-04-01 13:19:20 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (8.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (28.8ms)
+Completed 200 OK in 133ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-04-01 13:19:22 -0700
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb___3435470302469884519_70340476624720 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:9)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb___3435470302469884519_70340476624720 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:10)
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (15.8ms)
+Completed 200 OK in 118ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-04-01 13:19:24 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (5.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (21.7ms)
+Completed 200 OK in 121ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-04-01 13:19:26 -0700
+Processing by Devise::RegistrationsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb___3435470302469884519_70340476624720 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:9)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_registrations_new_html_erb___3435470302469884519_70340476624720 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/registrations/new.html.erb:10)
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/devise (14.1ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-04-01 13:19:27 -0700
+Processing by Devise::SessionsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:6)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_devise_sessions_new_html_erb___2304485188812167230_70340496038760 at /Users/Tiffany1/Desktop/CS 169/debate/app/views/devise/sessions/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (5.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/devise (16.9ms)
+Completed 200 OK in 116ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-04-01 13:19:37 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w+fh+V8YzlrDeDvQtxVmA+4BG7hRQ5FSOQ7WSW3urZUk4KlqO/J5tfMpSy83G2eJmxa2EkdE0YOAspZFW1HtrQ==", "user"=>{"email"=>"tiffany19qi@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "tiffany19qi@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["current_sign_in_at", "2016-04-01 20:19:37.516334"], ["sign_in_count", 2], ["updated_at", "2016-04-01 20:19:37.517329"], ["id", 5]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 106ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:19:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (6.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Completed 200 OK in 118ms (Views: 117.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:19:52 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (6.9ms)
+Completed 200 OK in 205ms (Views: 203.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:20:09 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:20:23 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (8.9ms)
+Completed 200 OK in 240ms (Views: 238.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:20:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (8.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-04-01 13:20:33 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (6.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/header.jpg" for ::1 at 2016-04-01 13:20:34 -0700
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:20:40 -0700
+Processing by ProfileController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (7.4ms)
+Completed 200 OK in 109ms (Views: 107.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:21:37 -0700
+Processing by ProfileController#profile as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (11.5ms)
+Completed 200 OK in 204ms (Views: 201.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/profile" for ::1 at 2016-04-01 13:21:46 -0700
+Processing by ProfileController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered profile/profile.html.haml within layouts/profile (10.1ms)
+Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.1ms)
