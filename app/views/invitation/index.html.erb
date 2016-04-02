@@ -1,0 +1,8 @@
+<% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, class: "alert alert-info" %>
+<% end %>
+<%= form_tag("/invitation", method: "post") do %>
+  <%= label_tag(:email, "Enter Email:") %>
+  <%= text_area_tag(:email) %>
+  <%= submit_tag("Generate Invitation Code") %>
+<% end %>

@@ -20,4 +20,6 @@ Rails.application.routes.draw do
   post '/login', to: 'users#login'
   get '/forum', to: "posts#index"
   post '/forum', to: "posts#index"
+  get '/invitation', to: "invitation#index"
+  post '/invitation', to: "invitation#index"
 end
