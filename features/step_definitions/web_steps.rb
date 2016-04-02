@@ -29,15 +29,17 @@ When /^(?:|I )go to (.+)$/ do |page_name|
 end
 
 When /^(?:|I )press "([^"]*)"$/ do |button|
-  begin
+  if button == "Create Comment"
+    click_button "Create Comment"
+  else
     click_button(button)
-  rescue ActiveRecord::RecordInvalid
   end
 end
 
 When /^(?:|I )follow "([^"]*)"$/ do |link|
   click_link(link)
 end
+
 
 When /^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ do |field, value|
   fill_in(field, :with => value)
@@ -93,11 +95,13 @@ Then /^(?:|I )should see "([^"]*)"$/ do |text|
 end
 
 Then /^(?:|I )should have field "([^"]*)"$/ do |field|
-  expect(page).to have_css('input[type="text"]')
+  page.has_field?(field)
+  # expect(page).to have_field(:type => field)
 end
 
 Then /^(?:|I )should have button "([^"]*)"$/ do |button|
-  expect(page).to have_css('input[type="text"]')
+  # expect(page).to have_css('input[type="text"]')
+  page.has_button?(button)
 end
 
 Then /^(?:|I )should see \/([^\/]*)\/$/ do |regexp|
@@ -250,4 +254,24 @@ end
 
 Then /^show me the page$/ do
   save_and_open_page
+end
+
+Given /^a valid user$/ do
+  @user = User.create!({
+             :email => "aabbcc@gmail.com",
+             :password => "12345678",
+             :password_confirmation => "12345678"
+           })
+end
+
+Given /^a logged in user$/ do
+  @user = User.create!({
+             :email => "aabbcc@gmail.com",
+             :password => "12345678",
+             :password_confirmation => "12345678"
+           })
+  visit path_to("the login page")
+  fill_in "Email", :with => "aabbcc@gmail.com"
+  fill_in "Password", :with => "12345678"
+  click_button "Sign In"
 end

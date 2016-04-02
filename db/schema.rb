@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160330183631) do
+ActiveRecord::Schema.define(version: 20160331193350) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -63,6 +63,9 @@ ActiveRecord::Schema.define(version: 20160330183631) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "major"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

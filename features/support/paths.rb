@@ -8,10 +8,13 @@ module NavigationHelpers
   def path_to(page_name)
     case page_name
 
-    when /^the signup page$/ then '/signup'
-    when /^the login page$/ then '/login'
+    when /^the signup page$/ then '/users/sign_up'
+    when /^the login page$/ then '/users/sign_in'
     when /^the join us page$/ then '/'
-    when /^the "(.*)" user page$/ then '/index/'+String(SignUser.find_by(username: $1) ? SignUser.find_by_username($1).id : '')
+    when /^the "(.*)" user page$/ then '/index/'+String(User.find_by(email: $1) ? User.find_by_email($1).id : '')
+    when /^the admin page$/ then '/admin'
+    when /^the profile page$/ then '/profile'
+
     when /^the home page of the website$/
       '/'
     when /^the home page of the forum$/
