@@ -1,7 +1,7 @@
 class InvitationController < ApplicationController
     def index
       if params[:email]
-          emails = params[:email]
+          emails = params[:email].strip()
           message = email_format_check(emails)
           if message != ""
             flash[:notice] = message 

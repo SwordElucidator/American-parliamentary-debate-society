@@ -30720,3 +30720,1257 @@ Processing by InvitationController#index as HTML
   Rendered invitation/index.html.erb within layouts/application (0.9ms)
   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
 Completed 200 OK in 376ms (Views: 293.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 24.130.122.234 at 2016-04-03 01:35:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (9779.9ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 10102ms (Views: 10073.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/header.jpg" for 24.130.122.234 at 2016-04-03 01:35:40 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 01:35:55 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 306ms (Views: 304.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 01:36:00 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 231ms (Views: 229.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:36:20 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i4viEstw/DGNuBt3VjSRPeK3dKcmp+tObEiUehjjzrPE4pNbtEzazwAgs9qEd+wbSnM7Fh/ax8fZdrbfIjRLOw==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 250ms (Views: 248.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:36:32 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D7I7gp31mq6UV4vomrmb1EszZLYqqRPAfge5JbqaCmlA20rL4sm8UBnPI0VI+uby4/crBxPUP0nLOZuAgE2P4Q==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 216ms (Views: 214.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:36:41 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZCXlYCy1CSId/UBBFsccZCgkR/zLnM+CiWgaqjqCZ1ErTJQpU4kv3JBl6OzEhGFCgOAITfLh4ws8VjgPAFXi2Q==", "email"=>"\r\n      www", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 274ms (Views: 271.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:36:52 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1dG3Cf/AjLZ3miBs0eac+v24r0RGEttfnyk3F0VFa2qauMZAgPyqSPoCiMEDpeHcVXzg9X9v99YqFxWyf5Lu4g==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 391ms (Views: 389.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:38:30 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OQv4GeoQQyW75ESIfjUeFCgi3HDeKZu7vmZBU6UfkQR2YolQlSxl2zZ87CWsdmMygOaTwedUtzILWGP2n8gUjA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 165ms (Views: 162.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:39:23 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wXb1ZbCmeXsY1ZHgvHqKtZpCpErPfIQaRsAVlV8ppzqOH4Qsz5pfhZVNOU1uOfeTMobr+/YBqJPz/jcwZf4isg==", "email"=>"\r\n      rrr", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 326ms (Views: 323.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 24.130.122.234 at 2016-04-03 01:41:34 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (762.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 1181ms (Views: 1134.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 01:41:40 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 411ms (Views: 407.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 01:41:41 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 322ms (Views: 320.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:41:53 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kveMrH/Sa+HW/WIyysVT7mR2BMjvTvnttBT1OpcuKObdnv3lAO5NH1tlyp8Yhi7IzLJLedYz1WQBKtefrfmtbg==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 225ms (Views: 222.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 24.130.122.234 at 2016-04-03 01:45:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1177.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 1576ms (Views: 1544.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 01:46:05 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 229ms (Views: 210.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 01:46:07 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (12.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 224ms (Views: 222.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:46:17 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8xQY+6gpWkWO1hzsfZeoW852G8bDKeLJTL34oPOJ9fC8fWmy1xV8uwNOtEGv1NV9ZrJUd/pUzkD5g9oFyV5weA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 241ms (Views: 237.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:48:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v76L63gK6lZUP4etTJavh6UjD64TCcHrcG7CdlvbteTw1/qiBzbMqNmnLwCe1dKhDedAHyp07WLFUODTYQwwbA==", "email"=>"leezhongliu@gmail.com\r\n      ", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "930813671c24cc6867d3a529e9e5a77629c6bdd2"], ["created_at", "2016-04-03 01:48:30.177247"], ["updated_at", "2016-04-03 01:48:30.177247"]]
+  [1m[35m (19.6ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.8ms)
+
+UserMailer#send_invitation: processed outbound mail in 562.7ms
+
+Sent mail to leezhongliu@gmail.com (846.1ms)
+Date: Sun, 03 Apr 2016 01:48:30 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@gmail.com
+Message-ID: <5700766eae700_1a903f88372d9c1441275@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  930813671c24cc6867d3a529e9e5a77629c6bdd2<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1782ms (Views: 183.4ms | ActiveRecord: 21.5ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:49:42 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"auUaKNFxtbb9mXWNqfbp7MqFGyhRwUbCNGLUE9j5X64ljGthrk2TSHAB3SB7tZTKYkFUmWi8akuBXPa24i7aJg==", "email"=>"\r\n      qqq", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 6664ms (Views: 6662.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/invitation.self-46f33e8865acfe7e97f68b3226c38ffc0798122c0fac04b9f37c1c63c122a678.css?body=1" for 24.130.122.234 at 2016-04-03 01:49:49 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:50:06 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YkfoO1ynkagJl2QZrj7I5dtnRLqwB7NhZy4vJyDSK0QtLplyI5u3VoQPzLR8fbXDc6MLC4l6n+jSEA2CGgWuzA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 297ms (Views: 295.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:50:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YkfoO1ynkagJl2QZrj7I5dtnRLqwB7NhZy4vJyDSK0QtLplyI5u3VoQPzLR8fbXDc6MLC4l6n+jSEA2CGgWuzA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 344ms (Views: 336.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-fe0d200b23e90fc6f521894478aa0ce99672db058139dcebb32039c04565ffa1.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:28 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:50:50 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YkfoO1ynkagJl2QZrj7I5dtnRLqwB7NhZy4vJyDSK0QtLplyI5u3VoQPzLR8fbXDc6MLC4l6n+jSEA2CGgWuzA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5174ms (Views: 5172.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:56 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 24.130.122.234 at 2016-04-03 01:50:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-2fc2f8ea8881d52d3ceb02e53f7ea00bbaec42874e5a7e8e45a77d9ede563f5a.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 24.130.122.234 at 2016-04-03 01:50:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:53:25 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YkfoO1ynkagJl2QZrj7I5dtnRLqwB7NhZy4vJyDSK0QtLplyI5u3VoQPzLR8fbXDc6MLC4l6n+jSEA2CGgWuzA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 260ms (Views: 257.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:25 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:25 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-2fc2f8ea8881d52d3ceb02e53f7ea00bbaec42874e5a7e8e45a77d9ede563f5a.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:25 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:53:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YkfoO1ynkagJl2QZrj7I5dtnRLqwB7NhZy4vJyDSK0QtLplyI5u3VoQPzLR8fbXDc6MLC4l6n+jSEA2CGgWuzA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 322ms (Views: 320.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-2fc2f8ea8881d52d3ceb02e53f7ea00bbaec42874e5a7e8e45a77d9ede563f5a.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:58 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 24.130.122.234 at 2016-04-03 01:53:59 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 24.130.122.234 at 2016-04-03 01:54:00 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:54:11 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"by2Ep+PIARwlVu1MlJYVrvPOntrQKBHNDw1ou+RBOkogRPXunPQn4qjOReFG1WiIWwrRa+lVPUS6M0oe3pa/wg==", "email"=>"\r\n      ggggg", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 250ms (Views: 209.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:54:25 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mn6Gb/P5ZEV5zzZrPKNwQvB8V23CViis4JA76NL+R7DVF/cmjMVCu/RXnsbu4A1kWLgY3PsrBCVVrhlN6CnCOA==", "email"=>"\r\n      l@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 270ms (Views: 268.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:55:50 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WBrTyrjyk1asCzHm4xNFFW+ZP4otkux8uEZ9DDWLytYXc6KDx861qCGTmUsxUDgzx11wOxTvwPUNeF+pD1xPXg==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 215ms (Views: 206.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:57:31 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"67cSRqcJvpIgugzqSpGXq2kI1rLwDguWK3BWyTz6w3Ck3mMP2DWYbK0ipEeY0uqNwcyZA8lzJx+eTnRsBi1G+A==", "email"=>"   leezhongliu@gmail.com\r\n      ", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 238ms (Views: 181.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 01:59:15 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gB9Wmu5GsKXK4HUwatRGrFZHRhIVzIOTERE3sZSt3DzPdifTkXqWW0d43Z24lzuK/oMJoyyxrxqkLxUUrnpZtA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "930813671c24cc6867d3a529e9e5a77629c6bdd2"], ["created_at", "2016-04-03 01:59:15.476325"], ["updated_at", "2016-04-03 01:59:15.476325"]]
+  [1m[35m (22.1ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.1ms)
+
+UserMailer#send_invitation: processed outbound mail in 74.0ms
+
+Sent mail to leezhongliu@gmail.com (695.8ms)
+Date: Sun, 03 Apr 2016 01:59:15 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@gmail.com
+Message-ID: <570078f37fde9_1a903f88379bd74c413ab@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  930813671c24cc6867d3a529e9e5a77629c6bdd2<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1053ms (Views: 182.7ms | ActiveRecord: 26.9ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 02:01:10 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5nH1NqQw6lNmVSPh8PQapafkkltKxEPmjf07pMO+k7epGIR/2wzMrevNi0wit2eDDyDd6nO5b284wxkB+WkWPw==", "email"=>"\r\n      leezhongliu@gmail.com     ,    leezhongliu84645779@berkeley.edu\r\nleezhongliu@163.com,leezhongliu@hotmail.com\r\n\r\n\r\nleezhongliu@yahoo.cn   ", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "930813671c24cc6867d3a529e9e5a77629c6bdd2"], ["created_at", "2016-04-03 02:01:11.077705"], ["updated_at", "2016-04-03 02:01:11.077705"]]
+  [1m[35m (13.4ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 57.0ms
+
+Sent mail to leezhongliu@gmail.com (682.2ms)
+Date: Sun, 03 Apr 2016 02:01:11 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@gmail.com
+Message-ID: <570079671e73c_1a903f8837e90c10414bb@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  930813671c24cc6867d3a529e9e5a77629c6bdd2<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)  [["code", "b42a3e6ed22b436eb4f989619343e69dd8489364"], ["created_at", "2016-04-03 02:01:11.878781"], ["updated_at", "2016-04-03 02:01:11.878781"]]
+  [1m[36m (13.7ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.1ms)
+
+UserMailer#send_invitation: processed outbound mail in 52.0ms
+
+Sent mail to leezhongliu84645779@berkeley.edu (648.1ms)
+Date: Sun, 03 Apr 2016 02:01:11 +0000
+From: acjwxc12138@126.com
+To: leezhongliu84645779@berkeley.edu
+Message-ID: <57007967e0a48_1a903f8837e90c104155d@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  b42a3e6ed22b436eb4f989619343e69dd8489364<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "89b616134ec0c2ebd0c204cf9c8affd96bd7badd"], ["created_at", "2016-04-03 02:01:12.680036"], ["updated_at", "2016-04-03 02:01:12.680036"]]
+  [1m[35m (16.5ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 54.4ms
+
+Sent mail to leezhongliu@163.com (699.8ms)
+Date: Sun, 03 Apr 2016 02:01:12 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@163.com
+Message-ID: <57007968b028f_1a903f8837e90c104162e@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  89b616134ec0c2ebd0c204cf9c8affd96bd7badd<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)  [["code", "1cf345d575d6424e28f4e148e70f0318a3d6ab83"], ["created_at", "2016-04-03 02:01:13.438268"], ["updated_at", "2016-04-03 02:01:13.438268"]]
+  [1m[36m (27.1ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.1ms)
+
+UserMailer#send_invitation: processed outbound mail in 65.5ms
+
+Sent mail to leezhongliu@hotmail.com (599.6ms)
+Date: Sun, 03 Apr 2016 02:01:13 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@hotmail.com
+Message-ID: <57007969778cb_1a903f8837e90c10417a7@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  1cf345d575d6424e28f4e148e70f0318a3d6ab83<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:13)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "7fdc9183e9c4c4467b7fff5718f52528203cfad3"], ["created_at", "2016-04-03 02:01:14.280947"], ["updated_at", "2016-04-03 02:01:14.280947"]]
+  [1m[35m (15.1ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 53.6ms
+
+Sent mail to leezhongliu@yahoo.cn (640.7ms)
+Date: Sun, 03 Apr 2016 02:01:14 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@yahoo.cn
+Message-ID: <5700796a4f0df_1a903f8837e90c10418d0@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  7fdc9183e9c4c4467b7fff5718f52528203cfad3<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 4187ms (Views: 175.5ms | ActiveRecord: 89.0ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 02:01:35 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M50w06nMExbKfsKYhpNNQi4pGpfi6ycAk2Bdgw7hvQR89EGa1vA16EfmajVU0DBkhu1VJtuWC4kmXn8mNDY4jA==", "email"=>"\r\n      leezhongliu@gmail.com     ,    leezhongliu84645779@berkeley.edu\r\nleezhongliu163.com,leezhongliu@hotmail.com\r\n\r\n\r\nleezhongliu@yahoo.cn", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 208ms (Views: 196.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 02:02:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"neBEmctmMXi0xp7SnmZhbnIFa7TJX6uWVMGqc6qmllrSiTXQtFoXhjleNn9MJRxI2sEkBfAihx/h/4jWkHET0g==", "email"=>"leezhongliu@gmail.com     ,    leezhongliu84645779@berkeley.edu\r\nleezhongliu@163.com,leezhongliu@hotmail.com\r\n\r\n\r\nleezhongliu@yahoo.cn\r\n      ", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)  [["code", "930813671c24cc6867d3a529e9e5a77629c6bdd2"], ["created_at", "2016-04-03 02:02:28.060450"], ["updated_at", "2016-04-03 02:02:28.060450"]]
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 84.8ms
+
+Sent mail to leezhongliu@gmail.com (721.0ms)
+Date: Sun, 03 Apr 2016 02:02:28 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@gmail.com
+Message-ID: <570079b41c544_1a903f88372adf74419c0@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  930813671c24cc6867d3a529e9e5a77629c6bdd2<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "b42a3e6ed22b436eb4f989619343e69dd8489364"], ["created_at", "2016-04-03 02:02:28.850480"], ["updated_at", "2016-04-03 02:02:28.850480"]]
+  [1m[35m (18.6ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 74.3ms
+
+Sent mail to leezhongliu84645779@berkeley.edu (631.0ms)
+Date: Sun, 03 Apr 2016 02:02:28 +0000
+From: acjwxc12138@126.com
+To: leezhongliu84645779@berkeley.edu
+Message-ID: <570079b4df49a_1a903f88372adf74420d@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  b42a3e6ed22b436eb4f989619343e69dd8489364<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)  [["code", "89b616134ec0c2ebd0c204cf9c8affd96bd7badd"], ["created_at", "2016-04-03 02:02:29.558670"], ["updated_at", "2016-04-03 02:02:29.558670"]]
+  [1m[36m (22.0ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 57.8ms
+
+Sent mail to leezhongliu@163.com (628.8ms)
+Date: Sun, 03 Apr 2016 02:02:29 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@163.com
+Message-ID: <570079b593eb0_1a903f88372adf7442194@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  89b616134ec0c2ebd0c204cf9c8affd96bd7badd<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "1cf345d575d6424e28f4e148e70f0318a3d6ab83"], ["created_at", "2016-04-03 02:02:30.247443"], ["updated_at", "2016-04-03 02:02:30.247443"]]
+  [1m[35m (12.3ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.9ms)
+
+UserMailer#send_invitation: processed outbound mail in 57.0ms
+
+Sent mail to leezhongliu@hotmail.com (646.0ms)
+Date: Sun, 03 Apr 2016 02:02:30 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@hotmail.com
+Message-ID: <570079b647d14_1a903f88372adf7442214@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  1cf345d575d6424e28f4e148e70f0318a3d6ab83<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)  [["code", "7fdc9183e9c4c4467b7fff5718f52528203cfad3"], ["created_at", "2016-04-03 02:02:31.085806"], ["updated_at", "2016-04-03 02:02:31.085806"]]
+  [1m[36m (15.2ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.1ms)
+
+UserMailer#send_invitation: processed outbound mail in 51.4ms
+
+Sent mail to leezhongliu@yahoo.cn (651.8ms)
+Date: Sun, 03 Apr 2016 02:02:31 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@yahoo.cn
+Message-ID: <570079b71e114_1a903f88372adf7442331@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  7fdc9183e9c4c4467b7fff5718f52528203cfad3<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 3958ms (Views: 176.9ms | ActiveRecord: 85.3ms)
