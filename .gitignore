@@ -1,3 +1,4 @@
-tmp
-coverage
-log
+/tmp
+/coverage
+/log
+/db/development.sqlite3
