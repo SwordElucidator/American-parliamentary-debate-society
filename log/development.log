@@ -31974,3 +31974,211 @@ Content-Transfer-Encoding: 7bit
   Rendered invitation/index.html.erb within layouts/application (0.8ms)
   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
 Completed 200 OK in 3958ms (Views: 176.9ms | ActiveRecord: 85.3ms)
+
+
+Started GET "/" for 24.130.122.234 at 2016-04-03 02:37:51 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1219.3ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 1665ms (Views: 1639.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/header.jpg" for 24.130.122.234 at 2016-04-03 02:37:53 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 02:38:05 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 236ms (Views: 234.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 02:38:11 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7SpbAXi2mrYE+h7PZdvm32Vn/1bVgnvmF+mHVtxAr1SiQypIB4q8SIlitmK3mJv5zaOw5+z/V2+i16Xz5pcq3A==", "email"=>"\r\n      leezhon", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 243ms (Views: 240.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 02:38:24 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sdCTqEwzR4hmbxs4PF42FW5cjRwJp2hxjtEgZ5ayTdz+ueLhMw9hduv3s5XuHUszxpjCrTDaRPg77wLCrGXIVA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)  [["code", "930813671c24cc6867d3a529e9e5a77629c6bdd2"], ["created_at", "2016-04-03 02:38:24.899366"], ["updated_at", "2016-04-03 02:38:24.899366"]]
+  [1m[36m (37.6ms)[0m  [1mcommit transaction[0m
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (1.6ms)
+
+UserMailer#send_invitation: processed outbound mail in 538.3ms
+
+Sent mail to leezhongliu@gmail.com (1027.5ms)
+Date: Sun, 03 Apr 2016 02:38:25 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@gmail.com
+Message-ID: <5700822166619_20aa3f84c8d6b0c88433@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  930813671c24cc6867d3a529e9e5a77629c6bdd2<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 1950ms (Views: 247.8ms | ActiveRecord: 39.7ms)
+
+
+Started GET "/" for 24.130.122.234 at 2016-04-03 03:01:35 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (723.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 1092ms (Views: 1069.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 03:01:43 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 243ms (Views: 241.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-03 03:01:43 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 285ms (Views: 284.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 03:01:50 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BVH2JjB6Bj+50JIGrOu00XB7b8RIVkYJQGbOzyQA84hKOIdvT0YgwTRIOqt+qMn32L8gdXEraoD1WOxqHtd2AA==", "email"=>"\r\n      123", "commit"=>"Generate Invitation Code"}
+  Rendered invitation/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 204ms (Views: 202.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 03:01:57 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B0685b/Tr0paqa3sHWQDLf57u7ZL9KAJN2bBllJRf7BIJ82swO+JtNcxBUHPJ34LVr/0B3KJjICCWOMzaIb6OA==", "email"=>"\r\n      123@123.com", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "171792a37ea369e68eb46e549ccd09f5802b197a"], ["created_at", "2016-04-03 03:01:57.747981"], ["updated_at", "2016-04-03 03:01:57.747981"]]
+  [1m[35m (12.7ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (5.6ms)
+
+UserMailer#send_invitation: processed outbound mail in 470.6ms
+
+Sent mail to 123@123.com (1006.3ms)
+Date: Sun, 03 Apr 2016 03:01:58 +0000
+From: acjwxc12138@126.com
+To: 123@123.com
+Message-ID: <570087a631c4d_26a93fe1cc88a138594d6@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  171792a37ea369e68eb46e549ccd09f5802b197a<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1803ms (Views: 173.8ms | ActiveRecord: 14.5ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-03 03:02:09 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YMnKh9wZeLYFZZOrL2rZZ2VyQlNBkUMR+9bv6E8vyPQvoLvOoyVeSIj9Owb9KaRBzbYN4njsb5hO6M1NdfhNfA==", "email"=>"\r\n      leezhongliu@gmail.com", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "930813671c24cc6867d3a529e9e5a77629c6bdd2"], ["created_at", "2016-04-03 03:02:10.026849"], ["updated_at", "2016-04-03 03:02:10.026849"]]
+  [1m[35m (45.6ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#send_invitation: processed outbound mail in 77.4ms
+
+Sent mail to leezhongliu@gmail.com (739.9ms)
+Date: Sun, 03 Apr 2016 03:02:10 +0000
+From: acjwxc12138@126.com
+To: leezhongliu@gmail.com
+Message-ID: <570087b217555_26a93fe1cdd4d868595ad@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  930813671c24cc6867d3a529e9e5a77629c6bdd2<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1037ms (Views: 208.7ms | ActiveRecord: 48.8ms)
