@@ -1,0 +1,22 @@
+<div class = "title">Invitation Code</div>
+  <div class = "message">
+    <% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, class: "alert alert-info" %>
+    <% end %>
+  </div>
+  <div class = "textarea">
+  <%= form_tag("/invitation", method: "post") do %>
+    <div class = "label">
+      <%= label_tag(:email, "Please enter your recipients' email addresses here (Please make sure each email address is seperated by space or comma)")%>
+    </div>
+    
+    <div class = "text_area">
+      <textarea name = "email" rows ="20" cols= "75">
+        
+      </textarea>
+    </div>
+    <div class = "submit_tag">
+      <%= submit_tag("Generate Invitation Code") %>
+    </div>
+  </div>
+  <% end %>

@@ -22,4 +22,6 @@ Rails.application.routes.draw do
   post '/forum', to: "posts#index"
   get '/profile', to: "profile#profile"
   post '/profile', to: "profile#profile", as: 'update_profile'
+  get '/invitation', to: "invitation#index"
+  post '/invitation', to: "invitation#index"
 end
