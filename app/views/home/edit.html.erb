@@ -1,0 +1,47 @@
+<div class ="wrapper", style="margin-top: 50px">
+  <h1>Edit the Home Page</h1>
+  <div class="container-edit">
+    <%= form_tag '/', :name => 'home-page-edits', :authenticity_token => "true" do |f| %>
+
+      <div class="container">
+        <h3>Heading</h3>
+        <p>Heading Title:</p>
+        <input type="text" name="heading_heading" class="input-title">
+        <p>Heading Content:</p>
+        <textarea type="text" name="heading_content" class="input-content" rows="5" cols="26"></textarea>        <p>Heading Image 1: </p>
+        <p>Heading Image 2: </p>
+        <p>Heading Image 3: </p>
+        <p>Heading Image 4: </p>
+
+      </div>
+
+      <div class="container">
+        <h3>About</h3>
+        <p>About Title: </p>
+        <input type="text" name="about_heading" class="input-title">
+        <p>About Content: </p>
+        <textarea type="text" name="about_content" class="input-content" rows="5" cols="26"></textarea>
+        <p>About Image: </p>
+      </div>
+
+      <div class="container">
+        <h3>Announcements</h3>
+        <p>Announcements Title:</p>
+        <input type="text" name="announcements_heading" class="input-title">
+        <p>Announcements Content:</p>
+        <textarea type="text" name="announcements_content" class="input-content" rows="5" cols="26"></textarea>        <p>Announcements Image: </p>
+      </div>
+
+      <div class="container">
+        <h3>Join</h3>
+        <p>Join Image: </p>
+        <p>Join Button 1: </p>
+        <p>Join Button 2: </p>
+        <p>Join Button 3: </p>
+      </div>
+
+      <br>
+      <input type="submit" value="Save">
+    <% end %>
+  </div>
+</div>

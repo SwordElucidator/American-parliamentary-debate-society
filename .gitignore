@@ -1,4 +1,7 @@
-/tmp
-/coverage
-/log
-/db/development.sqlite3
+tmp
+coverage
+log
+db/development.sqlite3
+.DS_Store
+app/views/.DS_Store
+app/DS_Store

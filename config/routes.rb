@@ -12,12 +12,9 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   root "home#index"
-  #post '/signupProcess', to: 'users#signupProcess'
-  #get '/signup', to: 'users#signup'
-  #post '/signup', to: 'users#signup'
+  post '/', to: 'home#index'
+  get '/home/edit', to: 'home#edit'
   get '/index/:id', to: 'users#homepage', as: 'customer'
-  #get '/login', to: 'users#login'
-  #post '/login', to: 'users#login'
   get '/forum', to: "posts#index"
   post '/forum', to: "posts#index"
   get '/profile', to: "profile#profile"
