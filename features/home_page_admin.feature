@@ -50,7 +50,11 @@ Feature: Editing the home page as an admin
         Then I go to the edit home page
         And I should see "James is God"
 
-
+    Scenario: Incorrect method of editing the about title
+        Given I am on the edit home page
+        And I type "James is God" in "About Title"
+        And I go to the home page
+        Then I should not see "James is God"
 
 
     # Scenario: Admin can edit the about image
