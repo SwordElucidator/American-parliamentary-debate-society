@@ -2,10 +2,18 @@ class HomeController < ApplicationController
     
   def index
     
-    # by SE(Hao)
-    # TODO I just use the current No.1 content from contents so it might be better to record and use the last later?...
-    # right now you may just save what you want to save into the "Content.find(1)" if we only need to change.
-    content = Content.find(1)
+    # Stores the saved updates
+    if params[:status] == "Saved"
+      Content.create(:heading_title => params[:heading_title],
+                     :heading_content => params[:heading_content],
+                     :about_title => params[:about_heading],
+                     :about_content => params[:about_content],
+                     :announcements_heading => params[:announcements_heading],
+                     :announcements_content => params[:announcements_content])
+    end
+
+    # Pulls information from the database and displays them in the webpage
+    content = Content.last
     
     @heading_title = content[:heading_title]
     
@@ -17,9 +25,6 @@ class HomeController < ApplicationController
       @about_content[i] = cnt
       i = i + 1
     end
-    
-    # @about_heading = params[:about_heading]
-    # @about_content = params[:about_content]
 
     @announcements_heading = content[:announcements_heading]
     @announcements_content = Array.new
@@ -29,8 +34,6 @@ class HomeController < ApplicationController
       @announcements_content[i] = cnt
       i = i + 1
     end
-    # @announcements_heading = params[:announcements_heading]
-    # @announcements_content = params[:announcements_content]
 
   end
 
