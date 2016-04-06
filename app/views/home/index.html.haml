@@ -1,5 +1,6 @@
 %div.container-fluid{:role => "header", :id => "home"}
-  %h1.title The Debate Society of Berkeley
+  %h1.title 
+    = @heading_title
   .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel"}}
     %ol
       %li.active{:data => {:target => "slide-images", :slide_to => "0"}}
@@ -19,12 +20,12 @@
   .row
     .col-lg-8.col-lg-offset-2
       .h1.title
-        = @about_heading
+        = @about_title
       .p
         - @about_content.each do |about|
           %br
           = about
-          %br
+      %br
 %div.container-fluid{:role => "information", :id => "announcements"}
   .row
     .col-lg-8.col-lg-offset-2
@@ -34,7 +35,7 @@
         - @announcements_content.each do |announcement|
           %br
           = announcement
-          %br
+        %br
 
 %div.container-fluid{:role => "information", :id => "join"}
   %h1.title Join Us

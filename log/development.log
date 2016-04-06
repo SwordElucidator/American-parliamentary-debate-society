@@ -42969,3 +42969,2096 @@ Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-04 20:04:15 -0700
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-05 23:12:34 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (17325.5ms)
+Completed 200 OK in 17667ms (Views: 17641.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-05 23:12:53 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/HOME/EDIT" for 136.152.142.26 at 2016-04-05 23:13:14 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/HOME/EDIT"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (254.9ms)
+
+
+Started GET "/home/edit" for 136.152.142.26 at 2016-04-05 23:13:22 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#edit as HTML
+  Rendered home/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 184ms (Views: 183.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 136.152.142.26 at 2016-04-05 23:13:40 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lvxfMiJxvIuH9oB8+FLoVk7zfTVbBlPPadL9AvbR4P/K+5VIxVnChJCsXVQh3I8ObCtWI2lu09ihEjIVH+NxaA==", "heading_heading"=>"balabala", "heading_content"=>"", "about_heading"=>"", "about_content"=>"", "announcements_heading"=>"", "announcements_content"=>""}
+  Rendered home/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 232ms (Views: 231.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-05 23:13:41 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddEditContent (20160405231645)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "contents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "heading_title" varchar, "heading_content" text, "heading_image_url" varchar, "about_title" varchar, "about_content" text, "announcements_heading" varchar, "announcements_content" text) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160405231645"]]
+  [1m[36m (16.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/admin" for 136.152.142.26 at 2016-04-05 23:24:46 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "invitations"[0m
+  [1m[35mInvitation Load (0.3ms)[0m  SELECT  "invitations".* FROM "invitations"  ORDER BY invitations.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (33.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (17.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (30.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (8.3ms)
+Completed 200 OK in 1191ms (Views: 867.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/jquery.iframe-transport.self-9d6de1e3d97369f20a85456477db38a3d2b674761f4a252275201ec0272793a4.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:47 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:47 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/effect.self-3acdb29e7da09c8f0195b994d2f04d73bfef50dc539c84fd2c835d964d33e5c1.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/rails_admin.self-afe9e399c04d42e6381e808314f378b44571d52de89930f5ed8380d3ef40c8a2.css?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.self-357a8f834a6b278f578acd51708542bff0852a75d8d583d0d761d3f387af5b4c.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/sortable.self-df2d80a36f9dfbe0facc596ccd92af83ca50d38e4cd6a84810aaf5d40b8cd181.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/position.self-e693ced4ecfa1a276f0b794f32c1d30d792764b08788bf68ecfa3b388c291333.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/menu.self-7abc1c9401509a7e4fc609b1e461be6fd17e8116e8fda19cc59d05ba79aefb68.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/moment-with-locales.self-c29e385ac561ac8d380cf9a68428251c3dd6b6f0f05f6114c6ae7e8114678db8.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui/autocomplete.self-3befc48aba87cead090cfd014562b2771a662ac6d2c8197b24c08b2d9f3d9f2d.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap-datetimepicker.self-9bf8b50ba86095fb5caaadd1ee11eaf661b3f4879f3ea5263d541e9804fd7b15.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.self-65a540a6a8e61569a39a37bd1456543ae5e5bbe48868247372bed40a1dff2bcf.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filter-box.self-7a15aaeea6101fb1e648df5848917eddd01c5c193ffae1e121224ec7e96d8647.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.self-0eadfce64f22b8e533f96e573e738fdf5af614af5729c772838b8d1383739035.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.self-29fedc7e0063905fecd8485d5a526f85b0d0c3f04de8416c2b56227e5b530528.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.remote-form.self-6ee31242b35c47eae247621696152697683860be737fcb9fc7705305736c9370.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.i18n.self-725ab24c454e18d4832f68df96ec4fffa6190faed5636160923a6d1162a1a0ba.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/jquery.pjax.self-aa02343d5b755c77fd76db8b2d2864cf2aebdba056b56e74b3b91f2e65207444.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.self-abecd3cd4d55ce44cbf00b87d2f612d570af5e7fe5701d05135d60f8c07e7d37.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_nested_form.self-d38045d10ebdd28aac44152cb451796232091957b86b47bedad1ab171a3a12cd.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:49 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap-typeahead.self-2621ced336904d375bef144d46edd9d304889e09c6559d64df325bbd10f4ce8a.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ra.widgets.self-b707ff6592e3d3359ef77e61d1161a0370c5663c303eb0a5cec459fbf1fa7229.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/bootstrap/bootstrap.self-94f59a48294d99f8d9b7632cd5a1742670c7735fe37ec7c555aab939b635fdde.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/ui.self-5f1671365225e7918e5bf4cb99fc38b189e81884fb859682f79a683f41ee19b7.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/custom/ui.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/rails_admin/rails_admin.self-ab9f3e5c71b96d0ca434851ecacc97b0fc3a0e8d96ab171916e9d5fdd10ef15b.js?body=1" for 136.152.142.26 at 2016-04-05 23:24:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin" for 136.152.142.26 at 2016-04-05 23:25:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "invitations"
+  [1m[36mInvitation Load (0.3ms)[0m  [1mSELECT  "invitations".* FROM "invitations"  ORDER BY invitations.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (83.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (19.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (6.9ms)
+Completed 200 OK in 1937ms (Views: 1529.1ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-05 23:25:37 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 308ms (Views: 306.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-05 23:25:38 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin" for 136.152.142.26 at 2016-04-05 23:25:40 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "invitations"
+  [1m[36mInvitation Load (0.4ms)[0m  [1mSELECT  "invitations".* FROM "invitations"  ORDER BY invitations.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (21.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (2.1ms)
+Completed 200 OK in 375ms (Views: 337.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:27:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (2, 1)[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (160.5ms)
+Completed 200 OK in 323ms (Views: 174.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/invitation?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:27:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"invitation"}
+  [1m[35mInvitation Load (0.5ms)[0m  SELECT  "invitations".* FROM "invitations"  ORDER BY invitations.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "invitations"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (274.2ms)
+Completed 200 OK in 307ms (Views: 294.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:27:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (2, 1)[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (82.9ms)
+Completed 200 OK in 99ms (Views: 91.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:32:32 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (88.9ms)
+Completed 200 OK in 138ms (Views: 104.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:32:33 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (84.8ms)
+Completed 200 OK in 122ms (Views: 110.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:32:34 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.id desc LIMIT 20 OFFSET 0
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "posts"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (100.4ms)
+Completed 200 OK in 149ms (Views: 124.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:32:35 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (78.0ms)
+Completed 200 OK in 123ms (Views: 100.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:32:46 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY posts.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (63.2ms)
+Completed 200 OK in 98ms (Views: 78.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:32:55 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (46.8ms)
+Completed 200 OK in 79ms (Views: 71.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/comment?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:33:04 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"comment"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.id desc LIMIT 20 OFFSET 0
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" IN (2, 1)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (73.1ms)
+Completed 200 OK in 107ms (Views: 84.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/invitation?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:33:05 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"invitation"}
+  [1m[35mInvitation Load (0.3ms)[0m  SELECT  "invitations".* FROM "invitations"  ORDER BY invitations.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "invitations"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (226.8ms)
+Completed 200 OK in 258ms (Views: 246.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/post?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:33:06 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"post"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.id desc LIMIT 20 OFFSET 0
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1)[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "posts"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (55.7ms)
+Completed 200 OK in 85ms (Views: 71.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:33:08 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (45.8ms)
+Completed 200 OK in 74ms (Views: 64.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/invitation?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:33:09 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"invitation"}
+  [1m[36mInvitation Load (0.5ms)[0m  [1mSELECT  "invitations".* FROM "invitations"  ORDER BY invitations.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "invitations"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (367.1ms)
+Completed 200 OK in 402ms (Views: 388.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:33:10 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (60.0ms)
+Completed 200 OK in 87ms (Views: 78.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/user" for 136.152.142.26 at 2016-04-05 23:40:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"user"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (55.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (13.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (6.0ms)
+Completed 200 OK in 402ms (Views: 391.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/admin/user" for 136.152.142.26 at 2016-04-05 23:42:13 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"user"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (45.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (11.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (6.2ms)
+Completed 200 OK in 310ms (Views: 299.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin/" for 136.152.142.26 at 2016-04-05 23:42:18 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "invitations"[0m
+  [1m[35mInvitation Load (0.3ms)[0m  SELECT  "invitations".* FROM "invitations"  ORDER BY invitations.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (20.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (1.8ms)
+Completed 200 OK in 329ms (Views: 288.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/admin/" for 136.152.142.26 at 2016-04-05 23:44:32 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY comments.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "contents"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "invitations"[0m
+  [1m[35mInvitation Load (0.3ms)[0m  SELECT  "invitations".* FROM "invitations"  ORDER BY invitations.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY posts.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY users.updated_at desc LIMIT 1
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (51.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (19.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (26.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (3.0ms)
+Completed 200 OK in 1894ms (Views: 1577.3ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/admin/content?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:44:37 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "contents"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (38.5ms)
+Completed 200 OK in 78ms (Views: 58.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/content/new?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:44:42 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (87.0ms)
+Completed 200 OK in 119ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/content/new" for 136.152.142.26 at 2016-04-05 23:48:19 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3RncJWa6OOjdLjk9baQxjkKgrdQ2BOJjuC+OzgwCrmiBHhZfgZJG58p05BW0KlbWYHiGwgRsYnRw70HZ5TA//w==", "content"=>{"heading_title"=>"We're the Debate Society of Berkeley!", "heading_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.</br>New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.</br>No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "heading_image_url"=>"", "about_title"=>"", "about_content"=>"", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "contents" ("heading_title", "heading_content", "heading_image_url", "about_title", "about_content", "announcements_heading", "announcements_content") VALUES (?, ?, ?, ?, ?, ?, ?)  [["heading_title", "We're the Debate Society of Berkeley!"], ["heading_content", "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.</br>New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.</br>No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."], ["heading_image_url", ""], ["about_title", ""], ["about_content", ""], ["announcements_heading", "Announcements"], ["announcements_content", "This is a sample announcement."]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 36ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-05 23:48:19 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "contents"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (41.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (9.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (5.9ms)
+Completed 200 OK in 333ms (Views: 325.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:48:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (1.9ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (83.1ms)
+Completed 200 OK in 165ms (Views: 114.4ms | ActiveRecord: 1.9ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-05 23:49:30 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zDi+bOvLlBKY62r54zboPUyHHjPRT1kG2gY0mz5CtO6QP3QWDOPqHY+xt9E6uI9lbl81JeMn2RESxvuM13AleQ==", "content"=>{"heading_title"=>"We're the Debate Society of Berkeley!", "heading_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.</br>New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.</br>No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "heading_image_url"=>"", "about_title"=>"", "about_content"=>"", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.2ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 19ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-05 23:49:30 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[35mContent Load (0.5ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "contents"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (51.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (7.4ms)
+Completed 200 OK in 301ms (Views: 292.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:51:44 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (45.7ms)
+Completed 200 OK in 95ms (Views: 72.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-05 23:56:48 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (22.7ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for #<String:0x007f404d4447a8>):
+    22:         = @about_heading
+    23:       .p
+    24:         %br
+    25:         = @about_content.each
+    26:         %br
+    27: %div.container-fluid{:role => "information", :id => "announcements"}
+    28:   .row
+  app/views/home/index.html.haml:25:in `_app_views_home_index_html_haml___243363578654292237_69957075310560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (116.6ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-05 23:57:39 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FJZHTLBV1lCFP0VqrwNn4mqLRGMrHfixi2WiuZzWBHdIkY02V32oX5JlmEJ2jQC6SFNvdRl1eKZDpW2udeSV4A==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.</br>New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.</br>No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.4ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "contents" SET "heading_title" = ?, "heading_content" = ?, "about_title" = ?, "about_content" = ? WHERE "contents"."id" = ?[0m  [["heading_title", ""], ["heading_content", ""], ["about_title", "We're the Debate Society of Berkeley!"], ["about_content", "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.</br>New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.</br>No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."], ["id", 1]]
+  [1m[35m (35.3ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 69ms (ActiveRecord: 38.0ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-05 23:57:39 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[36mContent Load (0.4ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "contents"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (34.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (12.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (16.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (8.4ms)
+Completed 200 OK in 356ms (Views: 349.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-05 23:58:43 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (20.7ms)
+Completed 200 OK in 281ms (Views: 279.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-05 23:58:44 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-05 23:58:54 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (52.7ms)
+Completed 200 OK in 109ms (Views: 83.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-05 23:59:30 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 164ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:02:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"weayYLytEg6xRRqWBK8VQQGpv2cSA6V2JJ7mwFgKxeSd4XgaW4VsAaYfx77dIXIZI3GUcSBrJWHsXinXsThUcw==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.</br>New debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.</br>No prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_continue"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (1.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Filter chain halted as :check_for_cancel rendered or redirected
+Completed 302 Found in 31ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:02:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[36mContent Load (0.4ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "contents"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (54.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (17.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (27.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (41.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (10.4ms)
+Completed 200 OK in 643ms (Views: 625.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:03:23 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 140ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:03:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:03:56 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 233ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:03:57 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:05:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 176ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:05:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-06 00:07:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.2ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (54.8ms)
+Completed 200 OK in 104ms (Views: 85.3ms | ActiveRecord: 1.2ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:08:13 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kjVVCnmgisE0sSMjWl4UGkr6xFCqa2O8FLjw0V+MwK/OMp9wnoj0ziPr/guD0HNCaCLvRpgD46vceD/Gtr5ROA==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "contents" SET "about_content" = ? WHERE "contents"."id" = ?  [["about_content", "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."], ["id", 1]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 36ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:08:13 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "contents"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (36.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (12.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (6.2ms)
+Completed 200 OK in 301ms (Views: 284.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:13:22 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.1ms)
+
+NoMethodError (undefined method `about_heading' for #<Content:0x007f405fa4acd0>):
+  app/controllers/home_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.3ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:14:31 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (0.4ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 238ms (Views: 216.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:14:32 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:14:55 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 177ms (Views: 153.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-06 00:15:03 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.4ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (48.2ms)
+Completed 200 OK in 91ms (Views: 79.5ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:15:12 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xeHhsK3nRE4jlM5JIg/htY5nVaR9Ldwax5e+9yfZrAmZ5ivKSs86QTTOE2H7gYbtrL9+sk9FXA0PV3Hgzus9ng==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement by SE."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "contents" SET "announcements_content" = ? WHERE "contents"."id" = ?  [["announcements_content", "This is a sample announcement by SE."], ["id", 1]]
+  [1m[36m (22.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 55ms (ActiveRecord: 23.4ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:15:12 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[35mContent Load (0.4ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "contents"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (36.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (16.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (6.4ms)
+Completed 200 OK in 348ms (Views: 339.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:15:13 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 175ms (Views: 172.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:17:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 324ms (Views: 303.9ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:18:09 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 249ms (Views: 226.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-06 00:18:19 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (39.9ms)
+Completed 200 OK in 70ms (Views: 62.5ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:18:35 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C4B+HufiYVEQSdOdK+N8yJFrPkAaPwu9weXtb1OgXGVXh7RkAMofXgcTDrXybRuQs7MVVihXi6oJJSJ4upLN8g==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement by SE."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 19ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:18:35 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "contents"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (39.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (17.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (3.9ms)
+Completed 200 OK in 348ms (Views: 338.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-06 00:19:13 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (81.5ms)
+Completed 200 OK in 119ms (Views: 110.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:19:41 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EeKrp2cx2KZG8gX3flX47W3SvAaCllz87DdazDPi2ytN5WHdgBmmqVGo2N+n25+1TwqXELD+3Osk95Xb2tBKvA==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.</br>Networking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement by SE."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_continue"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Filter chain halted as :check_for_cancel rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:19:41 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "contents"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (44.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (12.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (4.8ms)
+Completed 200 OK in 334ms (Views: 326.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-06 00:20:05 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.2ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (43.9ms)
+Completed 200 OK in 67ms (Views: 60.2ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:21:01 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KduASlLQgsSx0jd6DKENW6VJt0JGzzTWaBapptBGB9513Eowtfj8y6aI6lLVL2oDh5GcVHSntMGg1maxOXSWSQ==", "content"=>{"heading_title"=>"", "heading_content"=>"", "heading_image_url"=>"", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\r\n\r\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\n\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\n\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement by SE."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "contents" SET "about_content" = ? WHERE "contents"."id" = ?  [["about_content", "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\r\n\r\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\n\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\n\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."], ["id", 1]]
+  [1m[36m (13.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 26ms (ActiveRecord: 13.9ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:21:01 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[35mContent Load (0.5ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "contents"[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (43.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (14.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (9.9ms)
+Completed 200 OK in 311ms (Views: 305.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:21:19 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 178ms (Views: 176.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:20 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:21:21 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:22:14 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 228ms (Views: 201.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:15 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:15 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:15 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:15 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:15 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:15 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:16 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:22:17 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 180ms (Views: 159.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:50 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:22:51 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:22:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:23:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 211ms (Views: 208.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:26 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:23:27 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 185ms (Views: 170.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/invitation.self-4adf4b8f7f505c7570a94c9b39824710cda0e610e2108efe0bbd98000c98c91a.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-af02c0a8c50e6542361b0411eabfb081f335f8210e26803d41942ff6cab870f0.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e2c83501967e7fd80b197ad6491dbf445ef175e3cd874eb3814e7b6d73607e8d.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-5ed249b7de4e5f4e83b5ecf99dbe73ca0682f077eadaafcca55466d58a5ed76b.css?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:24 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.26 at 2016-04-06 00:24:25 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:25:29 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (21.5ms)
+Completed 200 OK in 178ms (Views: 165.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/content/1/edit?_pjax=%5Bdata-pjax-container%5D" for 136.152.142.26 at 2016-04-06 00:26:35 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"content", "id"=>"1"}
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (45.1ms)
+Completed 200 OK in 96ms (Views: 78.9ms | ActiveRecord: 1.7ms)
+
+
+Started PUT "/admin/content/1/edit" for 136.152.142.26 at 2016-04-06 00:27:14 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lzkAhpU/NqJA43dHB0yzGlpk88Wry+7xB1kaUGjqoE7LPsr8chdIrVe5qm/ewtRCeLzY05mjbubPmdVHgdgx2Q==", "content"=>{"heading_title"=>"The Debate Society of Berkeley", "heading_content"=>"", "heading_image_url"=>"TODO", "about_title"=>"We're the Debate Society of Berkeley!", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\r\n\r\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\n\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\n\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement by SE."}, "return_to"=>"https://cs169-swordelucidator.c9users.io/admin/content", "_save"=>"", "model_name"=>"content", "id"=>"1"}
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ?  ORDER BY "contents"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "contents" SET "heading_title" = ?, "heading_image_url" = ? WHERE "contents"."id" = ?[0m  [["heading_title", "The Debate Society of Berkeley"], ["heading_image_url", "TODO"], ["id", 1]]
+  [1m[35m (18.8ms)[0m  commit transaction
+Redirected to https://cs169-swordelucidator.c9users.io/admin/content
+Completed 302 Found in 82ms (ActiveRecord: 19.9ms)
+
+
+Started GET "/admin/content" for 136.152.142.26 at 2016-04-06 00:27:14 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"content"}
+  [1m[36mContent Load (0.4ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY contents.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "contents"
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (108.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (14.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (27.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (7.3ms)
+Completed 200 OK in 615ms (Views: 588.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:28:52 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 276ms (Views: 250.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:29:00 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (52.6ms)
+Completed 200 OK in 245ms (Views: 242.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 136.152.142.26 at 2016-04-06 00:29:08 +0000
+Cannot render console from 136.152.142.26! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mContent Load (8.2ms)[0m  [1mSELECT  "contents".* FROM "contents" WHERE "contents"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 376ms (Views: 364.9ms | ActiveRecord: 8.2ms)
