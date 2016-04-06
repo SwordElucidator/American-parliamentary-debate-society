@@ -29,18 +29,12 @@ Feature: Forum
     Then I should not be on the home page of the forum
     
     Scenario: users will receive notice when delete a comment
-    Given I am on the home page of the forum
-    When I follow "New Post"
-    And I fill in "post_title" with "test title"
-    And I press "Create Post"
+    Given I am on the "TEST" detail page
     And I press "Create Comment"
     And I follow "Delete"
     Then I should not be on the "test title" detail page
     
-    
-    As a forum user, I want to see different sections of the forum, 
-    so that I can write/read posts according to topic.
-    
+
     Scenario: users can click into one section
     Given I am on the home page of the forum
     When I follow "General1"
