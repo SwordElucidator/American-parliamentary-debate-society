@@ -1,0 +1,16 @@
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<%= form_tag("/mockdebate/create", method: "post") do %>
+  <%= label_tag(:topic, "Topic of the mock debate:") %>
+  <%= text_field_tag(:topic) %>
+  <%= label_tag(:time, "Time of the mock debate:") %>
+  <%= text_field_tag(:time) %>
+  <%= label_tag(:location, "location of the mock debate:") %>
+  <%= text_field_tag(:location) %>
+  <%= submit_tag("Create") %>
+<% end %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160331193350) do
+ActiveRecord::Schema.define(version: 20160405202455) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -23,6 +23,15 @@ ActiveRecord::Schema.define(version: 20160331193350) do
 
   add_index "comments", ["post_id"], name: "index_comments_on_post_id"
   add_index "comments", ["user_id"], name: "index_comments_on_user_id"
+
+  create_table "debates", force: :cascade do |t|
+    t.string   "topic"
+    t.string   "location"
+    t.datetime "time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 
   create_table "invitations", force: :cascade do |t|
     t.string   "code"
@@ -50,22 +59,35 @@ ActiveRecord::Schema.define(version: 20160331193350) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "slots", force: :cascade do |t|
+    t.string   "slottype"
+    t.string   "status"
+    t.datetime "time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "user_id"
+    t.integer  "debate_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+    t.string   "username"
+    t.string   "password"
     t.integer  "sign_in_count",          default: 0,  null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
     t.string   "firstname"
     t.string   "lastname"
     t.string   "major"
+    t.datetime "time"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
