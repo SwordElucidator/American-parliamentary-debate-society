@@ -31976,6 +31976,7 @@ Content-Transfer-Encoding: 7bit
 Completed 200 OK in 3958ms (Views: 176.9ms | ActiveRecord: 85.3ms)
 
 
+<<<<<<< HEAD
 Started GET "/" for 24.130.122.234 at 2016-04-03 02:37:51 +0000
 Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -55115,3 +55116,557 @@ Processing by DebateController#index as HTML
   [1m[35mSlot Load (0.3ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 14]]
   Rendered debate/index.html.erb within layouts/application (120.0ms)
 Completed 200 OK in 602ms (Views: 554.4ms | ActiveRecord: 27.1ms)
+=======
+Started GET "/" for 136.152.142.10 at 2016-04-06 00:27:32 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (12773.4ms)
+Completed 200 OK in 13127ms (Views: 13108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-07de90cf826b326df5607196346d31f9e40696806f2195ebcbc6b5c30bfa04d0.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-3b747fee5c6ea034978797a3c4562c6745c4fa8fa2c5c89b20a34a222a7d541c.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:46 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-a698535e72c85d1a6d1c289f2c91b590ec6e019cd259e99e667daf2b17f4166a.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/header.jpg" for 136.152.142.10 at 2016-04-06 00:27:47 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 200ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-07de90cf826b326df5607196346d31f9e40696806f2195ebcbc6b5c30bfa04d0.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-8cc1fb148a0f3c94613b23d4102fc77ff18d76e8eb6cef0e55d7f3daf3a0b539.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/invitation.self-3b747fee5c6ea034978797a3c4562c6745c4fa8fa2c5c89b20a34a222a7d541c.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/login.self-74c26c252ba70e48acc67a2a605caef96403ce3c8fdc576cd2305eedbf05917c.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/forum.self-a698535e72c85d1a6d1c289f2c91b590ec6e019cd259e99e667daf2b17f4166a.css?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/navigation.self-caefb8aefdeb784cc964adc697709046be262f7352744067efb735595e7dd9fb.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/profile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 136.152.142.10 at 2016-04-06 00:27:55 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/forum" for 136.152.142.10 at 2016-04-06 00:28:23 +0000
+Cannot render console from 136.152.142.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/posts (108.2ms)
+Completed 200 OK in 331ms (Views: 307.5ms | ActiveRecord: 2.2ms)
+>>>>>>> 592237a41d1b0e6400b2691580eebf1299ffa401
+
+
+Started GET "/" for 24.130.122.234 at 2016-04-07 02:21:52 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1061.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 1504ms (Views: 1472.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/header.jpg" for 24.130.122.234 at 2016-04-07 02:21:54 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/mockdebate" for 24.130.122.234 at 2016-04-07 02:22:15 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  [1m[36mDebate Load (0.5ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mSlot Load (0.4ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 12]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mSlot Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1[0m  [["user_id", 2], ["id", 67]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSlot Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1[0m  [["user_id", 2], ["id", 69]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSlot Load (0.3ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 13]]
+  [1m[35mSlot Load (0.4ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (276.5ms)
+Completed 200 OK in 580ms (Views: 555.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/invitation" for 24.130.122.234 at 2016-04-07 02:22:16 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Rendered invitation/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 329ms (Views: 327.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/invitation" for 24.130.122.234 at 2016-04-07 02:22:41 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InvitationController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KLo2exAnJu8ME8bz0pAHq8gMSqGysl7AUWjSpK3kZQks5bl1/pUc9QEUZuAYm1XY0xrw+fUtCLDErMd8wB/dBA==", "email"=>"\r\n    zhangjinge588@gmail.com", "commit"=>"Generate Invitation Code"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in index at /home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb:11)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "invitations" ("code", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["code", "4620124146a1d9f4e34f71642cf0f05725b45578"], ["created_at", "2016-04-07 02:22:41.691008"], ["updated_at", "2016-04-07 02:22:41.691008"]]
+  [1m[35m (13.3ms)[0m  commit transaction
+  Rendered user_mailer/send_invitation.html.erb within layouts/mailer (0.8ms)
+
+UserMailer#send_invitation: processed outbound mail in 411.6ms
+
+Sent mail to zhangjinge588@gmail.com (1231.6ms)
+Date: Thu, 07 Apr 2016 02:22:42 +0000
+From: acjwxc12138@126.com
+To: zhangjinge588@gmail.com
+Message-ID: <5705c4721cdaf_47f43f9638753d30990a5@leezhongliu84645779-myworkspace-2446528.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to American Parliamentary Debate Society</h1>
+    <p>
+      your invitation code is  4620124146a1d9f4e34f71642cf0f05725b45578<br>
+    </p>
+    <p>
+      To login to the site, just follow this link.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendered invitation/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 1881ms (Views: 162.8ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/mockdebate" for 24.130.122.234 at 2016-04-07 02:23:18 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  [1m[35mDebate Load (0.3ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mSlot Load (0.3ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 12]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mSlot Exists (0.2ms)[0m  SELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1  [["user_id", 2], ["id", 67]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Exists (0.2ms)[0m  SELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1  [["user_id", 2], ["id", 69]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 13]]
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 188ms (Views: 184.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/mockdebate" for 24.130.122.234 at 2016-04-07 02:23:19 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  [1m[35mDebate Load (0.4ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 12]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mSlot Exists (0.2ms)[0m  SELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1  [["user_id", 2], ["id", 67]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Exists (0.2ms)[0m  SELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1  [["user_id", 2], ["id", 69]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 13]]
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 267ms (Views: 264.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/mockdebate?debateid=12&id=68&method=get&value=register" for 24.130.122.234 at 2016-04-07 02:23:22 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  Parameters: {"debateid"=>"12", "id"=>"68", "method"=>"get", "value"=>"register"}
+  [1m[35mDebate Load (0.5ms)[0m  SELECT  "debates".* FROM "debates" WHERE "debates"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mSlot Load (0.4ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."user_id" = ?  [["user_id", 2]]
+  [1m[36mSlot Load (4.9ms)[0m  [1mSELECT  "slots".* FROM "slots" WHERE "slots"."id" = ? LIMIT 1[0m  [["id", 68]]
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "slots" SET "status" = ?, "updated_at" = ? WHERE "slots"."id" = ?[0m  [["status", "full"], ["updated_at", "2016-04-07 02:23:22.183085"], ["id", 68]]
+  [1m[35m (18.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "slots" SET "user_id" = ?, "updated_at" = ? WHERE "slots"."id" = ?  [["user_id", 2], ["updated_at", "2016-04-07 02:23:22.217192"], ["id", 68]]
+  [1m[36m (15.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mDebate Load (0.4ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mSlot Load (0.6ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 12]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSlot Load (0.3ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 13]]
+  [1m[35mSlot Load (0.4ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 359ms (Views: 263.2ms | ActiveRecord: 44.7ms)
+
+
+Started GET "/mockdebate?debateid=12&id=70&method=get&value=register" for 24.130.122.234 at 2016-04-07 02:23:24 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  Parameters: {"debateid"=>"12", "id"=>"70", "method"=>"get", "value"=>"register"}
+  [1m[36mDebate Load (0.3ms)[0m  [1mSELECT  "debates".* FROM "debates" WHERE "debates"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mSlot Exists (0.3ms)[0m  SELECT  1 AS one FROM "slots" WHERE "slots"."debate_id" = ? AND "slots"."id" = ? LIMIT 1  [["debate_id", 12], ["id", 68]]
+  [1m[36mDebate Load (0.4ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 12]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 13]]
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 198ms (Views: 189.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/mockdebate?debateid=12&id=68&method=get&value=cancel" for 24.130.122.234 at 2016-04-07 02:23:26 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  Parameters: {"debateid"=>"12", "id"=>"68", "method"=>"get", "value"=>"cancel"}
+  [1m[35mSlot Load (0.2ms)[0m  SELECT  "slots".* FROM "slots" WHERE "slots"."id" = ? LIMIT 1  [["id", 68]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "slots" SET "status" = ?, "updated_at" = ? WHERE "slots"."id" = ?  [["status", "empty"], ["updated_at", "2016-04-07 02:23:26.219662"], ["id", 68]]
+  [1m[36m (28.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "slots" SET "user_id" = NULL WHERE "slots"."user_id" = ? AND "slots"."id" = 68  [["user_id", 2]]
+  [1m[36m (13.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mDebate Load (0.5ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 12]]
+  [1m[36mSlot Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1[0m  [["user_id", 2], ["id", 67]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSlot Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "slots" WHERE "slots"."user_id" = ? AND "slots"."id" = ? LIMIT 1[0m  [["user_id", 2], ["id", 69]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSlot Load (0.3ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 13]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 285ms (Views: 220.7ms | ActiveRecord: 45.8ms)
+
+
+Started GET "/mockdebate?debateid=12&id=68&method=get&value=register" for 24.130.122.234 at 2016-04-07 02:23:27 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  Parameters: {"debateid"=>"12", "id"=>"68", "method"=>"get", "value"=>"register"}
+  [1m[36mDebate Load (0.2ms)[0m  [1mSELECT  "debates".* FROM "debates" WHERE "debates"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT  "slots".* FROM "slots" WHERE "slots"."id" = ? LIMIT 1  [["id", 68]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "slots" SET "status" = ?, "updated_at" = ? WHERE "slots"."id" = ?  [["status", "full"], ["updated_at", "2016-04-07 02:23:27.833234"], ["id", 68]]
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "slots" SET "user_id" = ?, "updated_at" = ? WHERE "slots"."id" = ?[0m  [["user_id", 2], ["updated_at", "2016-04-07 02:23:27.849780"], ["id", 68]]
+  [1m[35m (10.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mDebate Load (0.5ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 12]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 13]]
+  [1m[36mSlot Load (1.3ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 219ms (Views: 175.0ms | ActiveRecord: 27.1ms)
+
+
+Started GET "/mockdebate?debateid=13&id=75&method=get&value=register" for 24.130.122.234 at 2016-04-07 02:23:29 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  Parameters: {"debateid"=>"13", "id"=>"75", "method"=>"get", "value"=>"register"}
+  [1m[35mDebate Load (0.3ms)[0m  SELECT  "debates".* FROM "debates" WHERE "debates"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mUser Load (3.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."user_id" = ?  [["user_id", 2]]
+  [1m[36mSlot Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "slots" WHERE "slots"."debate_id" = ? AND "slots"."id" = ? LIMIT 1[0m  [["debate_id", 13], ["id", 68]]
+  [1m[35mSlot Load (0.3ms)[0m  SELECT  "slots".* FROM "slots" WHERE "slots"."id" = ? LIMIT 1  [["id", 75]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "slots" SET "status" = ?, "updated_at" = ? WHERE "slots"."id" = ?  [["status", "full"], ["updated_at", "2016-04-07 02:23:29.297268"], ["id", 75]]
+  [1m[36m (14.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "slots" SET "user_id" = ?, "updated_at" = ? WHERE "slots"."id" = ?[0m  [["user_id", 2], ["updated_at", "2016-04-07 02:23:29.315603"], ["id", 75]]
+  [1m[35m (12.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+  [1m[36mDebate Load (0.5ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mSlot Load (0.3ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 12]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSlot Load (0.4ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 13]]
+  [1m[36mSlot Load (0.4ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 245ms (Views: 190.9ms | ActiveRecord: 34.4ms)
+
+
+Started GET "/mockdebate?debateid=14&id=83&method=get&value=register" for 24.130.122.234 at 2016-04-07 02:23:31 +0000
+Cannot render console from 24.130.122.234! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DebateController#index as HTML
+  Parameters: {"debateid"=>"14", "id"=>"83", "method"=>"get", "value"=>"register"}
+  [1m[35mDebate Load (0.3ms)[0m  SELECT  "debates".* FROM "debates" WHERE "debates"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."user_id" = ?  [["user_id", 2]]
+  [1m[36mSlot Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "slots" WHERE "slots"."debate_id" = ? AND "slots"."id" = ? LIMIT 1[0m  [["debate_id", 14], ["id", 68]]
+  [1m[35mSlot Exists (0.3ms)[0m  SELECT  1 AS one FROM "slots" WHERE "slots"."debate_id" = ? AND "slots"."id" = ? LIMIT 1  [["debate_id", 14], ["id", 75]]
+  [1m[36mSlot Load (0.1ms)[0m  [1mSELECT  "slots".* FROM "slots" WHERE "slots"."id" = ? LIMIT 1[0m  [["id", 83]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "slots" SET "status" = ?, "updated_at" = ? WHERE "slots"."id" = ?[0m  [["status", "full"], ["updated_at", "2016-04-07 02:23:31.301043"], ["id", 83]]
+  [1m[35m (18.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "slots" SET "user_id" = ?, "updated_at" = ? WHERE "slots"."id" = ?  [["user_id", 2], ["updated_at", "2016-04-07 02:23:31.324697"], ["id", 83]]
+  [1m[36m (12.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mDebate Load (0.4ms)[0m  SELECT "debates".* FROM "debates"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "debates".* FROM "debates"[0m
+  [1m[35mSlot Load (0.2ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 12]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSlot Load (0.2ms)[0m  [1mSELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?[0m  [["debate_id", 13]]
+  [1m[35mSlot Load (0.3ms)[0m  SELECT "slots".* FROM "slots" WHERE "slots"."debate_id" = ?  [["debate_id", 14]]
+  Rendered debate/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 244ms (Views: 176.3ms | ActiveRecord: 34.7ms)

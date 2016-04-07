@@ -24,9 +24,11 @@ Rails.application.routes.draw do
   post '/profile', to: "profile#profile", as: 'update_profile'
   get '/invitation', to: "invitation#index"
   post '/invitation', to: "invitation#index"
+
   get '/mockdebate', to: "debate#index"
   get '/mockdebate/create', to: "debate#create"
   post '/mockdebate/create', to: "debate#create"
   get '/mockdebate/:id(.:format)/update', :to => 'debate#update'
   post '/mockdebate/:id(.:format)/update', :to => 'debate#update'
+
 end
