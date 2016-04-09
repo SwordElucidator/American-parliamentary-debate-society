@@ -5,6 +5,14 @@
 <br></br>
 <br></br>
 <br></br>
+<% if current_user.debates.empty? %>
+  <p>You don't have any upcoming debate</p>
+<% else %>
+  <p>Your upcoming debate are</p>
+  <% current_user.debates.each do |debate| %>
+    <p><%= debate.topic + " at " + debate.time.to_formatted_s(:long) %></p>
+  <% end%>
+<% end%>
 
 <% if Debate.all.length != 0%>
   <table>

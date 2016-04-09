@@ -1,5 +1,6 @@
 class DebateController < ApplicationController
     def index
+       deleteolddebate
        if params[:value] == "register"
           if checkregister(params[:debateid]) == false
             puts "hello world"
@@ -31,7 +32,7 @@ class DebateController < ApplicationController
         if params[:delete]
             puts "delete this debate"
             debate = Debate.find_by_id(params[:id])
-            current_user.slots.delete(debate.slots)
+            #current_user.slots.delete(debate.slots)
             Slot.delete(debate.slots)
             Debate.delete(params[:id])
             redirect_to action: "index"
@@ -44,6 +45,15 @@ class DebateController < ApplicationController
     
     
     private
+    
+    def deleteolddebate
+        Debate.all.each do |debate|
+            if Time.zone.now - debate.time > 0
+                Slot.delete(debate.slots)
+                Debate.delete(debate)
+            end
+        end
+    end
     
     def checkregister(debateid)
         debateslots = Debate.find_by_id(debateid).slots
