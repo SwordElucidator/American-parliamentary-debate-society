@@ -1,5 +1,8 @@
 class DebateController < ApplicationController
     def index
+        @current_debate = Debate.find_current_debates
+        @past_debate = Debate.find_past_debates
+        @slottype = ["government", "opposition", "judge"]
         if params[:value] == "register"
             if checkregister(params[:debateid]) == false
                flash.delete :success if flash[:success]
