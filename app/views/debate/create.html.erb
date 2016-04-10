@@ -5,6 +5,7 @@
 <br></br>
 <br></br>
 <br></br>
+<%= render 'message'%>
 <%= form_tag("/mockdebate/create", method: "post") do %>
   <%= label_tag(:topic, "Topic of the mock debate:") %>
   <%= text_field_tag(:topic) %>

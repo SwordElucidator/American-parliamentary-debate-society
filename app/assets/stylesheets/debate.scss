@@ -1,0 +1,20 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+.message{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+.boxed {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  background-color: white;
+}

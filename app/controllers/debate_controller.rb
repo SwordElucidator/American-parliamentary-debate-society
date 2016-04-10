@@ -1,29 +1,30 @@
 class DebateController < ApplicationController
     def index
-       if params[:value] == "register"
-          if checkregister(params[:debateid]) == false
-            puts "hello world"
-          else
-            register(params[:id])
-          end
-       elsif params[:value] == "cancel"
-          cancel(params[:id])
-       end
-       @debate = Debate.all
+        if params[:value] == "register"
+            if checkregister(params[:debateid]) == false
+               flash.delete :success if flash[:success]
+               flash.now[:error] = "You cannot play two roles in the same debate"
+            else
+               changeRegistration(params[:id], params[:debateid], params[:value], "full")
+            end
+        elsif params[:value] == "cancel"
+            changeRegistration(params[:id], params[:debateid], params[:value], "empty")
+        end
+        @debate = Debate.all
     end
     
     def create
         if params[:topic] and params[:location] and params[:time]
-          newdebate = Debate.create(:location => params[:location], :time => params[:time], :topic => params[:topic])
-          puts "new debate has been successfully created"
-          newdebate.slots.create(:slottype => "government", :time => params[:time], :status => "empty")
-          newdebate.slots.create(:slottype => "government", :time => params[:time], :status => "empty")
-          newdebate.slots.create(:slottype => "opposition", :time => params[:time], :status => "empty")
-          newdebate.slots.create(:slottype => "opposition", :time => params[:time], :status => "empty")
-          newdebate.slots.create(:slottype => "judge", :time => params[:time], :status => "empty")
-          newdebate.slots.create(:slottype => "judge", :time => params[:time], :status => "empty")
-          puts "new slots have been successfully created"
-          redirect_to action: "index"
+            newdebate = Debate.create(:location => params[:location], :time => params[:time], :topic => params[:topic])
+            if newdebate.save
+                ["government", "opposition", "judge"].each do |create|
+                   newdebate.slots.create(:slottype => create, :time => params[:time], :status => "empty")
+                   newdebate.slots.create(:slottype => create, :time => params[:time], :status => "empty")
+                end
+                redirect_to action: "index"
+            else
+                flash.now[:error] = "Invalid format of debate...Please Try Again"
+            end
         end
     end
     
@@ -54,20 +55,19 @@ class DebateController < ApplicationController
         end
         return true
     end
-        
-    def register(slotid)
-        registeredslot = Slot.find_by_id(slotid) 
-        registeredslot.update(:status => "full")
-        puts "hello register"
-        current_user.slots.concat(registeredslot)
-        current_user.save
-    end
     
-    def cancel(slotid)
+    
+    def changeRegistration(slotid, debateid, move, status)
         registeredslot = Slot.find_by_id(slotid)
-        registeredslot.update(:status => "empty")
-        puts "hello cancel"
-        current_user.slots.delete(registeredslot)
+        registeredslot.update(:status => status) 
+        current_user.slots.concat(registeredslot) if move == "register"
+        current_user.slots.delete(registeredslot) if move == "cancel"
         current_user.save
+        flash.delete :error if flash[:error]
+        flash.now[:success] = "You have successfully " + move + " the debate " + '"' + Debate.find_by_id(debateid).topic + '"'
     end
+         
+             
+             
+        
 end
