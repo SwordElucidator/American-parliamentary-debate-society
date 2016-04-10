@@ -1,14 +1,12 @@
 <div class ="wrapper", style="margin-top: 50px">
   <h1>Edit the Home Page</h1>
   <div class="container-edit">
-    <%= form_tag '/', :name => 'home-page-edits', :authenticity_token => "true" do |f| %>
+    <%= form_tag '/', :name => 'home-page-edits', :authenticity_token => "true" do %>
 
       <div class="container">
         <h3>Heading</h3>
         <p>Heading Title:</p>
-        <input type="text" name="heading_heading" class="input-title">
-        <p>Heading Content:</p>
-        <textarea type="text" name="heading_content" class="input-content" rows="5" cols="26"></textarea>
+        <%= text_field_tag :heading_title, @heading_title, :class => "input-title" %>
         <p>Heading Image 1: </p>
         <p>Heading Image 2: </p>
         <p>Heading Image 3: </p>
@@ -19,18 +17,18 @@
       <div class="container">
         <h3>About</h3>
         <p>About Title: </p>
-        <input type="text" name="about_heading" placeholder= "lalala" class="input-title">
+        <%= text_field_tag :about_title, @about_title, :class => "input-title" %>
         <p>About Content: </p>
-        <textarea type="text" name="about_content" class="input-content" rows="5" cols="26"></textarea>
+        <%= text_area_tag :about_content, @about_content, :class => "input-content", :rows=>"20", :cols=>"26" %>
         <p>About Image: </p>
       </div>
 
       <div class="container">
         <h3>Announcements</h3>
         <p>Announcements Title:</p>
-        <input type="text" name="announcements_heading" class="input-title">
+        <%= text_field_tag :announcements_heading, @announcements_heading, :class => "input-title" %>
         <p>Announcements Content:</p>
-        <textarea type="text" name="announcements_content" class="input-content" rows="5" cols="26"></textarea>
+        <%= text_area_tag :announcements_content, @announcements_content, :class => "input-content", :rows=>"20", :cols=>"26" %>
         <p>Announcements Image: </p>
       </div>
 
