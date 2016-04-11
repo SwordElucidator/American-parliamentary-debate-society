@@ -1,11 +1,9 @@
-<div class = "title">APDS Mockup Debate Signups</div>
+<div class = "title" style="width:800; margin-left:200">APDS Mockup Debate Signups</div>
 <%= render 'message'%>
 <div class = "boxed">
 <% if Debate.all.length != 0%>
-  <table class = "table table-striped">
-  <th>
-    <%= render 'head' %>
-  </th>
+  <table class = "table-apds table table-striped" style="width:auto;">
+  <%= render 'head' %>
   <tb>
     <% @debate.each do |debate| %>
       <tr>
