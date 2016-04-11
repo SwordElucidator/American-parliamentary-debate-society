@@ -51739,3 +51739,120 @@ Processing by HomeController#edit as HTML
   [1m[35mContent Load (0.5ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1
   Rendered home/edit.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 184ms (Views: 181.8ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_post_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 136.152.142.65 at 2016-04-10 23:32:56 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1
+  Rendered home/index.html.haml within layouts/application (659.9ms)
+Completed 200 OK in 1100ms (Views: 1045.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/header.jpg" for 136.152.142.65 at 2016-04-10 23:32:58 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home/edit" for 136.152.142.65 at 2016-04-10 23:33:01 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#edit as HTML
+  [1m[36mContent Load (0.5ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1[0m
+  Rendered home/edit.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 307ms (Views: 249.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 136.152.142.65 at 2016-04-10 23:53:13 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1
+  Rendered home/index.html.haml within layouts/application (654.0ms)
+Completed 200 OK in 1005ms (Views: 938.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/home/edit" for 136.152.142.65 at 2016-04-10 23:53:18 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#edit as HTML
+  [1m[36mContent Load (1.2ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1[0m
+  Rendered home/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 295ms (Views: 291.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 136.152.142.65 at 2016-04-10 23:59:30 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mContent Load (0.2ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1
+  Rendered home/index.html.haml within layouts/application (325.3ms)
+Completed 200 OK in 531ms (Views: 496.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home/edit" for 136.152.142.65 at 2016-04-10 23:59:35 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#edit as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1[0m
+  Rendered home/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 286ms (Views: 283.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/edit" for 136.152.142.65 at 2016-04-10 23:59:36 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#edit as HTML
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1
+  Rendered home/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 97ms (Views: 94.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/" for 136.152.142.65 at 2016-04-10 23:59:48 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fGP6ZemQh8wmpSTfBK68CfNsQHGwiASt4l5dJjD2baUF0HbOHM3hw9Q+YjpsSYlj3PZIT8ATmZtF4NZFXuo1WA==", "heading_title"=>"The Debate Society of Berkeley", "about_title"=>"bdafklsj", "about_content"=>"We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\r\n\r\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\n\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\n\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn.", "announcements_heading"=>"Announcements", "announcements_content"=>"This is a sample announcement by SE.", "status"=>"Save"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "contents" ("heading_title", "about_title", "about_content", "announcements_heading", "announcements_content") VALUES (?, ?, ?, ?, ?)  [["heading_title", "The Debate Society of Berkeley"], ["about_title", "bdafklsj"], ["about_content", "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\r\n\r\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\r\n\r\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\r\n\r\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."], ["announcements_heading", "Announcements"], ["announcements_content", "This is a sample announcement by SE."]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mContent Load (0.3ms)[0m  SELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1
+  Rendered home/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 215ms (Views: 81.6ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/home/edit" for 136.152.142.65 at 2016-04-10 23:59:56 +0000
+Cannot render console from 136.152.142.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#edit as HTML
+  [1m[36mContent Load (0.3ms)[0m  [1mSELECT  "contents".* FROM "contents"  ORDER BY "contents"."id" DESC LIMIT 1[0m
+  Rendered home/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 78ms (Views: 75.9ms | ActiveRecord: 0.3ms)

@@ -15,6 +15,8 @@ module NavigationHelpers
     when /^the admin page$/ then '/admin'
     when /^the profile page$/ then '/profile'
 
+    when /^the edit home page$/ then '/home/edit'
+
     when /^the home page of the website$/
       '/'
     when /^the home page of the forum$/

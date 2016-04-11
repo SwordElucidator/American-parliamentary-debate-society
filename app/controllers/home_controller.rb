@@ -2,7 +2,7 @@ class HomeController < ApplicationController
     
   def index
     # Stores the saved updates
-    if params[:status] == "Saved"
+    if params[:status] == "Save"
       Content.create(:heading_title => params[:heading_title],
                      :heading_content => params[:heading_content],
                      :about_title => params[:about_title],
