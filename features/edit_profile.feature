@@ -8,6 +8,10 @@ Feature: Edit user profile_controller
     Given the following users exist:
     | email          | password  |
     | abc@efg.com    | asdfghjk  |
+    
+    Given the following contents exist
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
 
     Given I am on the login page
     When I fill in "user_email" with "abc@efg.com"

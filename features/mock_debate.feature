@@ -8,6 +8,11 @@ Feature: Mock Debate Page
     Given the following users exist:
     | email   | password |
     | abc@efg.com    | asdfghjk        |
+
+    Given the following contents exist
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
+    
     # Given the following debates exist:
     # | topic   | time |  id  |
     # | HaoShenZuiDiao    |   forever      |  1 |

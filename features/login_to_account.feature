@@ -9,6 +9,9 @@ Feature: Login to the user account
     | email   | password |
     | abc@efg.com    | asdfghjk        |
 
+    Given the following contents exist
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
 
   Scenario: I'm an unregistered user on the login page, but I want to signup
     Given I am on the login page

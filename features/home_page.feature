@@ -4,6 +4,11 @@ Feature: Viewing the home page as a visitor
   So that I can access the contents posted by the admins
   I want to view the contents of the landing page
   
+  Background:
+  Given the following contents exist
+  | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+  | default       | default         | default           | default     | default       | default               | default               |
+
   Scenario: click on "About"
   Given I am on the home page of the website
   When I follow "About"
