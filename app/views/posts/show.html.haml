@@ -16,5 +16,5 @@
     %hr/
     %br/
     - if @post.user == current_user
-        = link_to "Edit", edit_post_path(@post), class: "button"
-        = link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to do this?" }, class: "button"
+        = link_to "Edit", edit_section_post_path(@section, @post), class: "button"
+        = link_to "Delete", section_post_path(@section, @post), method: :delete, data: { confirm: "Are you sure you want to do this?" }, class: "button"

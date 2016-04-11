@@ -51,4 +51,3 @@ Feature: Forum
     And I fill in "comment_comment" with "test"
     And I press "Update Comment"
     Then I should be on the "TEST" detail page
-    

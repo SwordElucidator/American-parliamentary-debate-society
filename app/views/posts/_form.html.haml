@@ -1,4 +1,4 @@
-= simple_form_for @post do |f|
+= simple_form_for ([@section, @post]) do |f|
     = f.input :title
     = f.input :content
     = f.submit

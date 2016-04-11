@@ -14,15 +14,19 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand.page-scroll{:href => "#home"} Debate
+          %a.navbar-brand.page-scroll{:href => "/#home"} Debate
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
-              %a.page-scroll{:href => "#about"} About
+              %a.page-scroll{:href => "/#about"} About
             %li
-              %a.page-scroll{:href => "#announcements"} Announcements
-            %li
-              %a.page-scroll{:href => "#join"} Join
+              %a.page-scroll{:href => "/#announcements"} Announcements
+            - if not user_signed_in?
+              %li
+                %a.page-scroll{:href => "/#join"} Join
+            - else
+              %li
+                %a{:href => "/forum"} Forum
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
               - if not user_signed_in?
