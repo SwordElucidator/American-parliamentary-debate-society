@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
-  resources :posts do
-    resources :comments
+  resources :sections do
+    resources :posts do
+      resources :comments
+    end
   end
   
   # The priority is based upon order of creation: first created -> highest priority.
@@ -15,8 +17,8 @@ Rails.application.routes.draw do
   post '/', to: 'home#index'
   get '/home/edit', to: 'home#edit'
   get '/index/:id', to: 'users#homepage', as: 'customer'
-  get '/forum', to: "posts#index"
-  post '/forum', to: "posts#index"
+  get '/forum', to: "sections#index"
+  post '/forum', to: "sections#index"
   get '/profile', to: "profile#profile"
   post '/profile', to: "profile#profile", as: 'update_profile'
   get '/invitation', to: "invitation#index"

@@ -3,23 +3,27 @@ class PostsController < ApplicationController
     before_action :authenticate_user!, except: [:index, :show]
     
     def index
-        @posts = Post.all.order("created_at DESC")
+        @section = Section.find(params[:section_id])
+        @posts = @section.posts.order("created_at DESC")
     end
     
     def show
         #@post = Post.find(params[:id])
+        @section = Section.find(params[:section_id])
     end
     
     def new
+        @section = Section.find(params[:section_id])
         @post = current_user.posts.build
     end
     
     
     def create
+        @section = Section.find(params[:section_id])
         @post = current_user.posts.build(post_params)
-        
+        @post.section = @section
         if @post.save
-            redirect_to @post
+            redirect_to section_posts_path(@section)
         else
             render 'new'
         end
@@ -30,6 +34,7 @@ class PostsController < ApplicationController
     end
     
     def update
+        @section = Section.find(params[:section_id])
         if @post.update(post_params)
             redirect_to @post
         else
@@ -38,13 +43,15 @@ class PostsController < ApplicationController
     end
     
     def destroy
+        @section = Section.find(params[:section_id])
         @post.destroy
-        redirect_to forum_path
+        redirect_to section_posts_path(@section)
     end
     
     private
     
     def find_post
+        @section = Section.find(params[:section_id])
         @post = Post.find(params[:id])
     end
     
