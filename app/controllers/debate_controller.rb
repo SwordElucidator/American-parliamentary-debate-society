@@ -1,4 +1,13 @@
 class DebateController < ApplicationController
+    before_action :authentication_precheck
+    
+    def authentication_precheck
+        if !user_signed_in?
+            flash[:notice] = "you should log in"
+            redirect_to new_user_session_path
+        end
+    end
+    
     def index
         @current_debate = Debate.find_current_debates
         @past_debate = Debate.find_past_debates
