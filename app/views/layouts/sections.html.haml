@@ -1,12 +1,21 @@
 %html
   %head
-    %title Debate of Berkeley
-    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true 
+    %title Debate of Berkeley Forum
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
     %link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700", type: "text/css"}
     = javascript_include_tag 'application', 'data-turbolinks-track' => true 
-    = csrf_meta_tags
+    = csrf_meta_tags 
+    
   %body
-    %nav.navbar.hide-on-top.navbar-fixed-top{:role => "navigation"}
+    / %header.main_header
+    /   #buttons
+    /     - if user_signed_in?
+    /       = link_to "New Post", new_post_path
+    /     - else
+    /       = link_to "Sign Up", new_user_registration_path
+    /       = link_to "Sign In", new_user_session_path
+    /     = link_to "Home Page", root_path
+    %nav.navbar.navbar-fixed-top{:role => "navigation"}
       .container-fluid
         .navbar-header.page-scroll
           %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
@@ -14,19 +23,15 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand.page-scroll{:href => "/#home"} Debate
+          %a.navbar-brand.page-scroll{:href => root_path} Debate
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
-              %a.page-scroll{:href => "/#about"} About
-            %li
-              %a.page-scroll{:href => "/#announcements"} Announcements
-            - if not user_signed_in?
-              %li
-                %a.page-scroll{:href => "/#join"} Join
+              %a.page-scroll{:href => forum_path} Forum Home
+            - if user_signed_in?
             - else
               %li
-                %a{:href => "/forum"} Forum
+                %a.page-scroll{:href => new_user_session_path} Sign In
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
               - if not user_signed_in?
@@ -34,7 +39,7 @@
                   Sign In
                   %span.caret
               -else
-                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#", :id => "menu"}
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
                   Welcome, 
                   - if not current_user.firstname
                     = current_user.email
@@ -50,9 +55,15 @@
                 - else
                   %li
                     %a{:href => profile_path} Edit Profile
-                %li
-                  %a{:href => "/forum"} Forum
-                - if user_signed_in?
                   %li
                     %a{:href => destroy_user_session_path} Sign out
-    = yield
+    %header.main_header
+      #logo 
+        %h1= link_to "American Parliamentary Debate Society Forum", forum_path
+      
+    .wrapper
+      %p.notice= notice
+      %p.alert= alert
+    .wrapper
+      = yield
+

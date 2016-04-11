@@ -8,6 +8,14 @@ Given /the following users exist/ do |users_table|
   end
 end
 
+Given /the following contents exist/ do |contents_table|
+  contents_table.hashes.each do |content|
+    # each returned element will be a hash whose key is the table header.
+    # you should arrange to add that movie to the database here.
+    Content.create(content)
+  end
+end
+
 Given /the following posts exist/ do |post_table|
   post_table.hashes.each do |po|
     # each returned element will be a hash whose key is the table header.
