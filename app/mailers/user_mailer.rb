@@ -6,6 +6,6 @@ class UserMailer < ApplicationMailer
     require 'digest/sha1'
     @code = Digest::SHA1.hexdigest(email)
     Invitation.create(:code => @code)
-    mail(to: email, subject: 'Welcome to My Awesome Site')
+    mail(to: email, subject: 'Welcome to the American Parliamentary Debate Society of Berkeley')
   end
 end

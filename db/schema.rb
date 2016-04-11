@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160405202455) do
+ActiveRecord::Schema.define(version: 20160410220218) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -23,6 +23,16 @@ ActiveRecord::Schema.define(version: 20160405202455) do
 
   add_index "comments", ["post_id"], name: "index_comments_on_post_id"
   add_index "comments", ["user_id"], name: "index_comments_on_user_id"
+
+  create_table "contents", force: :cascade do |t|
+    t.string "heading_title"
+    t.text   "heading_content"
+    t.string "heading_image_url"
+    t.string "about_title"
+    t.text   "about_content"
+    t.string "announcements_heading"
+    t.text   "announcements_content"
+  end
 
   create_table "debates", force: :cascade do |t|
     t.string   "topic"
@@ -49,6 +59,13 @@ ActiveRecord::Schema.define(version: 20160405202455) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "user_id"
+    t.integer  "section_id"
+  end
+
+  create_table "sections", force: :cascade do |t|
+    t.string   "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "sign_users", force: :cascade do |t|
@@ -74,13 +91,15 @@ ActiveRecord::Schema.define(version: 20160405202455) do
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+    t.string   "username"
+    t.string   "password"
     t.integer  "sign_in_count",          default: 0,  null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
     t.string   "firstname"
     t.string   "lastname"
     t.string   "major"
