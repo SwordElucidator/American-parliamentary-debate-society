@@ -10,8 +10,6 @@ class DebateController < ApplicationController
     
     
     def index
-        @current_debate = Debate.find_current_debates
-        @past_debate = Debate.find_past_debates
         @slottype = ["government", "opposition", "judge"]
         if params[:value] == "register"
             if checkregister(params[:debateid]) == false
@@ -55,7 +53,6 @@ class DebateController < ApplicationController
         end
         if params[:topic] and params[:location] and params[:time]
             modify_debate = Debate.find_by_id(params[:id]).update(:topic => params[:topic], :location => params[:location], :time => params[:time])
-            #Rails.logger.info(Debate.errors.inspect)
             if modify_debate == true
               redirect_to action: "index"
             else
