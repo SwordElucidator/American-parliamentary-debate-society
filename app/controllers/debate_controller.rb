@@ -3,10 +3,11 @@ class DebateController < ApplicationController
     
     def authentication_precheck
         if !user_signed_in?
-            flash[:notice] = "you should log in"
+            flash[:notice] = "you should log in first to see the mockdebate page"
             redirect_to new_user_session_path
         end
     end
+    
     
     def index
         @current_debate = Debate.find_current_debates
@@ -16,6 +17,9 @@ class DebateController < ApplicationController
             if checkregister(params[:debateid]) == false
                flash.delete :success if flash[:success]
                flash.now[:error] = "You cannot play two roles in the same debate"
+            elsif checkprofile == false
+               flash.delete :success if flash[:success]
+               flash.now[:error] = "You have to edit your profiles first to register"
             else
                changeRegistration(params[:id], params[:debateid], params[:value], "full")
             end
@@ -71,6 +75,10 @@ class DebateController < ApplicationController
             end
         end
         return true
+    end
+    
+    def checkprofile
+        current_user.lastname != nil and current_user.firstname != nil
     end
     
     

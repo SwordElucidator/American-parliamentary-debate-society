@@ -12,4 +12,10 @@ class Debate < ActiveRecord::Base
     def self.find_past_debates
        return Debate.where("time < ?", Time.now) 
     end
+    
+    def self.parse_name(user)
+        first_name = user.firstname[0, 10]
+        last_initial = user.lastname[0] + "."
+        return last_initial + first_name
+    end
 end

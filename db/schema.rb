@@ -11,11 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160411102011) do
-=======
-ActiveRecord::Schema.define(version: 20160410220218) do
->>>>>>> 81cb5aa828c6d485c5b2b33b10661fa2aaae736f
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
