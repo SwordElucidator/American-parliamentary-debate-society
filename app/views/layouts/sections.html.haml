@@ -28,12 +28,7 @@
           %ul.nav.navbar-nav
             %li
               %a.page-scroll{:href => forum_path} Forum Home
-            %li
-              %a.page-scroll{:href => section_posts_path}
-                = @section.title
             - if user_signed_in?
-              %li
-                %a.page-scroll{:href => new_section_post_path} New Post
             - else
               %li
                 %a.page-scroll{:href => new_user_session_path} Sign In
