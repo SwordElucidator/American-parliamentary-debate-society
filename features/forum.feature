@@ -12,6 +12,11 @@ Feature: forum
   #   Given the following posts exist:
   #   | title   | content     |
   #   | TEST    | aaaa        |
+  
+  Background: the home page content exists
+    Given the following contents exist
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
  
  # Scenario: users can write posts
  # Given I am on the home page of the forum
