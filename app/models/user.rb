@@ -5,4 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   has_many :posts
   has_many :comments
+  has_many :slots
+  has_many :debates, through: :slots
 end

@@ -17,6 +17,10 @@ https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society
 [![Code Climate](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/gpa.svg)](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society)
 https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society
 
+<a href="https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/coverage"><img src="https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/coverage.svg" /></a>
+[![Test Coverage](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/coverage.svg)](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/coverage)
+
+
 ## Documentation
 * [overall documentation](documentations/overall.md)
 * [database documentation](documentations/database.md)
