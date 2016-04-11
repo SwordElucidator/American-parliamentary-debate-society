@@ -8,17 +8,17 @@ Feature: Mock Debate Page
     Given the following users exist:
     | email   | password |
     | abc@efg.com    | asdfghjk        |
-    Given the following debates exist:
-    | topic   | time |  id  |
-    | HaoShenZuiDiao    |   forever      |  1 |
-    Given the following slots exist:
-    | debate_id   |   type   |   time  | user_id |
-    |   1  |    government   |  forever |  nil|
-    |   1  |    government   |  forever |  nil|
-    |   1  |    opponent   |  forever |    nil|
-    |   1  |    opponent   |  forever |    nil|
-    |   1  |    judge   |  forever |       nil|
-    |   1  |    judge   |  forever |       nil|
+    # Given the following debates exist:
+    # | topic   | time |  id  |
+    # | HaoShenZuiDiao    |   forever      |  1 |
+    # Given the following slots exist:
+    # | debate_id   |   type   |   time  | user_id |
+    # |   1  |    government   |  forever |  nil|
+    # |   1  |    government   |  forever |  nil|
+    # |   1  |    opponent   |  forever |    nil|
+    # |   1  |    opponent   |  forever |    nil|
+    # |   1  |    judge   |  forever |       nil|
+    # |   1  |    judge   |  forever |       nil|
   
   Scenario: user on mockDebate page
   Given I am on the mockDebate page
