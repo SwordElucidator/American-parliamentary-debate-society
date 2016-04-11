@@ -24,6 +24,22 @@ Given /the following posts exist/ do |post_table|
   end
 end
 
+Given /the following debates exist/ do |debate_table|
+  debate_table.hashes.each do |debate|
+    # each returned element will be a hash whose key is the table header.
+    # you should arrange to add that movie to the database here.
+    Debate.create(debate)
+  end
+end
+
+Given /the following slots exist/ do |slot_table|
+  slot_table.hashes.each do |slot|
+    # each returned element will be a hash whose key is the table header.
+    # you should arrange to add that movie to the database here.
+    Slot.create(slot)
+  end
+end
+
 # Make sure that one string (regexp) occurs before or after another one
 #   on the same page
 
