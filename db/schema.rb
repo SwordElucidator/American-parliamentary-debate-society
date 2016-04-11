@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160405202455) do
+ActiveRecord::Schema.define(version: 20160411102011) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -27,11 +27,10 @@ ActiveRecord::Schema.define(version: 20160405202455) do
   create_table "debates", force: :cascade do |t|
     t.string   "topic"
     t.string   "location"
-    t.datetime "time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "time"
   end
-
 
   create_table "invitations", force: :cascade do |t|
     t.string   "code"

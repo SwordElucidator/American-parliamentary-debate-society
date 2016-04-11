@@ -26,7 +26,7 @@ class DebateController < ApplicationController
                 end
                 redirect_to action: "index"
             else
-                flash.now[:error] = "Invalid format of debate...Please Try Again"
+                flash.now[:error] = "Please make sure no field is empty"
             end
         end
     end
@@ -41,8 +41,13 @@ class DebateController < ApplicationController
             redirect_to action: "index"
         end
         if params[:topic] and params[:location] and params[:time]
-            Debate.find_by_id(params[:id]).update(:location => params[:location], :time => params[:time], :topic => params[:topic])
-            redirect_to action: "index"
+            modify_debate = Debate.find_by_id(params[:id]).update(:topic => params[:topic], :location => params[:location], :time => params[:time])
+            #Rails.logger.info(Debate.errors.inspect)
+            if modify_debate == true
+              redirect_to action: "index"
+            else
+              flash.now[:error] = "Please make sure no field is empty"
+            end
         end
     end
     

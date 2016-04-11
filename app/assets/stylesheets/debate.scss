@@ -1,12 +1,23 @@
 .table-apds, th, td {
-   border: 1px solid black;
-   margin: 3%;
+   margin: 4%;
    width: auto;
+   text-align: left;
 }
 
-.table-apds {
-    width: auto;
+.createdebate{
+    margin: 4%;
 }
+
+.custom {
+    width: 63px;
+    height: 30px;
+}
+
+.customlabel {
+   display: inline-block;
+   height: 30px;
+}
+ 
 
 
 .blue {
@@ -17,9 +28,9 @@
 .message{
     position: absolute;
     top: 20%;
-    width: 1310;
+    width: 1220;
     text-align: center;
-    z-index: 100;
+    //z-index: 100;
     margin-top: 10;
     margin-left: 20;
 }
@@ -29,8 +40,29 @@
   margin: 2%;
   position: absolute;
   top: 30%;
-  width: 1285px;
+  width: 1220px;
   background-color: white;
   padding-left: 8;
-  margin-right:20;
+  margin-right: 8;
 }
+
+.boxed1 {
+  border-radius: 0.5em;
+  margin: 14%;
+  position: absolute;
+  top: 12%;
+  width: 900px;
+  height: 340px;
+  background-color: white;
+  //padding-left: 8;
+  //margin-right: 8;
+}
+
+.boxed2 {
+  margin: 2%;    
+}
+
+.bootstrapbutton {
+  margin: 2%;    
+}
+

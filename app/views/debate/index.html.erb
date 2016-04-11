@@ -7,25 +7,27 @@
   <tb>
     <% @debate.each do |debate| %>
       <tr>
-        <td><%= debate.topic%></td>    
-        <td><%= debate.time %></td>
+        <td><p style="width:170px;"><%= debate.topic%></p></td>    
+        <td><p style="width:95px;"><%= debate.time %></p></td>
         <% @slottype.each do |slottype|%>
           <td>
+            <p style="width:251px;">
             <% debate.slots.each do |slot| %>
               <div class="btn-group btn-group-sm">
                 <% if slot.slottype == slottype %>
                   <% if slot.status == "empty"%>
-                    <%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success", role: "button" %>
+                    <%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success custom", role: "button" %>
                   <% else%>
                     <% if current_user.slots.include?slot %>
-                      <%= link_to "Cancel", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel"}, class: "btn btn-danger", role: "button" %>
+                      <%= link_to "Cancel", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel"}, class: "btn btn-danger custom", role: "button" %>
                     <% else %>
-                      <%= User.find_by_id(slot.user_id).email %>
+                      <span class="label label-default customlabel"><%= User.find_by_id(slot.user_id).email %></span>
                     <% end%>
                   <% end%>
                 <% end%>
               </div>
             <% end%>
+            </p>
           </td>
         <% end %>
         <td>
@@ -38,5 +40,7 @@
   </tb>
   </table>
 <% end%>
-<%= button_to "Create a New Mock Debate", action: "create", method: "get" %>
+<div class = "createdebate">
+  <%= link_to "Create Debate", {:action => "create", :method => "get"}, class: "btn btn-primary btn-lg", role: "button" %>
+</div>
 </div>
