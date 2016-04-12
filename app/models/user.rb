@@ -7,4 +7,6 @@ class User < ActiveRecord::Base
   has_many :comments
   has_many :slots
   has_many :debates, through: :slots
+  
+  
 end

@@ -30,17 +30,21 @@
             </p>
           </td>
         <% end %>
-        <td>
-          <%= link_to update_debate_path(:id => debate.id) do %>
-            <i class="glyphicon glyphicon-edit blue"></i>
-          <% end %>
-        </td>
+        <% if current_user.is_admin == true %>
+          <td>
+            <%= link_to update_debate_path(:id => debate.id) do %>
+              <i class="glyphicon glyphicon-edit blue"></i>
+            <% end %>
+          </td>
+        <%end%>
       </tr>
     <% end%>
   </tb>
   </table>
 <% end%>
-<div class = "createdebate">
-  <%= link_to "Create Debate", {:action => "create", :method => "get"}, class: "btn btn-primary btn-lg", role: "button" %>
-</div>
+<% if current_user.is_admin == true %>
+  <div class = "createdebate">
+    <%= link_to "Create Debate", {:action => "create", :method => "get"}, class: "btn btn-primary btn-lg", role: "button" %>
+  </div>
+<% end%>
 </div>

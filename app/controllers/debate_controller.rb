@@ -2,10 +2,10 @@ class DebateController < ApplicationController
     before_action :authentication_precheck
     
     def authentication_precheck
-        if !user_signed_in?
-            flash[:notice] = "you should log in first to see the mockdebate page"
-            redirect_to new_user_session_path
-        end
+      if !user_signed_in?
+        flash[:notice] = "you should log in first to see the mockdebate page"
+        redirect_to new_user_session_path
+      end
     end
     
     
