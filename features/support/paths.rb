@@ -14,6 +14,7 @@ module NavigationHelpers
     when /^the "(.*)" user page$/ then '/index/'+String(User.find_by(email: $1) ? User.find_by_email($1).id : '')
     when /^the admin page$/ then '/admin'
     when /^the profile page$/ then '/profile'
+    when /^the mockDebate page$/ then '/mockdebate'
 
     when /^the edit home page$/ then '/home/edit'
 

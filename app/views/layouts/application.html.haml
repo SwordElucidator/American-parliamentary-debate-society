@@ -27,6 +27,13 @@
             - else
               %li
                 %a{:href => "/forum"} Forum
+            - if user_signed_in? and current_user.is_admin?
+              %li
+                %a.page-scroll{:href => rails_admin_path} Admin
+              %li
+                %a.page-scroll{:href => invitation_path} Invitation Code
+              %li
+                %a.page-scroll{:href => home_edit_path} Edit
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
               - if not user_signed_in?
@@ -53,6 +60,8 @@
                 %li
                   %a{:href => "/forum"} Forum
                 - if user_signed_in?
+                  %li
+                    %a{:href => mockdebate_path} Mock Debate
                   %li
                     %a{:href => destroy_user_session_path} Sign out
     = yield

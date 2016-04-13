@@ -7,4 +7,24 @@ class User < ActiveRecord::Base
   has_many :comments
   has_many :slots
   has_many :debates, through: :slots
+  validate :have_invitation_code
+  
+  def have_invitation_code
+    puts "code is"
+    puts code
+    
+    if Invitation.find_by_code(code) == nil
+      errors.add(:code, "Inalid code")
+    else
+      # match?
+      require 'digest/sha1'
+      if code != Digest::SHA1.hexdigest(email)
+        errors.add(:code, "code does not match email")
+      else
+        #clear database
+        Invitation.find_by_code(code).delete()
+        puts "haha"
+      end
+    end
+  end
 end

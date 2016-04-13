@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  devise_for :users
+  #devise_for :users
+  devise_for :users, :controllers => { registrations: 'user/registrations' }
   resources :sections do
     resources :posts do
       resources :comments
@@ -27,7 +28,8 @@ Rails.application.routes.draw do
   get '/mockdebate', to: "debate#index"
   get '/mockdebate/create', to: "debate#create"
   post '/mockdebate/create', to: "debate#create"
-  get '/mockdebate/:id(.:format)/update', :to => 'debate#update'
+  #get '/mockdebate/:id(.:format)/update', :to => 'debate#update'
   post '/mockdebate/:id(.:format)/update', :to => 'debate#update'
+  get '/mockdebate/:id(.:format)/update' => 'debate#update', :as => :update_debate
 
 end
