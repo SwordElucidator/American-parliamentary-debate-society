@@ -1,0 +1,25 @@
+    <div class = "boxed2">
+      <label for="formGroupExampleInput">Debate Topic:</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter debate topic" name = "topic">
+    </div>
+    <div class = "boxed2">
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Debate Time:</label>
+        <div class='input-group date' id='datetimepicker1'>
+          <input type='text' class="form-control" name = "time" placeholder="Enter debate time">
+          <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+          </span>
+        </div>
+      </div>
+      <script type="text/javascript">
+        $(function () {
+          $('#datetimepicker1').datetimepicker();
+        });
+      </script>
+    </div>
+
+    <div class="boxed2">
+      <label for="formGroupExampleInput3">Debate Location:</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter debate location" name = "location">
+    </div>

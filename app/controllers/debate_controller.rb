@@ -2,20 +2,22 @@ class DebateController < ApplicationController
     before_action :authentication_precheck
     
     def authentication_precheck
-        if !user_signed_in?
-            flash[:notice] = "you should log in"
-            redirect_to new_user_session_path
-        end
+      if !user_signed_in?
+        flash[:notice] = "you should log in first to see the mockdebate page"
+        redirect_to new_user_session_path
+      end
     end
     
+    
     def index
-        @current_debate = Debate.find_current_debates
-        @past_debate = Debate.find_past_debates
         @slottype = ["government", "opposition", "judge"]
         if params[:value] == "register"
             if checkregister(params[:debateid]) == false
                flash.delete :success if flash[:success]
                flash.now[:error] = "You cannot play two roles in the same debate"
+            elsif checkprofile == false
+               flash.delete :success if flash[:success]
+               flash.now[:error] = "You have to edit your profiles first to register"
             else
                changeRegistration(params[:id], params[:debateid], params[:value], "full")
             end
@@ -35,7 +37,7 @@ class DebateController < ApplicationController
                 end
                 redirect_to action: "index"
             else
-                flash.now[:error] = "Invalid format of debate...Please Try Again"
+                flash.now[:error] = "Please make sure no field is empty"
             end
         end
     end
@@ -50,8 +52,12 @@ class DebateController < ApplicationController
             redirect_to action: "index"
         end
         if params[:topic] and params[:location] and params[:time]
-            Debate.find_by_id(params[:id]).update(:location => params[:location], :time => params[:time], :topic => params[:topic])
-            redirect_to action: "index"
+            modify_debate = Debate.find_by_id(params[:id]).update(:topic => params[:topic], :location => params[:location], :time => params[:time])
+            if modify_debate == true
+              redirect_to action: "index"
+            else
+              flash.now[:error] = "Please make sure no field is empty"
+            end
         end
     end
     
@@ -66,6 +72,10 @@ class DebateController < ApplicationController
             end
         end
         return true
+    end
+    
+    def checkprofile
+        current_user.lastname != nil and current_user.firstname != nil
     end
     
     
