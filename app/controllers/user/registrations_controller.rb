@@ -1,4 +1,4 @@
-class [scope]::RegistrationsController < Devise::RegistrationsController
+class User::RegistrationsController < Devise::RegistrationsController
 # before_filter :configure_sign_up_params, only: [:create]
 # before_filter :configure_account_update_params, only: [:update]
 
@@ -6,7 +6,14 @@ class [scope]::RegistrationsController < Devise::RegistrationsController
   # def new
   #   super
   # end
+  before_filter :configure_permitted_parameters
 
+  protected
+
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.for(:sign_up).push(:code)
+  end
+  
   # POST /resource
   #
   #   super

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  devise_for :users
+  #devise_for :users
+  devise_for :users, :controllers => { registrations: 'user/registrations' }
   resources :sections do
     resources :posts do
       resources :comments
