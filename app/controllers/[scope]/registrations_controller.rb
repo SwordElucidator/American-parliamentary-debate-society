@@ -8,9 +8,14 @@ class [scope]::RegistrationsController < Devise::RegistrationsController
   # end
 
   # POST /resource
-  # def create
+  #
   #   super
-  # end
+  #   if Invitation.find_by_code(params[:invitation]) == nil
+  #     puts "error"
+  #     redirect_to action:'new'
+  #   else
+  #     puts "success"
+  #   end
 
   # GET /resource/edit
   # def edit
@@ -39,9 +44,10 @@ class [scope]::RegistrationsController < Devise::RegistrationsController
   # protected
 
   # If you have extra params to permit, append them to the sanitizer.
-  # def configure_sign_up_params
-  #   devise_parameter_sanitizer.for(:sign_up) << :attribute
-  # end
+  #def configure_sign_up_params
+   # puts "lalalafjewoifjowejfoiwejfoiwejfoiwejfoiwejfoiwejfoiwjeofijweoifjoiwejfoiwej"
+    #devise_parameter_sanitizer.for(:invitation) << :attribute
+  #end
 
   # If you have extra params to permit, append them to the sanitizer.
   # def configure_account_update_params
