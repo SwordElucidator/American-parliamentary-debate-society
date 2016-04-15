@@ -1,0 +1,10 @@
+<div class = "debate_title">Create Mockup Debate</div>
+<%= render 'message'%>
+<div class = "boxed1">
+  <%= form_tag("/mockdebate/create", method: "post") do %>
+    <%= render 'form' %>
+    <div class = "bootstrapbutton">
+      <button type="submit" class="btn btn-primary btn-lg">Create</button>
+    </div>
+  <% end %>
+</div>

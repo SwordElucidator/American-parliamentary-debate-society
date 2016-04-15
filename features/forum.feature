@@ -12,6 +12,11 @@ Feature: forum
   #   Given the following posts exist:
   #   | title   | content     |
   #   | TEST    | aaaa        |
+  
+  Background: the home page content exists
+    Given the following contents exist
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
  
  # Scenario: users can write posts
  # Given I am on the home page of the forum
@@ -30,7 +35,7 @@ Feature: forum
  
  Scenario: users can go to landing page from forum
  Given I am on the home page of the forum
- When I follow "American Parliamentary Debate Society Forum"
+ When I follow "Debate"
  Then I should be on the home page of the website 
  
  

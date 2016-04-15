@@ -1,0 +1,10 @@
+<div class = "message" >
+    <% flash.each do |name, msg| %>
+      <% if name == "success"%>
+        <%= content_tag :div, msg, class: "alert alert-success" %>
+      <% end%>
+      <% if name == "error"%>
+        <%= content_tag :div, msg, class: "alert alert-danger" %>
+      <% end%>
+    <% end %>
+</div>

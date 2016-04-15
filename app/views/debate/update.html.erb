@@ -1,0 +1,14 @@
+<div class = "debate_title">Modify Mockup Debate</div>
+<%= render 'message'%>
+<div class = "boxed1">
+<%= form_tag("/mockdebate/#{params[:id]}/update", method: "post") do %>
+  <%= render 'form' %>
+  <div class = "bootstrapbutton">
+      <button type="submit" class="btn btn-primary btn-lg">Update</button>
+      &nbsp&nbsp&nbsp&nbsp
+      <%= link_to "Delete", {:action => "update", :id => params[:id], :delete => "delete", :method => "get", :value => "Delete"}, class: "btn btn-primary btn-lg", role: "button" %>
+  </div>
+<% end %>
+</div>
+
+

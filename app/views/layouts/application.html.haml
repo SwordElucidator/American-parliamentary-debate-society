@@ -14,15 +14,26 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand.page-scroll{:href => "#home"} Debate
+          %a.navbar-brand.page-scroll{:href => "/#home"} Debate
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
             %li
-              %a.page-scroll{:href => "#about"} About
+              %a.page-scroll{:href => "/#about"} About
             %li
-              %a.page-scroll{:href => "#announcements"} Announcements
-            %li
-              %a.page-scroll{:href => "#join"} Join
+              %a.page-scroll{:href => "/#announcements"} Announcements
+            - if not user_signed_in?
+              %li
+                %a.page-scroll{:href => "/#join"} Join
+            - else
+              %li
+                %a{:href => "/forum"} Forum
+            - if user_signed_in? and current_user.is_admin?
+              %li
+                %a.page-scroll{:href => rails_admin_path} Admin
+              %li
+                %a.page-scroll{:href => invitation_path} Invitation Code
+              %li
+                %a.page-scroll{:href => home_edit_path} Edit
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
               - if not user_signed_in?
@@ -30,7 +41,7 @@
                   Sign In
                   %span.caret
               -else
-                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#", :id => "menu"}
                   Welcome, 
                   - if not current_user.firstname
                     = current_user.email
@@ -49,6 +60,8 @@
                 %li
                   %a{:href => "/forum"} Forum
                 - if user_signed_in?
+                  %li
+                    %a{:href => mockdebate_path} Mock Debate
                   %li
                     %a{:href => destroy_user_session_path} Sign out
     = yield
