@@ -23,7 +23,6 @@ class User < ActiveRecord::Base
       else
         #clear database
         Invitation.find_by_code(code).delete()
-        puts "haha"
       end
     end
   end

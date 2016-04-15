@@ -7,3 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Content.create()
 Section.create([{title: 'General'}, {title: 'Topic 1'}, {title: 'Topic 2'}])
+require 'digest/sha1'
+email = "admin@gmail.com"
+code = Digest::SHA1.hexdigest(email)
+Invitation.create(code: code)
+User.create(email: email, password: "adminadmin", password_confirmation: "adminadmin", code: code, is_admin: true)
