@@ -6,8 +6,8 @@ Feature: Login to the user account
   
   Background: users database is exist as follows
     Given the following users exist:
-    | email   | password |
-    | abc@efg.com    | asdfghjk        |
+    | email             | password    | password_confirmation   | code                                      |
+    | aabbcc@efg.com    | 12345678    | 12345678                | 36201b214843a18ba0026dee344aa27e85e8760e  |
 
     Given the following contents exist
     | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
