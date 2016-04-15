@@ -10,8 +10,6 @@ class User < ActiveRecord::Base
   validate :have_invitation_code
   
   def have_invitation_code
-    puts "code is"
-    puts code
     
     if Invitation.find_by_code(code) == nil
       errors.add(:code, "Inalid code")

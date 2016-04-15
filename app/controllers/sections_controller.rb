@@ -1,6 +1,6 @@
 class SectionsController < ApplicationController
     def index
-        @sections = Section.all.order("title DESC")
+        @sections = Section.all.order("id")
     end
     
     def show
