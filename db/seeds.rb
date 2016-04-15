@@ -6,3 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Content.create()
+Section.create([{title: 'General'}, {title: 'Topic 1'}, {title: 'Topic 2'}])
