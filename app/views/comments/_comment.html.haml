@@ -7,5 +7,5 @@
             %p.comment_author= "anonymous"
     .buttons
         - if comment.user == current_user
-            = link_to "Edit", edit_post_comment_path(comment.post, comment)
-            = link_to "Delete", [comment.post, comment], method: :delete, data: {confirm: "Are you sure?"}
+            = link_to "Edit", edit_section_post_comment_path(@section, comment.post, comment)
+            = link_to "Delete", [@section, comment.post, comment], method: :delete, data: {confirm: "Are you sure?"}

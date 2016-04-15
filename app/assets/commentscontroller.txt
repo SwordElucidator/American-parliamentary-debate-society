@@ -4,7 +4,7 @@ class CommentsController < ApplicationController
         @comment = @post.comments.create(params[:comment].permit(:comment))
         @comment.user_id = current_user.id if current_user
         if @comment.save
-            redirect_to post_path(@post)
+            redirect_to section_post_path(@section, @post)
         else
             render 'new'
         end

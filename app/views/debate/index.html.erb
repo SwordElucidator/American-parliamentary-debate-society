@@ -1,95 +1,50 @@
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<% if current_user.debates.empty? %>
-  <p>You don't have any upcoming debate</p>
-<% else %>
-  <p>Your upcoming debate are</p>
-  <% current_user.debates.each do |debate| %>
-    <p><%= debate.topic + " at " + debate.time.to_formatted_s(:long) %></p>
-  <% end%>
-<% end%>
-
+<div class = "debate_title">APDS Mockup Debate Signups</div>
+<%= render 'message'%>
+<div class = "boxed">
 <% if Debate.all.length != 0%>
-  <table>
-  <th>
-      <tr>
-        <td>Topic</td>
-        <td>Date</td>
-        <td>Government</td>
-        <td>Opposition</td>
-        <td>Judge</td>
-      </tr>
-  </th>
+  <table class = "table-apds table table-striped" style="width:auto;">
+  <%= render 'head' %>
   <tb>
-  <% @debate.each do |debate| %>
-    <tr>
-      <td><%= debate.topic%></td>    
-      <td><%= debate.time %></td>
-      <td>
-        <% debate.slots.each do |slot| %>
-          <div class="btn-group btn-group-sm">
-            <% if slot.slottype == "government" %>
-              <% if slot.status == "empty"%>
-                <%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success", role: "button" %>
-              <% else%>
-                <% if current_user.slots.include?slot %>
-                  <%= link_to "Cancel", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel"}, class: "btn btn-danger", role: "button" %>
-                <% else %>
-                  <%= User.find_by_id(slot.user_id).email %>
+    <% @debate.each do |debate| %>
+      <tr>
+        <td><p style="width:170px;"><%= debate.topic%></p></td>    
+        <td><p style="width:95px;"><%= debate.time %></p></td>
+        <% @slottype.each do |slottype|%>
+          <td>
+            <p style="width:251px;">
+            <% debate.slots.each do |slot| %>
+              <div class="btn-group btn-group-sm">
+                <% if slot.slottype == slottype %>
+                  <% if slot.status == "empty"%>
+                    <%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success custom", role: "button" %>
+                  <% else%>
+                    <% if current_user.slots.include?slot %>
+                      <%= link_to "Cancel", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel"}, class: "btn btn-danger custom", role: "button" %>
+                    <% else %>
+                      <span class="label label-default customlabel"><%= Debate.parse_name(User.find_by_id(slot.user_id)) %></span>
+                    <% end%>
+                  <% end%>
                 <% end%>
-              <% end%>
+              </div>
             <% end%>
-          </div>
-        <% end%>
-      </td>
-      <td>
-        <% debate.slots.each do |slot| %>
-          <div class="btn-group btn-group-sm">
-            <% if slot.slottype == "opposition" %>
-              <% if slot.status == "empty"%>
-                <%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success", role: "button" %>
-              <% else%>
-                <% if current_user.slots.include?slot %>
-                  <%= link_to "Cancel", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel"}, class: "btn btn-danger", role: "button" %>
-                <% else %>
-                  <%= User.find_by_id(slot.user_id).email %>
-                <% end%>
-              <% end%>
-            <% end%>
-          </div>
-        <% end%>
-      </td>
-      <td>
-        <% debate.slots.each do |slot| %>
-          <div class="btn-group btn-group-sm">
-            <% if slot.slottype == "judge" %>
-              <% if slot.status == "empty"%>
-                <%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success", role: "button" %>
-              <% else%>
-                <% if current_user.slots.include?slot %>
-                  <%= link_to "Cancel", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel"}, class: "btn btn-danger", role: "button" %>
-                <% else %>
-                  <%= User.find_by_id(slot.user_id).email %>
-                <% end%>
-              <% end%>
-            <% end%>
-          </div>
-        <% end%>
-      </td>
-      <td>
-        <%= button_to "Modify This Mock Debate", action: "update", method: "get", :id => debate.id %>
-      </td>
-    </tr>
-    <br></br>
-    <br></br>
-  <% end%>
+            </p>
+          </td>
+        <% end %>
+        <% if current_user.is_admin == true %>
+          <td>
+            <%= link_to update_debate_path(:id => debate.id) do %>
+              <i class="glyphicon glyphicon-edit blue"></i>
+            <% end %>
+          </td>
+        <%end%>
+      </tr>
+    <% end%>
   </tb>
   </table>
 <% end%>
-
-<%= button_to "Create a New Mock Debate", action: "create", method: "get" %>
+<% if current_user.is_admin == true %>
+  <div class = "createdebate">
+    <%= link_to "Create Debate", {:action => "create", :method => "get"}, class: "btn btn-primary btn-lg", role: "button" %>
+  </div>
+<% end%>
+</div>

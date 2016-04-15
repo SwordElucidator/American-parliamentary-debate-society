@@ -9,11 +9,16 @@ Feature: Forum
  #   | aabbcc@gmail.com | abc                |
 
     Background: database is exist as follows
-    Given the following posts exist:
-    | title   | content     |
-    | TEST    | aaaa        |
-    Given a logged in user
+        Given the following posts exist:
+        | title   | content     |
+        | TEST    | aaaa        |
+
+        Given the following contents exist:
+        | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+        | default       | default         | default           | default     | default       | default               | default               |
     
+        Given a logged in user
+
     Scenario: users can write posts
     Given I am on the home page of the forum
     When I follow "New Post"
@@ -51,4 +56,3 @@ Feature: Forum
     And I fill in "comment_comment" with "test"
     And I press "Update Comment"
     Then I should be on the "TEST" detail page
-    

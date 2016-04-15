@@ -3,21 +3,25 @@ Feature: Forum
     As a forum user, I want to receive a pop out alert when I delete posts/comments, 
     so that I will not delete my posts by mistake.
     
-   # Background: users database is exist as follows
- #   Given the following users exist
- #   | email            | encrypted_password |
- #   | aabbcc@gmail.com | abc                |
+    # Background: users database is exist as follows
+    # Given the following users exist
+    # | email            | encrypted_password |
+    # | aabbcc@gmail.com | abc                |
 
     Background: database is exist as follows
-    Given a logged in user
-    Given the following posts exist:
-    | title   | content     |
-    | TEST    | aaaa        |
-    Given the following sections exist:
-    | tittle  |
-    | General1|
-    | General2|
-    
+        # Given the following sections exist:
+        # | tittle  |
+        # | General1|
+        # | General2|
+        
+        Given the following contents exist
+        | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+        | default       | default         | default           | default     | default       | default               | default               |
+        
+        Given a logged in user
+        Given the following posts exist:
+        | title   | content     |
+        | TEST    | aaaa        |
     
     
     Scenario: users will receive notice when delete a post

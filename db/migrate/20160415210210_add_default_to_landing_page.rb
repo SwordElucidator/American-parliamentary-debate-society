@@ -1,0 +1,10 @@
+class AddDefaultToLandingPage < ActiveRecord::Migration
+  def change
+    change_column :contents, :heading_title, :string, :default => "The Debate Society of Berkeley"
+    change_column :contents, :heading_content, :text, :default => ""
+    change_column :contents, :about_title, :string, :default => "We're the Debate Society of Berkeley!"
+    change_column :contents, :about_content, :text, :default => "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\n\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\n\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\n\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."
+    change_column :contents, :announcements_heading, :string, :default => "Announcements"
+    change_column :contents, :announcements_content, :text, :default => "This is a sample announcement.\n\nLorem ipsum dolor sit amet, ea mollis invenire conclusionemque mel, oblique constituam ea per. Te putent inciderint comprehensam vel, te iudico homero gubergren pro. Te qui timeam senserit referrentur. Eos at elit debet, admodum nostrum ad mea. Tantas legere tritani eam in. Id ius idque minim blandit, nobis quidam assueverit ad vim, ancillae scaevola no est."
+  end
+end

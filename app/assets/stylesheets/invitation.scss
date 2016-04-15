@@ -1,32 +1,47 @@
-    .title{
-        position: absolute;
-        top: 10%;
-        width: 100%;
-        text-align: center;
-        z-index: 100;
-        color: white;
-        font-size: 50px;
-    }
-    .message{
-        position: absolute;
-        top: 20%;
-        width: 100%;
-        text-align: center;
-        z-index: 100;
-    }
-    .textarea{
-        position: absolute;
-        top: 30%;
-        width: 100%;
-        text-align: center;
-        z-index: 100;
-    }
-    .submit_tag{
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        z-index: 100;
-    }
+.invitation-title{
+    position: absolute;
+    width: 800px; 
+    margin-left: 450px;
+    top: 12%;
+    font-size: 250%;
+    color: white;
+}
+.message{
+    position: absolute;
+    top: 20%;
+    width: 1220px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.box {
+  border-radius: 0.5em;
+  margin: 14%;
+  position: absolute;
+  top: 12%;
+  width: 900px;
+  height: 340px;
+  background-color: white;
+}
+
+.notice_label {
+  margin: 2%;
+  position: absolute;
+    
+}
+.text_area {
+  margin-top: 60px;
+  margin-left: 285px;
+  position: absolute;
+}
+.submit_tag{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
     
     
     

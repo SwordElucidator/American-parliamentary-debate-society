@@ -18,6 +18,8 @@ https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society
 https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society
 
 <a href="https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/coverage"><img src="https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/coverage.svg" /></a>
+[![Test Coverage](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/coverage.svg)](https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/coverage)
+[![Coverage Status](https://coveralls.io/repos/github/SwordElucidator/American-parliamentary-debate-society/badge.svg?branch=master)](https://coveralls.io/github/SwordElucidator/American-parliamentary-debate-society?branch=master)
 
 ## Documentation
 * [overall documentation](documentations/overall.md)
