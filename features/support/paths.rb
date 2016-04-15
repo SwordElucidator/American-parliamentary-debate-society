@@ -34,7 +34,9 @@ module NavigationHelpers
       '/'
       
     when /^the "(.*)" detail page$/ then '/sections/1/posts/'+String(Post.find_by_title($1).id)
-
+      
+    when /^the "(.*)" section page$/ then '/sections/'+String(Section.find_by_title($1).id) + '/posts'
+    
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
