@@ -30,16 +30,17 @@ Feature: Forum
     
     Scenario: users can create new post
     Given I am on the new post page
-    When I fill in "post_title" with "test title"
+    When I fill in "post_title" with "test"
     And I fill in "post_content" with "test text"
     And I press "Create Post"
-    Then I should be on the home page of the General
+    Then I should be on the "test" detail page
     
     Scenario: users can read posts
     Given I am on the new post page
     When I fill in "post_title" with "test"
     And I fill in "post_content" with "test text"
     And I press "Create Post"
+    And I go to the home page of the General
     And I follow "test"
     Then I should be on the "test" detail page
     

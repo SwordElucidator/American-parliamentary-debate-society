@@ -56,6 +56,17 @@ Feature: Forum
     When I fill in "post_title" with "test"
     And I fill in "post_content" with "test text"
     And I press "Create Post"
-    And I follow "test"
     And I follow "Delete"
     Then I should be on the home page of the General
+    
+    
+    Scenario: users can edit their own posts
+    Given I am on the new post page
+    When I fill in "post_title" with "test"
+    And I fill in "post_content" with "test text"
+    And I press "Create Post"
+    And I follow "Edit"
+    And I fill in "post_title" with "test2"
+    And I fill in "post_content" with "test text2"  
+    And I press "Update Post"
+    Then I should be on the "test2" detail page
