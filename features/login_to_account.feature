@@ -33,7 +33,6 @@ Feature: Login to the user account
     When I fill in "user_email" with "aabbcc@efg.com"
     And I fill in "user_password" with "12345678"
     And I press "Sign In"
-    Then I should be on the home page of the website
 
   Scenario: I'm an unregistered user on the signup page, and I do want to signup, so that I can login
     Given I am on the signup page
