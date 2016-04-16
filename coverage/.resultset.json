@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/user.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/user.rb": [
         1,
         null,
         null,
@@ -30,38 +30,40 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/application_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/application_helper.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/comments_helper.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/helpers/comments_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/posts_helper.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/helpers/posts_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/profile_helper.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/helpers/profile_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/sections_helper.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/helpers/sections_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/helpers/users_helper.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/home_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/home_controller.rb": [
+        1,
+        null,
         1,
         null,
         1,
@@ -107,16 +109,16 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/content.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/content.rb": [
         1,
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/invitation.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/invitation.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/profile_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/profile_controller.rb": [
         1,
         1,
         null,
@@ -144,7 +146,7 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/sections_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/sections_controller.rb": [
         1,
         1,
         4,
@@ -156,31 +158,31 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/section.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/section.rb": [
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/post.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/post.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/posts_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/posts_controller.rb": [
         1,
         1,
         1,
         null,
         1,
-        7,
-        7,
+        3,
+        3,
         null,
         null,
         1,
         null,
-        10,
+        11,
         null,
         null,
         1,
@@ -214,9 +216,9 @@
         null,
         null,
         1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
         null,
         null,
         1,
@@ -231,13 +233,13 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/comment.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/comment.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/comments_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/comments_controller.rb": [
         1,
         1,
         3,
@@ -278,7 +280,7 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/user/registrations_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/user/registrations_controller.rb": [
         1,
         null,
         null,
@@ -353,7 +355,7 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/debate.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/debate.rb": [
         1,
         1,
         1,
@@ -376,13 +378,13 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/models/slot.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/models/slot.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/debate_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/debate_controller.rb": [
         1,
         1,
         null,
@@ -431,7 +433,7 @@
         0,
         0,
         0,
-        0,
+        null,
         0,
         0,
         0,
@@ -448,6 +450,15 @@
         null,
         null,
         1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
         null,
         1,
         0,
@@ -479,24 +490,7 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/user/omniauth_callbacks_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/mailers/user_mailer.rb": [
         0,
         0,
         0,
@@ -509,34 +503,13 @@
         0,
         0
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/user/sessions_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/user/unlocks_controller.rb": [
+      "/home/ubuntu/workspace/American-parliamentary-debate-society/app/controllers/invitation_controller.rb": [
         0,
         0,
         0,
@@ -564,9 +537,6 @@
         0,
         0,
         0,
-        0
-      ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/user/confirmations_controller.rb": [
         0,
         0,
         0,
@@ -580,122 +550,12 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/user/passwords_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/controllers/invitation_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/mailers/user_mailer.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/ubuntu/workspace/new/American-parliamentary-debate-society/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1460765135
+    "timestamp": 1460767620
   }
 }
