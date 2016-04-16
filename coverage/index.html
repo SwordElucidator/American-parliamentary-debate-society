@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-04-16T00:52:25+00:00">2016-04-16T00:52:25+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-04-16T01:01:07+00:00">2016-04-16T01:01:07+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -1987,73 +1987,73 @@
         <li class="missed" data-hits="0" data-linenumber="1">
           
           
-          <code class="ruby">class InvitationController &lt; ApplicationController</code>
+          <code class="ruby"># class InvitationController &lt; ApplicationController</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="2">
           
           
-          <code class="ruby">    before_action :authentication_precheck</code>
+          <code class="ruby">#     before_action :authentication_precheck</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="3">
           
           
-          <code class="ruby">    def authentication_precheck</code>
+          <code class="ruby">#     def authentication_precheck</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="4">
           
           
-          <code class="ruby">        if !user_signed_in?</code>
+          <code class="ruby">#         if !user_signed_in?</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="5">
           
           
-          <code class="ruby">          flash[:notice] = &quot;you should log in first to see the mockdebate page&quot;</code>
+          <code class="ruby">#           flash[:notice] = &quot;you should log in first to see the mockdebate page&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="6">
           
           
-          <code class="ruby">          redirect_to new_user_session_path</code>
+          <code class="ruby">#           redirect_to new_user_session_path</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">        else</code>
+          <code class="ruby">#         else</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
           
           
-          <code class="ruby">          if current_user.is_admin != true</code>
+          <code class="ruby">#           if current_user.is_admin != true</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="9">
           
           
-          <code class="ruby">            redirect_to root_path</code>
+          <code class="ruby">#             redirect_to root_path</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="10">
           
           
-          <code class="ruby">          end</code>
+          <code class="ruby">#           end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="11">
           
           
-          <code class="ruby">        end</code>
+          <code class="ruby">#         end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="12">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">#     end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="13">
@@ -2065,91 +2065,91 @@
         <li class="missed" data-hits="0" data-linenumber="14">
           
           
-          <code class="ruby">    def index</code>
+          <code class="ruby">#     def index</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="15">
           
           
-          <code class="ruby">      if params[:email]</code>
+          <code class="ruby">#       if params[:email]</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="16">
           
           
-          <code class="ruby">          emails = params[:email].strip()</code>
+          <code class="ruby">#           emails = params[:email].strip()</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="17">
           
           
-          <code class="ruby">          message = email_format_check(emails)</code>
+          <code class="ruby">#           message = email_format_check(emails)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="18">
           
           
-          <code class="ruby">          if message != &quot;&quot;</code>
+          <code class="ruby">#           if message != &quot;&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="19">
           
           
-          <code class="ruby">            flash[:notice] = message </code>
+          <code class="ruby">#             flash[:notice] = message </code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="20">
           
           
-          <code class="ruby">          else</code>
+          <code class="ruby">#           else</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="21">
           
           
-          <code class="ruby">            emailList = emails.split(/[\s,]+/)</code>
+          <code class="ruby">#             emailList = emails.split(/[\s,]+/)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="22">
           
           
-          <code class="ruby">            for email in emailList</code>
+          <code class="ruby">#             for email in emailList</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="23">
           
           
-          <code class="ruby">              UserMailer.send_invitation(email).deliver</code>
+          <code class="ruby">#               UserMailer.send_invitation(email).deliver</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="24">
           
           
-          <code class="ruby">              flash[:notice] = &quot;Invitation code has been successfully generated and sent to the email address(es) you enter&quot;</code>
+          <code class="ruby">#               flash[:notice] = &quot;Invitation code has been successfully generated and sent to the email address(es) you enter&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="25">
           
           
-          <code class="ruby">            end</code>
+          <code class="ruby">#             end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="26">
           
           
-          <code class="ruby">          end</code>
+          <code class="ruby">#           end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="27">
           
           
-          <code class="ruby">      end</code>
+          <code class="ruby">#       end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="28">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">#     end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="29">
@@ -2161,91 +2161,91 @@
         <li class="missed" data-hits="0" data-linenumber="30">
           
           
-          <code class="ruby">    private</code>
+          <code class="ruby">#     private</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="31">
           
           
-          <code class="ruby">    def email_format_check(email)</code>
+          <code class="ruby">#     def email_format_check(email)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="32">
           
           
-          <code class="ruby">      illegal_format = &quot;&quot;</code>
+          <code class="ruby">#       illegal_format = &quot;&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="33">
           
           
-          <code class="ruby">      emailList = email.split(/[\s,]+/)</code>
+          <code class="ruby">#       emailList = email.split(/[\s,]+/)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="34">
           
           
-          <code class="ruby">      for email in emailList</code>
+          <code class="ruby">#       for email in emailList</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="35">
           
           
-          <code class="ruby">        if email !~ /\b[A-Z0-9._%a-z\-]+@(?:[A-Z0-9a-z\-]+\.)+[A-Za-z]{2,4}\z/</code>
+          <code class="ruby">#         if email !~ /\b[A-Z0-9._%a-z\-]+@(?:[A-Z0-9a-z\-]+\.)+[A-Za-z]{2,4}\z/</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="36">
           
           
-          <code class="ruby">          illegal_format = illegal_format + email + &quot; &quot;</code>
+          <code class="ruby">#           illegal_format = illegal_format + email + &quot; &quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="37">
           
           
-          <code class="ruby">        end</code>
+          <code class="ruby">#         end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="38">
           
           
-          <code class="ruby">      end</code>
+          <code class="ruby">#       end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="39">
           
           
-          <code class="ruby">      if illegal_format != &quot;&quot;</code>
+          <code class="ruby">#       if illegal_format != &quot;&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="40">
           
           
-          <code class="ruby">        illegal_format = illegal_format + &quot;doesn&#39;t match the email format xxxxx@xxxxx.xxx&quot;</code>
+          <code class="ruby">#         illegal_format = illegal_format + &quot;doesn&#39;t match the email format xxxxx@xxxxx.xxx&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="41">
           
           
-          <code class="ruby">      end</code>
+          <code class="ruby">#       end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="42">
           
           
-          <code class="ruby">      return illegal_format</code>
+          <code class="ruby">#       return illegal_format</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="43">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">#     end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="44">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby"># end</code>
         </li>
       
     </ol>
@@ -3541,25 +3541,25 @@
         <li class="missed" data-hits="0" data-linenumber="1">
           
           
-          <code class="ruby">class ApplicationMailer &lt; ActionMailer::Base</code>
+          <code class="ruby"># class ApplicationMailer &lt; ActionMailer::Base</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="2">
           
           
-          <code class="ruby">  default from: &quot;from@example.com&quot;</code>
+          <code class="ruby">#   default from: &quot;from@example.com&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="3">
           
           
-          <code class="ruby">  layout &#39;mailer&#39;</code>
+          <code class="ruby">#   layout &#39;mailer&#39;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="4">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby"># end</code>
         </li>
       
     </ol>
@@ -3583,13 +3583,13 @@
         <li class="missed" data-hits="0" data-linenumber="1">
           
           
-          <code class="ruby">class UserMailer &lt; ApplicationMailer</code>
+          <code class="ruby"># class UserMailer &lt; ApplicationMailer</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="2">
           
           
-          <code class="ruby">  default from: &#39;acjwxc12138@126.com&#39;</code>
+          <code class="ruby">#   default from: &#39;acjwxc12138@126.com&#39;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="3">
@@ -3601,49 +3601,49 @@
         <li class="missed" data-hits="0" data-linenumber="4">
           
           
-          <code class="ruby">  def send_invitation(email)</code>
+          <code class="ruby">#   def send_invitation(email)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="5">
           
           
-          <code class="ruby">    #@url  = &#39;http://example.com/login&#39;</code>
+          <code class="ruby">#     #@url  = &#39;http://example.com/login&#39;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="6">
           
           
-          <code class="ruby">    require &#39;digest/sha1&#39;</code>
+          <code class="ruby">#     require &#39;digest/sha1&#39;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">    @code = Digest::SHA1.hexdigest(email)</code>
+          <code class="ruby">#     @code = Digest::SHA1.hexdigest(email)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
           
           
-          <code class="ruby">    Invitation.create(:code =&gt; @code)</code>
+          <code class="ruby">#     Invitation.create(:code =&gt; @code)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="9">
           
           
-          <code class="ruby">    mail(to: email, subject: &#39;Welcome to the American Parliamentary Debate Society of Berkeley&#39;)</code>
+          <code class="ruby">#     mail(to: email, subject: &#39;Welcome to the American Parliamentary Debate Society of Berkeley&#39;)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="10">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">#   end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="11">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby"># end</code>
         </li>
       
     </ol>
