@@ -68,6 +68,7 @@
         margin: 1em 0;
         padding: 1em 0;
         border-bottom: 1px solid #d1d1d1;
+        overflow:auto; 
         
         .title{
             margin: 0;
@@ -90,6 +91,11 @@
     background: white;
     padding: 2em 5%;
     border-radius: .5em;
+    
+    .p-content{
+        white-space: pre-line;
+    }
+    
     h1{
         margin: 0;
         color: #0C0240;
@@ -122,6 +128,7 @@
         .comment_content{
             margin: 0;
             padding: 0;
+            white-space: pre-line;
         }
         .comment_author{
             color: #0C0240;
@@ -168,4 +175,9 @@
         color: white;
         font-weight: 100;
     }
+}
+
+.post-main{
+    width: 80%;
+    float: left;
 }
