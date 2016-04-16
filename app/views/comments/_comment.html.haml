@@ -2,7 +2,15 @@
     .content
         %p.comment_content= comment.comment
         - if comment.user
-            %p.comment_author= comment.user.email
+            %p.comment_author
+                Published at
+                = time_ago_in_words(comment.created_at)
+                by
+                - if comment.user.firstname
+                    = comment.user.firstname
+                    = comment.user.lastname
+                - else
+                    = comment.user.email
         - else
             %p.comment_author= "anonymous"
     .buttons
