@@ -50,3 +50,12 @@ Feature: Forum
     Given I am on the home page of the forum
     When I follow "General2"
     Then I should not be on the "General1" section page
+
+    Scenario: users can delete their own posts
+    Given I am on the new post page
+    When I fill in "post_title" with "test"
+    And I fill in "post_content" with "test text"
+    And I press "Create Post"
+    And I follow "test"
+    And I follow "Delete"
+    Then I should be on the home page of the General
