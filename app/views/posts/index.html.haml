@@ -5,12 +5,21 @@
     Posts
   - @posts.each do |post|
     .post
-      %h2.title= link_to post.title, section_post_path(id: post.id)
-      %p.date
-        Published at
-        = time_ago_in_words(post.created_at)
-        by
-        - if post.user
-          = post.user.email
-        - else
-          = "anonymous"
+      %div.post-main
+        %h2.title= link_to post.title, section_post_path(id: post.id)
+        %p.date
+          Published at
+          = time_ago_in_words(post.created_at)
+          by
+          - if post.user
+            - if post.user.firstname
+              = post.user.firstname
+              = post.user.lastname
+            -else
+              = post.user.email
+          - else
+            = "anonymous"
+      %div.post-num
+        %p
+          = post.comments.count
+          comments
