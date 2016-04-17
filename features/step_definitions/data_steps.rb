@@ -24,6 +24,14 @@ Given /the following posts exist/ do |post_table|
   end
 end
 
+Given /the following sections exist/ do |section_table|
+  section_table.hashes.each do |po|
+    # each returned element will be a hash whose key is the table header.
+    # you should arrange to add that movie to the database here.
+    Section.create(po)
+  end
+end
+
 Given /the following debates exist/ do |debate_table|
   debate_table.hashes.each do |debate|
     # each returned element will be a hash whose key is the table header.
@@ -37,6 +45,14 @@ Given /the following slots exist/ do |slot_table|
     # each returned element will be a hash whose key is the table header.
     # you should arrange to add that movie to the database here.
     Slot.create(slot)
+  end
+end
+
+Given /the following invitation codes exist/ do |code_table|
+  code_table.hashes.each do |code|
+    # each returned element will be a hash whose key is the table header.
+    # you should arrange to add that movie to the database here.
+    Invitation.create(code)
   end
 end
 

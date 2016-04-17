@@ -15,6 +15,8 @@ module NavigationHelpers
     when /^the admin page$/ then '/admin'
     when /^the profile page$/ then '/profile'
     when /^the mockDebate page$/ then '/mockdebate'
+    when /^the create mock debate page$/ then '/mockdebate/create'
+    when /^the update mock debate page$/ then '/mockdebate/1/update'
 
     when /^the edit home page$/ then '/home/edit'
 
@@ -22,17 +24,21 @@ module NavigationHelpers
       '/'
     when /^the home page of the forum$/
       '/forum'
+    when /^the home page of the General$/
+      '/sections/1/posts'
 
     when /^the new post page$/
-      '/posts/new'
+      '/sections/1/posts/new'
       
     when /^the (.*) section$/
       page_name =~ /^the (.*) page$/
       section_name = $1
       '/'
       
-    when /^the "(.*)" detail page$/ then '/posts/'+String(Post.find_by_title($1).id)
-
+    when /^the "(.*)" detail page$/ then '/sections/1/posts/'+String(Post.find_by_title($1).id)
+      
+    when /^the "(.*)" section page$/ then '/sections/'+String(Section.find_by_title($1).id) + '/posts'
+    
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

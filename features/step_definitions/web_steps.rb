@@ -40,6 +40,17 @@ When /^(?:|I )follow "([^"]*)"$/ do |link|
   click_link(link)
 end
 
+When /^I click the link with name "([^"]*)"$/ do |link|
+  first(:link, link).click
+end
+
+When /^I click another "([^"]*)"$/ do |link|
+  all(:link, link)[2].click
+end
+
+Then /^I should have link "([^"]*)"$/ do |link|
+  find_link(link)
+end
 
 When /^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ do |field, value|
   fill_in(field, :with => value)
@@ -265,10 +276,13 @@ Given /^a valid user$/ do
 end
 
 Given /^a logged in user$/ do
+  code = Digest::SHA1.hexdigest("aabbcc@gmail.com")
+  Invitation.create(code: code)
   @user = User.create!({
              :email => "aabbcc@gmail.com",
              :password => "12345678",
-             :password_confirmation => "12345678"
+             :password_confirmation => "12345678",
+             :code=> code
            })
   visit path_to("the login page")
   fill_in "Email", :with => "aabbcc@gmail.com"

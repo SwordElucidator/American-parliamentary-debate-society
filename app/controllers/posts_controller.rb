@@ -23,7 +23,7 @@ class PostsController < ApplicationController
         @post = current_user.posts.build(post_params)
         @post.section = @section
         if @post.save
-            redirect_to section_posts_path(@section)
+            redirect_to section_post_path(@section, @post)
         else
             render 'new'
         end
@@ -36,7 +36,7 @@ class PostsController < ApplicationController
     def update
         @section = Section.find(params[:section_id])
         if @post.update(post_params)
-            redirect_to @post
+            redirect_to section_post_path(@section, @post)
         else
             render 'edit'
         end

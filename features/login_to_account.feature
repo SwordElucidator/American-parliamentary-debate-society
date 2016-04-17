@@ -6,9 +6,12 @@ Feature: Login to the user account
   
   Background: users database is exist as follows
     Given the following users exist:
-    | email   | password |
-    | abc@efg.com    | asdfghjk        |
+    | email             | password    | password_confirmation   |
+    | aabbcc@efg.com    | 12345678    | 12345678                |
 
+    Given the following contents exist
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
 
   Scenario: I'm an unregistered user on the login page, but I want to signup
     Given I am on the login page
@@ -27,10 +30,9 @@ Feature: Login to the user account
 
   Scenario: I'm an registered user on the login page, and I want to login
     Given I am on the login page
-    When I fill in "user_email" with "abc@efg.com"
-    And I fill in "user_password" with "asdfghjk"
+    When I fill in "user_email" with "aabbcc@efg.com"
+    And I fill in "user_password" with "12345678"
     And I press "Sign In"
-    Then I should be on the home page of the website
 
   Scenario: I'm an unregistered user on the signup page, and I do want to signup, so that I can login
     Given I am on the signup page
@@ -38,12 +40,10 @@ Feature: Login to the user account
     And I should have field "user_password"
     And I should have field "user_password_confirmation"
     And I should have button "Sign Up"
-    When I fill in "user_email" with "abcde@fg.com"
-    And I fill in "user_password" with "123456789"
-    And I fill in "user_password_confirmation" with "123456789"
+    When I fill in "user_email" with "aabbcc@efg.com"
+    And I fill in "user_password" with "12345678"
+    And I fill in "user_password_confirmation" with "12345678"
     And I press "Sign Up"
-    Then I should be on the home page of the website
-
   
   Scenario: However, I decided to use strange name to sign up our test the extreme of the website
     Given I am on the signup page
