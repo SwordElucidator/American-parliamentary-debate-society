@@ -1,57 +1,84 @@
 #post_content
   
   %h2.title
-    Welcome, 
-    - if not current_user.firstname
-      = current_user.email
-    - else
-      = current_user.firstname
-    !
+    - if @user_to_see.id == current_user.id
+      Welcome, 
+      - if not @user_to_see.firstname
+        = @user_to_see.email
+      - else
+        = @user_to_see.firstname
+      !
+    -else
+      This is
+      - if not @user_to_see.firstname
+        = @user_to_see.email
+      - else
+        = @user_to_see.firstname
+        = @user_to_see.lastname
+      's Page!
     
     %p
-      Your email is
-      = current_user.email
+      Email: 
+      = @user_to_see.email
       %br/
-      - if not current_user.firstname or current_user.firstname == ''
-        You have not input your name!
+      - if not @user_to_see.firstname or @user_to_see.firstname == ''
+        - if @user_to_see.id == current_user.id
+          You have not input your name!
+        - else
+          This person has not input name!
       -else
-        Your current name is
-        = current_user.firstname
-        - if current_user.lastname
-          = current_user.lastname
+        Name: 
+        = @user_to_see.firstname
+        - if @user_to_see.lastname
+          = @user_to_see.lastname
       %br/
-      - if not current_user.major or current_user.major == ''
-        You have not input your major!
+      - if not @user_to_see.major or @user_to_see.major == ''
+        - if @user_to_see.id == current_user.id
+          You have not input your major!
+        - else
+          This person has not input major!
       -else
-        Your current major is
-        = current_user.major
+        Current major:
+        = @user_to_see.major
         
-  =image_tag src= current_user.image_url
+  =image_tag src= @user_to_see.image_url
     
-  
-  %h3 Your Debates:
-  - for debate in current_user.debates
-    %p 
-    Your mock debate
+  - if @user_to_see.id == current_user.id
+    %h3 Your Debates:
+  - else
+    %h3 His/Her Debates:
+  - for debate in @user_to_see.debates
+    - if @user_to_see.id == current_user.id
+      %p 
+      Your mock debate
+    - else
+      %p 
+      His/Her mock debate
+   
     = link_to debate.topic, mockdebate_path
     will coming on
     = debate.time
     at berkeley !!!
-  %h3 Your Posts 
-  - current_user.posts.each do |post|
+  - if @user_to_see.id == current_user.id
+    %h3 Your Posts:
+  - else
+    %h3 His/Her Posts:
+  
+  - @user_to_see.posts.each do |post|
     %div
-      %h2.title= link_to post.title, section_post_path(id: post.id, section_id: post.section.id)
-      %p.date
+      %h4.title= link_to post.title, section_post_path(id: post.id, section_id: post.section.id)
+      %p.date#date-profile
         Published at
         = time_ago_in_words(post.created_at)
-  %h2.title
-    Edit Your Profile:
-  = simple_form_for current_user, :url => update_profile_path, :method => :post do |f|
-    = f.input :firstname
-    = f.input :lastname
-    = f.input :major
-    = f.input :image_url
-    = f.submit
-     
+  - if @user_to_see.id == current_user.id
+    %h2.title
+      Edit Your Profile:
+    = simple_form_for current_user, :url => update_profile_path, :method => :post do |f|
+      = f.input :firstname
+      = f.input :lastname
+      = f.input :major
+      = f.input :image_url
+      = f.submit
+       
       
       
