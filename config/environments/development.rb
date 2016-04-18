@@ -49,6 +49,6 @@ Rails.application.configure do
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: "americanparliamentarydebate@gmail.com",
-    password: "15901032877",
+    password: "stanfordsucks",
   }
 end

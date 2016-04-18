@@ -5,13 +5,6 @@ class Debate < ActiveRecord::Base
     validates :topic, :time, :location, :presence => true
     
     
-    def self.find_current_debates
-       return Debate.where("time > ?", Time.now)
-    end
-    
-    def self.find_past_debates
-       return Debate.where("time < ?", Time.now) 
-    end
     
     def self.parse_name(user)
         first_name = user.firstname[0, 10]
