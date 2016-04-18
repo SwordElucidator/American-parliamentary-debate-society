@@ -1,4 +1,5 @@
 #post_content
+  
   %h2.title
     Welcome, 
     - if not current_user.firstname
@@ -6,7 +7,8 @@
     - else
       = current_user.firstname
     !
-    %p 
+    
+    %p
       Your email is
       = current_user.email
       %br/
@@ -23,14 +25,33 @@
       -else
         Your current major is
         = current_user.major
+        
+  =image_tag src= current_user.image_url
+    
+  
+  %h3 Your Debates:
+  - for debate in current_user.debates
+    %p 
+    Your mock debate
+    = link_to debate.topic, mockdebate_path
+    will coming on
+    = debate.time
+    at berkeley !!!
+  %h3 Your Posts 
+  - current_user.posts.each do |post|
+    %div
+      %h2.title= link_to post.title, section_post_path(id: post.id, section_id: post.section.id)
+      %p.date
+        Published at
+        = time_ago_in_words(post.created_at)
   %h2.title
     Edit Your Profile:
-  %p
-    = simple_form_for current_user, :url => update_profile_path, :method => :post do |f|
-      = f.input :firstname
-      = f.input :lastname
-      = f.input :major
-      = f.submit
+  = simple_form_for current_user, :url => update_profile_path, :method => :post do |f|
+    = f.input :firstname
+    = f.input :lastname
+    = f.input :major
+    = f.input :image_url
+    = f.submit
      
       
       
