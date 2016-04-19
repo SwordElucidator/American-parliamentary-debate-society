@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160418021828) do
+ActiveRecord::Schema.define(version: 20160418234345) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -105,6 +105,7 @@ ActiveRecord::Schema.define(version: 20160418021828) do
     t.boolean  "is_admin"
     t.string   "code"
     t.string   "image_url",              default: "http://www.aaea.com.ar/img/user.png"
+    t.boolean  "validated",              default: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
