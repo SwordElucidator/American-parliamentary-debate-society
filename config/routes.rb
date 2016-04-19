@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get '/forum', to: "sections#index"
   post '/forum', to: "sections#index"
   get '/profile', to: "profile#profile"
+  get '/profile/:id', to: "profile#user", as: 'see_user_profile'
   post '/profile', to: "profile#profile", as: 'update_profile'
   get '/invitation', to: "invitation#index"
   post '/invitation', to: "invitation#index"

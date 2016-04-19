@@ -18,7 +18,7 @@ https://travis-ci.org/SwordElucidator/American-parliamentary-debate-society
 https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society
 
 <a href="https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/coverage"><img src="https://codeclimate.com/github/SwordElucidator/American-parliamentary-debate-society/badges/coverage.svg" /></a> 
-* This number is not completely accurate, please check this manually.
+* This coverage rate is not accurate, please go to the end of the Travis CI console to check it.
 
 ## Documentation
 * [overall documentation](documentations/overall.md)

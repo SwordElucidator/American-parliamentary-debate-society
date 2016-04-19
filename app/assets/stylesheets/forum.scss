@@ -80,6 +80,9 @@
             }
         }
         .date{
+            a{
+                color: #0C0240;
+              }
             margin-top: .25rem;
             font-size: 1.1rem;
             color: #B2BAC2;
@@ -94,6 +97,7 @@
     
     .p-content{
         white-space: pre-line;
+        font-size: 1.5rem;
     }
     
     h1{
@@ -105,7 +109,7 @@
     }
     p{
         font-weight: 100;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: #B2BAC2;
         line-height: 1.5;
     }
