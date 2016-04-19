@@ -26,6 +26,7 @@ Rails.application.routes.draw do
   get '/invitation', to: "invitation#index"
   post '/invitation', to: "invitation#index"
 
+  post '/mockdebate/:id(.:format)/changeregistration', to: "debate#changeregistration", as: 'change_registration'
   get '/mockdebate', to: "debate#index"
   get '/mockdebate/create', to: "debate#create"
   post '/mockdebate/create', to: "debate#create"

@@ -10,21 +10,35 @@ class DebateController < ApplicationController
     
     
     def index
-        @slottype = ["government", "opposition", "judge"]
-        if params[:value] == "register"
-            if checkregister(params[:debateid]) == false
-               flash.delete :success if flash[:success]
-               flash.now[:error] = "You cannot play two roles in the same debate"
-            elsif checkprofile == false
-               flash.delete :success if flash[:success]
-               flash.now[:error] = "You have to edit your profiles first to register"
-            else
-               changeRegistration(params[:id], params[:debateid], params[:value], "full")
-            end
-        elsif params[:value] == "cancel"
-            changeRegistration(params[:id], params[:debateid], params[:value], "empty")
+        if session[:message]
+          displaymessage
+          session[:message] = nil
         end
+        @slottype = ["government", "opposition", "judge"]
         @debate = Debate.all
+    end
+    
+    def changeregistration
+        slotid = params[:id]
+        registeredslot = Slot.find_by_id(slotid)
+        debateid = registeredslot.debate_id
+        if checkprofile == false
+          setsession("profile empty")
+        elsif registeredslot.status == "empty"
+            if checkregister(debateid) == false
+              setsession("registration conflict")
+            else
+              registeredslot.update(:status => "full")
+              current_user.slots.concat(registeredslot)
+              current_user.save
+              setsession("registration success")
+            end
+        else
+            registeredslot.update(:status => "empty")
+            current_user.slots.delete(registeredslot)
+            current_user.save
+            setsession("cancel success")
+        end
     end
     
     def create
@@ -46,7 +60,6 @@ class DebateController < ApplicationController
         if params[:delete]
             puts "delete this debate"
             debate = Debate.find_by_id(params[:id])
-            #current_user.slots.delete(debate.slots)
             Slot.delete(debate.slots)
             Debate.delete(params[:id])
             redirect_to action: "index"
@@ -64,14 +77,6 @@ class DebateController < ApplicationController
     
     private
     
-    def deleteolddebate
-        Debate.all.each do |debate|
-            if Time.zone.now - debate.time > 0
-                Slot.delete(debate.slots)
-                Debate.delete(debate)
-            end
-        end
-    end
     
     def checkregister(debateid)
         debateslots = Debate.find_by_id(debateid).slots
@@ -87,18 +92,25 @@ class DebateController < ApplicationController
         current_user.lastname != nil and current_user.firstname != nil
     end
     
-    
-    def changeRegistration(slotid, debateid, move, status)
-        registeredslot = Slot.find_by_id(slotid)
-        registeredslot.update(:status => status) 
-        current_user.slots.concat(registeredslot) if move == "register"
-        current_user.slots.delete(registeredslot) if move == "cancel"
-        current_user.save
+    def displaymessage
+        flash.delete :sucess if flash[:success]
         flash.delete :error if flash[:error]
-        flash.now[:success] = "You have successfully " + move + " the debate " + '"' + Debate.find_by_id(debateid).topic + '"'
+        case session[:message]
+        when "profile empty"
+            flash.now[:error] = "You need to edit your profile first to sign up the mockdebate"
+        when "registration conflict"
+            flash.now[:error] = "You have already registered a slot for this debate"
+        when "registration success"
+            flash.now[:success] = "You have successfully register the debate"
+        else
+            flash.now[:success] = "You have successfully cancel the debate"
+        end
     end
-         
-             
-             
-        
+    
+    def setsession(message)
+        session[:message] = message
+        redirect_to action: "index"
+    end
+    
+    
 end
