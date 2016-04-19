@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160415210210) do
+ActiveRecord::Schema.define(version: 20160418234345) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -86,14 +86,18 @@ ActiveRecord::Schema.define(version: 20160415210210) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
+    t.string   "email",                  default: "",                                    null: false
+    t.string   "encrypted_password",     default: "",                                    null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+<<<<<<< HEAD
     t.string   "username"
     t.string   "password"
     t.integer  "sign_in_count",          default: 0,  null: false
+=======
+    t.integer  "sign_in_count",          default: 0,                                     null: false
+>>>>>>> b4f5a99c0d47780443046a34c76a9aa36e319794
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -106,6 +110,8 @@ ActiveRecord::Schema.define(version: 20160415210210) do
     t.datetime "time"
     t.boolean  "is_admin"
     t.string   "code"
+    t.string   "image_url",              default: "http://www.aaea.com.ar/img/user.png"
+    t.boolean  "validated",              default: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

@@ -40,6 +40,17 @@ When /^(?:|I )follow "([^"]*)"$/ do |link|
   click_link(link)
 end
 
+When /^I click the link with name "([^"]*)"$/ do |link|
+  first(:link, link).click
+end
+
+When /^I click another "([^"]*)"$/ do |link|
+  all(:link, link)[2].click
+end
+
+Then /^I should have link "([^"]*)"$/ do |link|
+  find_link(link)
+end
 
 When /^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ do |field, value|
   fill_in(field, :with => value)

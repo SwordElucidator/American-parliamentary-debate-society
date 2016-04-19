@@ -15,6 +15,8 @@ module NavigationHelpers
     when /^the admin page$/ then '/admin'
     when /^the profile page$/ then '/profile'
     when /^the mockDebate page$/ then '/mockdebate'
+    when /^the create mock debate page$/ then '/mockdebate/create'
+    when /^the update mock debate page$/ then '/mockdebate/1/update'
 
     when /^the edit home page$/ then '/home/edit'
 
