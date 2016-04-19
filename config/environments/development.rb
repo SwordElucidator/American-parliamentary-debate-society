@@ -49,10 +49,6 @@ Rails.application.configure do
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: "americanparliamentarydebate@gmail.com",
-<<<<<<< HEAD
     password: "stanfordsucks",
-=======
-    password: "standfordsucks",
->>>>>>> forum
   }
 end
