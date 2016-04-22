@@ -1,3 +1,4 @@
+$(document).ready(
 $('.change_registration').bind('ajax:success', function() {
     <% puts "hello world" %>
     <% registeredslot = Slot.find_by_id(params[:id]) %>
@@ -9,4 +10,4 @@ $('.change_registration').bind('ajax:success', function() {
 
         <!--@slottype = ["government", "opposition", "judge"]-->
         <!--@debate = Debate.all-->
-});
+}););
