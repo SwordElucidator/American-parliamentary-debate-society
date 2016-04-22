@@ -6,11 +6,12 @@
                 Published at
                 = time_ago_in_words(comment.created_at)
                 by
-                - if comment.user.firstname
-                    = comment.user.firstname
-                    = comment.user.lastname
-                - else
-                    = comment.user.email
+                %a{:href => see_user_profile_path(comment.user.id)}
+                    - if comment.user.firstname
+                        = comment.user.firstname
+                        = comment.user.lastname
+                    - else
+                        = comment.user.email
         - else
             %p.comment_author= "anonymous"
     .buttons
