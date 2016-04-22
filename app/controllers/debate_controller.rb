@@ -26,6 +26,11 @@ class DebateController < ApplicationController
         end
         @slottype = ["government", "opposition", "judge"]
         @debate = Debate.all
+        
+        respond_to do |format|
+            format.html
+            format.js
+        end
     end
     
     def changeregistration
