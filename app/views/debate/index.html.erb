@@ -1,6 +1,7 @@
-<div class = "debate_title">APDS Mockup Debate Signups</div>
-<%= render 'message'%>
-<div class = "boxed">
+<%= javascript_include_tag "index" %>
+<div class = "debate_title", id = "debate_title">APDS Mockup Debate Signups</div>
+<div class = "flashcontainer", id = "flashcontainer"><div>
+<div class = "boxed", id = "boxed">
 <% if Debate.all.length != 0%>
   <table class = "table-apds table table-striped" style="width:auto;">
   <%= render 'head' %>
@@ -16,15 +17,15 @@
               <div class="btn-group btn-group-sm">
                 <% if slot.slottype == slottype %>
                   <% if slot.status == "empty"%>
-                    <h4><%= button_to "Register", change_registration_path(slot.id), class: "btn btn-success btn-sm" %></h4>
+                    <div id = <%= slot.id %>><%= link_to "Register", {:action => "registerdebate", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register",  :class => 'register_debate', :remote => true}, class: "btn btn-success", role: "button" %></div>
                   <% else%>
                     <% if current_user.slots.include?slot %>
-                      <h4><%= button_to "Cancel", change_registration_path(slot.id), class: "btn btn-danger btn-sm" %></h4>
+                      <div id = <%= slot.id %>><%= link_to "Cancel", {:action => "canceldebate", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel", :class => 'cancel_debate', :remote => true}, class: "btn btn-danger", role: "button" %></div>
                     <% else %>
-                      <h4><span class="label label-default customlabel"><%= Debate.parse_name(User.find_by_id(slot.user_id)) %></span></h4>
+                      <span class="label label-default customlabel"><%= Debate.parse_name(User.find_by_id(slot.user_id)) %></span>
                     <% end%>
                   <% end%>
-                <% end%>
+                <% end %>
               </div>
             <% end%>
             </p>
