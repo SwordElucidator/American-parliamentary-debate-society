@@ -37,8 +37,7 @@ class DebateController < ApplicationController
         end
     end
     
-<<<<<<< HEAD
-=======
+
     def canceldebate
         if params[:value]  and params[:id] and params[:debateid]
             slotid = params[:id]
@@ -57,7 +56,7 @@ class DebateController < ApplicationController
             end
         end
     end
->>>>>>> invitation
+
     
     
     
@@ -131,10 +130,7 @@ class DebateController < ApplicationController
         registeredslot.update(:status => "empty")
         current_user.slots.delete(registeredslot)
         current_user.save
-<<<<<<< HEAD
-=======
         flash.delete :error if flash[:error]
->>>>>>> invitation
         flash.now[:success] = "You have successfully cancel the debate"
     end
     
