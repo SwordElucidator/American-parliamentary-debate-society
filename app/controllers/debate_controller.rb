@@ -10,50 +10,53 @@ class DebateController < ApplicationController
     
     
     def index
-        if params[:id]
-            if checkprofile
-                slotid = params[:id]
-                registeredslot = Slot.find_by_id(slotid)
-                debateid = registeredslot.debate_id
-                if registeredslot.status == "empty"
-                    if checkregister(debateid)
-                        register(registeredslot)
-                    end
-                else
-                    cancel(registeredslot)
-                end
-            end
-        end
         @slottype = ["government", "opposition", "judge"]
         @debate = Debate.all
-        
-        respond_to do |format|
-            format.html
-            format.js
+    end
+    
+    def registerdebate
+        if params[:value]  and params[:id] and params[:debateid]
+            slotid = params[:id]
+            @slotid = params[:id]
+            @debateid = params[:debateid]
+            registeredslot = Slot.find_by_id(slotid)
+            if checkprofile
+                if checkregister(@debateid)
+                   register(registeredslot)
+                   @error = "nonerror"
+                else
+                   @error = "registerConflictError"
+                end
+            else
+                @error = "profileEmptyError"
+            end
+            respond_to do |format|
+                format.html
+                format.js
+            end
         end
     end
     
-    def changeregistration
-        slotid = params[:id]
-        registeredslot = Slot.find_by_id(slotid)
-        debateid = registeredslot.debate_id
-        if checkprofile 
-          elsif registeredslot.status == "empty"
-            if checkregister(debateid) == false
-              setsession("registration conflict")
+    def canceldebate
+        if params[:value]  and params[:id] and params[:debateid]
+            slotid = params[:id]
+            @slotid = params[:id]
+            @debateid = params[:debateid]
+            registeredslot = Slot.find_by_id(slotid)
+            if checkprofile
+                cancel(registeredslot)
+                @error1 = "nonerror"
             else
-              registeredslot.update(:status => "full")
-              current_user.slots.concat(registeredslot)
-              current_user.save
-              setsession("registration success")
+                @error1 = "profileEmptyError"
             end
-        else
-            registeredslot.update(:status => "empty")
-            current_user.slots.delete(registeredslot)
-            current_user.save
-            setsession("cancel success")
+            respond_to do |format|
+                format.html
+                format.js
+            end
         end
     end
+    
+    
     
     def create
         if params[:topic] and params[:location] and params[:time]
@@ -96,6 +99,7 @@ class DebateController < ApplicationController
         debateslots = Debate.find_by_id(debateid).slots
         current_user.slots.each do |userslot|
             if debateslots.include?userslot
+                flash.delete :success if flash[:success]
                 flash.now[:error] = "You have already registered a slot for this debate"
                 return false
             end
@@ -107,6 +111,7 @@ class DebateController < ApplicationController
         if current_user.lastname != nil and current_user.firstname != nil
             return true
         end
+        flash.delete :success if flash[:success]
         flash.now[:error] = "You need to edit your profile first to sign up the mockdebate"
         return true
     end
@@ -115,6 +120,7 @@ class DebateController < ApplicationController
         registeredslot.update(:status => "full")
         current_user.slots.concat(registeredslot)
         current_user.save
+        flash.delete :error if flash[:error]
         flash.now[:success] = "You have successfully register the debate"
     end
     
@@ -122,26 +128,8 @@ class DebateController < ApplicationController
         registeredslot.update(:status => "empty")
         current_user.slots.delete(registeredslot)
         current_user.save
-        flash.now[:success] = "You have successfully cancel the debate"
-    end
-    def displaymessage
-        flash.delete :sucess if flash[:success]
         flash.delete :error if flash[:error]
-        case session[:message]
-        when "profile empty"
-            flash.now[:error] = "You need to edit your profile first to sign up the mockdebate"
-        when "registration conflict"
-            flash.now[:error] = "You have already registered a slot for this debate"
-        when "registration success"
-            flash.now[:success] = "You have successfully register the debate"
-        else
-            flash.now[:success] = "You have successfully cancel the debate"
-        end
-    end
-    
-    def setsession(message)
-        session[:message] = message
-        redirect_to action: "index"
+        flash.now[:success] = "You have successfully cancel the debate"
     end
     
     

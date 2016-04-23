@@ -1,0 +1,7 @@
+<% if @error1 == "profileEmptyError" %>
+    $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
+<% else%>
+    $('#' + '<%= @slotid %>').html( "<%= escape_javascript(render 'register') %>" );
+    $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
+<% end%>
+
