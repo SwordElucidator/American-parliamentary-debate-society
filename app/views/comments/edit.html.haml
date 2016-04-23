@@ -1,5 +1,6 @@
-%h1 Edit Reply
-
-= simple_form_for([@section, @post, @comment]) do |f|
-    = f.input :comment
-    = f.submit
+#post_content
+    %h3 Edit Reply
+    #comments
+        = simple_form_for([@section, @post, @comment]) do |f|
+            = f.input :comment
+            = f.submit
