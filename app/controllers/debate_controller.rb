@@ -11,7 +11,7 @@ class DebateController < ApplicationController
     
     def index
         @slottype = ["government", "opposition", "judge"]
-        @debate = Debate.all
+        @debate = Debate.find_future_debates(Debate.all)
     end
     
     def registerdebate
@@ -70,7 +70,13 @@ class DebateController < ApplicationController
                 end
                 redirect_to action: "index"
             else
-                flash.now[:error] = "Please make sure no field is empty"
+                newdebate.errors.full_messages.each do |error|
+                    if error == "Time empty field"
+                      flash.now[:error] = "Please make sure no field is empty"
+                    elsif error == "Time outdated time"
+                      flash.now[:error] = "The scheduled debate time falls behind the current time"
+                    end
+                end
             end
         end
     end
@@ -85,10 +91,10 @@ class DebateController < ApplicationController
         end
         if params[:topic] and params[:location] and params[:time]
             modify_debate = Debate.find_by_id(params[:id]).update(:topic => params[:topic], :location => params[:location], :time => params[:time])
-            if modify_debate == true
-              redirect_to action: "index"
+            if modify_debate
+                redirect_to action: "index"
             else
-              flash.now[:error] = "Please make sure no field is empty"
+                flash.now[:error] = "Please make sure no field is empty and the debate time doesn't fall behind current time"
             end
         end
     end
