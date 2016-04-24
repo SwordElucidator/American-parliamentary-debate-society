@@ -40,8 +40,10 @@
       -else
         Current major:
         = @user_to_see.major
-        
-  =image_tag src= @user_to_see.image_url
+  %div.user-image
+    - if @user_to_see.image_url
+      =image_tag src= @user_to_see.image_url
+      
     
   - if @user_to_see.id == current_user.id
     %h3 Your Debates:
@@ -77,7 +79,10 @@
       = f.input :firstname
       = f.input :lastname
       = f.input :major
-      = f.input :image_url
+      %br
+      Upload Your Image:
+      = f.file_field :image_url, accept: 'image/png,image/gif,image/jpeg'
+      %br
       = f.submit
        
       
