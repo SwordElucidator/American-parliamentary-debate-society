@@ -51,14 +51,15 @@
                     %li
                       %a{:href => rails_admin_path} Admin Dashboard
                     %li
-                      %a{:href => invitation_path} Send Codes
+                      %a{:href => invitation_path} Invite Users
                     %li
                       %a{:href => home_edit_path} Edit Home Page
                   %li
                     %a{:href => destroy_user_session_path} Sign out
-    = yield
-    / %footer.container{:role => "closing"}
-    /   %p <strong>The Debate Society of Berkeley</strong> &copy; 2016
-    /   %p{:class => "description"} We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
-    /   %img#ocf-logo{:src => "https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png", :alt =>"Hosted by the OCF", :href => "https://www.ocf.berkeley.edu"}
-    /   </a>
+    .wrapper-debate
+      = yield
+    %footer.container{:role => "closing"}
+      %p <strong>The Debate Society of Berkeley</strong> &copy; 2016
+      %p{:class => "description"} We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
+      %img#ocf-logo{:src => "https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png", :alt =>"Hosted by the OCF", :href => "https://www.ocf.berkeley.edu"}
+      </a>
