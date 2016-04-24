@@ -1,8 +1,11 @@
 <% if @error == "profileEmptyError" %>
+    $('#flashcontainer').html("")
     $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
 <% elsif @error == "registerConflictError"%>
+    $('#flashcontainer').html("")
     $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
-<% else %>
+<% else %> 
+    $('#flashcontainer').html("")
     $('#' + '<%= @slotid %>').html( "<%= escape_javascript(render 'cancel') %>" );
     $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
 <% end %>
