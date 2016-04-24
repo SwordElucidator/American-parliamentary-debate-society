@@ -15,7 +15,8 @@
         = image_tag("header.jpg")
       .item
         = image_tag("header.jpg")
-    %a.btn.btn-primary.btn-lg.page-scroll{:id => "join-button", :href => "#join"} Join Us
+    - if not user_signed_in?
+      %a.btn.btn-primary.btn-lg.page-scroll{:id => "join-button", :href => "#join"} Join Us
 %div.container-fluid{:role => "information", :id => "about"}
   .row
     .col-lg-8.col-lg-offset-2
@@ -36,7 +37,6 @@
           %br
           = announcement
         %br
-
 %div.container-fluid{:role => "information", :id => "join"}
   %h1.title Join Us
   // Fix this link later

@@ -17,23 +17,27 @@
           %a.navbar-brand.page-scroll{:href => "/#home"} Debate
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav
-            %li
-              %a.page-scroll{:href => "/#about"} About
-            %li
-              %a.page-scroll{:href => "/#announcements"} Announcements
             - if not user_signed_in?
               %li
-                %a.page-scroll{:href => "/#join"} Join
+                %a.page-scroll{:href => "/#about"} About
+              %li
+                %a.page-scroll{:href => "/#announcements"} Announcements
+                %li
+                  %a.page-scroll{:href => "/#join"} Join
             - else
+              %li
+                %a.page-scroll{:href => "/#announcements"} Announcements
+              %li
+                %a{:href => mockdebate_path} Mock Debate
               %li
                 %a{:href => "/forum"} Forum
             - if user_signed_in? and current_user.is_admin?
               %li
-                %a.page-scroll{:href => rails_admin_path} Admin
+                %a.page-scroll{:href => rails_admin_path} Admin Dashboard
               %li
-                %a.page-scroll{:href => invitation_path} Invitation Code
+                %a.page-scroll{:href => invitation_path} Send Codes
               %li
-                %a.page-scroll{:href => home_edit_path} Edit
+                %a.page-scroll{:href => home_edit_path} Edit Home Page
           %ul.nav.navbar-nav.navbar-right
             %li.dropdown
               - if not user_signed_in?
@@ -53,15 +57,21 @@
                   %li
                     %a{:href => new_user_session_path} Sign In
                   %li
-                    %a{:href => new_user_registration_path} Sign Up For Mock Debate
+                    %a{:href => new_user_registration_path} Sign Up
                 - else
                   %li
-                    %a{:href => profile_path} Edit Profile
-                %li
-                  %a{:href => "/forum"} Forum
-                - if user_signed_in?
-                  %li
                     %a{:href => mockdebate_path} Mock Debate
+                  %li
+                    %a{:href => "/forum"} Forum
+                  %li
+                    %a{:href => profile_path} Edit Profile
+                  - if current_user.is_admin?
+                    %li
+                      %a{:href => rails_admin_path} Admin Dashboard
+                    %li
+                      %a{:href => invitation_path} Send Codes
+                    %li
+                      %a{:href => home_edit_path} Edit Home Page
                   %li
                     %a{:href => destroy_user_session_path} Sign out
     = yield

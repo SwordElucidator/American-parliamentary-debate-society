@@ -30,12 +30,27 @@
                   - else
                     = current_user.firstname
               %ul.dropdown-menu{:role => "menu"}
-                %li
-                  %a{:href => new_user_session_path} Sign In
-                %li
-                  %a{:href => new_user_registration_path} Sign Up For Mock Debate
-                %li
-                  %a{:href => "/forum"} Forum
+                - if not user_signed_in?
+                  %li
+                    %a{:href => new_user_session_path} Sign In
+                  %li
+                    %a{:href => new_user_registration_path} Sign Up
+                - else
+                  %li
+                    %a{:href => mockdebate_path} Mock Debate
+                  %li
+                    %a{:href => "/forum"} Forum
+                  %li
+                    %a{:href => profile_path} Edit Profile
+                  - if current_user.is_admin?
+                    %li
+                      %a{:href => rails_admin_path} Admin Dashboard
+                    %li
+                      %a{:href => invitation_path} Send Codes
+                    %li
+                      %a{:href => home_edit_path} Edit Home Page
+                  %li
+                    %a{:href => destroy_user_session_path} Sign out
     .wrapper
       %p.notice= notice
       %p.alert= alert
