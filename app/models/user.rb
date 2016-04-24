@@ -9,6 +9,9 @@ class User < ActiveRecord::Base
   has_many :debates, through: :slots
   validate :have_invitation_code, :on => :create
   
+  require 'carrierwave/orm/activerecord'
+  mount_uploader :image_url, AvatarUploader
+  
   def have_invitation_code
     if Invitation.find_by_code(code) == nil
       errors.add(:code, "Inalid code")
