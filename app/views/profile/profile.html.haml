@@ -81,7 +81,7 @@
       = f.input :major
       %br
       Upload Your Image:
-      = f.file_field :image_url
+      = f.file_field :image_url, accept: 'image/png,image/gif,image/jpeg'
       %br
       = f.submit
        
