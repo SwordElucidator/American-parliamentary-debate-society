@@ -3,7 +3,7 @@ class DebateController < ApplicationController
     
     def authentication_precheck
       if !user_signed_in?
-        flash[:notice] = "you should log in first to see the mockdebate page"
+        flash[:notice] = "You should log in first to see this page."
         redirect_to new_user_session_path
       end
     end
@@ -102,7 +102,7 @@ class DebateController < ApplicationController
         current_user.slots.each do |userslot|
             if debateslots.include?userslot
                 flash.delete :success if flash[:success]
-                flash.now[:error] = "You have already registered a slot for this debate"
+                flash.now[:error] = "You have already registered for this debate!"
                 return false
             end
         end
@@ -114,7 +114,7 @@ class DebateController < ApplicationController
             return true
         end
         flash.delete :success if flash[:success]
-        flash.now[:error] = "You need to edit your profile first to sign up the mockdebate"
+        flash.now[:error] = "You need to edit your profile first to sign up for a debate."
         return true
     end
     
@@ -123,7 +123,7 @@ class DebateController < ApplicationController
         current_user.slots.concat(registeredslot)
         current_user.save
         flash.delete :error if flash[:error]
-        flash.now[:success] = "You have successfully register the debate"
+        flash.now[:success] = "You have successfully registered for this debate!"
     end
     
     def cancel(registeredslot)
@@ -131,7 +131,7 @@ class DebateController < ApplicationController
         current_user.slots.delete(registeredslot)
         current_user.save
         flash.delete :error if flash[:error]
-        flash.now[:success] = "You have successfully cancel the debate"
+        flash.now[:success] = "You have successfully cancelled your role in this debate."
     end
     
     
