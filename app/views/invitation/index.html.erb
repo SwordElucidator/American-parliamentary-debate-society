@@ -1,4 +1,4 @@
-<div class = "invitation-title">Invitation Code</div>
+<div class = "invitation-title">Send Invitation Codes</div>
 <div class = "message">
   <% flash.each do |name, msg| %>
     <%= content_tag :div, msg, class: "alert alert-info" %>
@@ -8,7 +8,7 @@
 <div class = "box">
   <%= form_tag("/invitation", method: "post") do %>
     <div class = "notice_label">
-      <%= label_tag(:email, "Please enter your recipients' email addresses here (Please make sure each email address is seperated by space or comma)")%>
+      <%= label_tag(:email, "Please enter your recipients' email addresses here, and make sure each email address is seperated by space or comma.")%>
     </div>
     
     <div class = "text_area">
