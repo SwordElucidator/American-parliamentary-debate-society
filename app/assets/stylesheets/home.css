@@ -107,7 +107,7 @@ input[type="submit"] {
     transition: 0.3s;
     position: relative;
     font-size: 16px;
-    padding: 30px;
+    padding: 40px;
     top: -300px;
 }
 .leader-description:hover {
@@ -130,6 +130,7 @@ input[type="submit"] {
 }
 #join .btn.btn-primary.btn-lg {
     margin: 2px;
+    z-index: 98;
 }
 footer.container {
     padding: 10% 25%;
