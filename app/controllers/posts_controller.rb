@@ -4,7 +4,7 @@ class PostsController < ApplicationController
     
     def index
         @section = Section.find(params[:section_id])
-        @posts = @section.posts.order("created_at DESC")
+        @posts = Post.where(:section => @section).paginate(:page => params[:page], :per_page =>10).order("created_at DESC")
     end
     
     def show
