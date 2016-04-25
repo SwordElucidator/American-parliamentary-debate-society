@@ -1,1 +1,1 @@
-<%= link_to "Register", {:action => "index", :id => slot.id, :debateid => debate.id, :method => "get", :value => "register"}, class: "btn btn-success", role: "button" %>
+<%= link_to "Register", {:action => "registerdebate", :id => @slotid, :debateid => @debateid, :method => "get", :value => "register", :remote => true}, class: "btn btn-success", role: "button" %>

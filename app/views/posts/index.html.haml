@@ -3,6 +3,11 @@
   %h4
     = @section.posts.count
     Posts
+  %div.digg_pagination
+    %div.page_info
+      = page_entries_info @posts
+    = will_paginate @posts
+    
   - @posts.each do |post|
     .post
       %div.post-main

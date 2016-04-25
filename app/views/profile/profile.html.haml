@@ -40,25 +40,43 @@
       -else
         Current major:
         = @user_to_see.major
-        
-  =image_tag src= @user_to_see.image_url
+  %div.user-image
+    - if @user_to_see.image_url
+      =image_tag src= @user_to_see.image_url
+      
     
   - if @user_to_see.id == current_user.id
     %h3 Your Debates:
   - else
     %h3 His/Her Debates:
-  - for debate in @user_to_see.debates
+  - for debate in Debate.find_future_debates(@user_to_see.debates)
     - if @user_to_see.id == current_user.id
       %p 
-      Your mock debate
+      Your upcoming mock debate
     - else
       %p 
-      His/Her mock debate
+      His/Her upcoming mock debate
    
     = link_to debate.topic, mockdebate_path
     will coming on
     = debate.time
-    at berkeley !!!
+    at
+    = debate.location
+    !!!
+  - for debate in Debate.find_past_debates(@user_to_see.debates)
+    - if @user_to_see.id == current_user.id
+      %p 
+      You have already attended the mock debate
+    - else
+      %p 
+      He/She has already attended the mock debate
+    
+    = link_to debate.topic, mockdebate_path
+    on
+    = debate.time
+    at
+    = debate.location
+    !!! 
   - if @user_to_see.id == current_user.id
     %h3 Your Posts:
   - else
@@ -77,7 +95,10 @@
       = f.input :firstname
       = f.input :lastname
       = f.input :major
-      = f.input :image_url
+      %br
+      Upload Your Image:
+      = f.file_field :image_url, accept: 'image/png,image/gif,image/jpeg'
+      %br
       = f.submit
        
       
