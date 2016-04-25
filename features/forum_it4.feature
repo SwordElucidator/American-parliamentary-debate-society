@@ -8,21 +8,17 @@ Feature: Forum
     # | aabbcc@gmail.com | abc                |
 
     Background: database is exist as follows
-        Given the following posts exist:
-        | title   | content     |
-        | TEST    | aaaa        |
-
-        Given the following contents exist:
-        | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
-        | default       | default         | default           | default     | default       | default               | default               |
-        
-        Given the following sections exist:
-        | title |
-        | General |
-        | General1|
-        | General2|
-        
-        Given a logged in user
+    Given the following contents exist:
+    | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
+    | default       | default         | default           | default     | default       | default               | default               |
+    
+    Given the following sections exist:
+    | title |
+    | General |
+    | General1|
+    | General2|
+    
+    Given a logged in user
     
     
     # Scenario: users will receive notice when delete a post
