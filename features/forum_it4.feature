@@ -38,7 +38,7 @@ Feature: Forum
     Scenario: users can not see old post on first page if there are too many posts
     Given I am on the home page of the General
     When I follow "New Post"
-    And I fill in "post_title" with "test"
+    And I fill in "post_title" with "test not see"
     And I fill in "post_content" with "test text"
     And I press "Create Post"
     And I go to the home page of the General
@@ -91,7 +91,8 @@ Feature: Forum
     And I fill in "post_title" with "test11"
     And I fill in "post_content" with "test text"
     And I press "Create Post"
-    Then I should not be able to see "test"
+    And I go to the home page of the General
+    Then I should not see "test not see"
 
     Scenario: users can see old post on second page if there are too many posts
     Given I am on the home page of the General
@@ -149,5 +150,6 @@ Feature: Forum
     And I fill in "post_title" with "test11"
     And I fill in "post_content" with "test text"
     And I press "Create Post"
-    And I press "Next Page"
-    Then I should be able to see "test"
+    And I go to the home page of the General
+    And I follow "2"
+    Then I should see "test"
