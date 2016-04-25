@@ -8,11 +8,12 @@
   <tb>
     <% @debate.each do |debate| %>
       <tr>
-        <td><p style="width:170px;"><%= debate.topic%></p></td>    
-        <td><p style="width:95px;"><%= debate.time %></p></td>
+        <td><p style="width:160px;"><%= debate.topic%></p></td>    
+        <td><p style="width:85px;"><%= debate.time %></p></td>
+        <td><p style="width:85px;"><%= debate.location%></p></td>
         <% @slottype.each do |slottype|%>
           <td>
-            <p style="width:251px;">
+            <p style="width:211px;">
             <% debate.slots.each do |slot| %>
               <div class="btn-group btn-group-sm">
                 <% if slot.slottype == slottype %>
