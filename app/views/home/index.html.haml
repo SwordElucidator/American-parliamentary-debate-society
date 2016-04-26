@@ -1,6 +1,6 @@
 %div.container-fluid{:role => "header", :id => "home"}
   %h1.title 
-    = @heading_title
+    = @content.heading_title
   .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel"}}
     %ol
       %li.active{:data => {:target => "slide-images", :slide_to => "0"}}
@@ -8,13 +8,13 @@
       %li{:data => {:target => "slide-images", :slide_to => "2"}}
     .carousel-inner
       .item.active
-        = image_tag("header.jpg")
+        =image_tag src= @content.heading_image1, :class=>"header_images"
       .item
-        = image_tag("header.jpg")
+        =image_tag src= @content.heading_image2, :class=>"header_images"
       .item
-        = image_tag("header.jpg")
+        =image_tag src= @content.heading_image3, :class=>"header_images"
       .item
-        = image_tag("header.jpg")
+        =image_tag src= @content.heading_image4, :class=>"header_images"
     - if not user_signed_in?
       %a.btn.btn-primary.btn-lg.page-scroll{:id => "join-button", :href => "#join"} Join Us
 %div.container-fluid{:role => "information", :id => "about"}
@@ -31,7 +31,7 @@
   .row
     .col-lg-8.col-lg-offset-2
       %h1.title
-        = @announcements_heading
+        = @content.announcements_heading
       .p
         - @announcements_content.each do |announcement|
           %br
