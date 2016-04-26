@@ -4,6 +4,9 @@
 <% elsif @error == "registerConflictError"%>
     $('#flashcontainer').html("")
     $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
+<% elsif @error == "timeConflictError"%>
+    $('#flashcontainer').html("")
+    $("<%= escape_javascript(render 'message') %>").appendTo('#flashcontainer');
 <% else %> 
     $('#flashcontainer').html("")
     $('#' + '<%= @slotid %>').html( "<%= escape_javascript(render 'cancel') %>" );
