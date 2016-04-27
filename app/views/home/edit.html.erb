@@ -6,29 +6,24 @@
       <div class="container">
         <h3>Heading</h3>
         <p>Heading Title:</p>
-        <%= text_field_tag :heading_title, @heading_title, :class => "input-title" %>
-        <p>Heading Image 1: </p>
-        <p>Heading Image 2: </p>
-        <p>Heading Image 3: </p>
-        <p>Heading Image 4: </p>
-
+        <%= text_field_tag :heading_title, @content.heading_title, :class => "input-title" %>
       </div>
 
       <div class="container">
         <h3>About</h3>
         <p>About Title: </p>
-        <%= text_field_tag :about_title, @about_title, :class => "input-title" %>
+        <%= text_field_tag :about_title, @content.about_title, :class => "input-title" %>
         <p>About Content: </p>
-        <%= text_area_tag :about_content, @about_content, :class => "input-content", :rows=>"20", :cols=>"26" %>
+        <%= text_area_tag :about_content, @content.about_content, :class => "input-content", :rows=>"20", :cols=>"26" %>
         <p>About Image: </p>
       </div>
 
       <div class="container">
         <h3>Announcements</h3>
         <p>Announcements Title:</p>
-        <%= text_field_tag :announcements_heading, @announcements_heading, :class => "input-title" %>
+        <%= text_field_tag :announcements_heading, @content.announcements_heading, :class => "input-title" %>
         <p>Announcements Content:</p>
-        <%= text_area_tag :announcements_content, @announcements_content, :class => "input-content", :rows=>"20", :cols=>"26" %>
+        <%= text_area_tag :announcements_content, @content.announcements_content, :class => "input-content", :rows=>"20", :cols=>"26" %>
         <p>Announcements Image: </p>
       </div>
 
