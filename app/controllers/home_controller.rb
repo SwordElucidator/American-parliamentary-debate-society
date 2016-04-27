@@ -15,18 +15,32 @@ class HomeController < ApplicationController
     
     # Pulls information from the database and displays them in the webpage
     content = Content.last
-    @content = content
     
-    @about_content = Array.new
-    paragraphs = content[:about_content].split("\n")
-    paragraphs.each do |par|
-      @about_content.push(par)
-    end
-
-    @announcements_content = Array.new
-    paragraphs = content[:announcements_content].split("\n")
-    paragraphs.each do |par|
-      @announcements_content.push(par)
+    if content != nil
+      @content = content
+      
+      @about_content = Array.new
+      paragraphs = content[:about_content].split("\n")
+      paragraphs.each do |par|
+        @about_content.push(par)
+      end
+  
+      @announcements_content = Array.new
+      paragraphs = content[:announcements_content].split("\n")
+      paragraphs.each do |par|
+        @announcements_content.push(par)
+      end
+    
+    else  #Temporary placeholders, should probably seed later
+      @content = Content.create(:heading_title => "Debate",
+                     :about_title => "About",
+                     :about_content => "About Content",
+                     :announcements_heading => "Announcements",
+                     :announcements_content => "Announcements Content")
+      @about_content = Array.new
+      @about_content.push(@content[:about_content])
+      @announcements_content = Array.new
+      @announcements_content.push(@content[:announcements_content])
     end
   end
 
