@@ -11,7 +11,9 @@ class DebateController < ApplicationController
     
     def index
         @slottype = ["government", "opposition", "judge"]
-        @debate = Debate.find_future_debates(Debate.all)
+        debate = Debate.find_future_debates(Debate.all)
+        debate.map{|i| i.id}
+        @debate = Debate.where(:id => debate).paginate(:page => params[:page], per_page: 8)
     end
     
     def registerdebate
