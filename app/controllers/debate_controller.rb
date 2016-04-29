@@ -10,7 +10,7 @@ class DebateController < ApplicationController
     end
     
     def check_admin
-      if !current_user.is_admin
+      if !current_user.is_admin or Debate.find_by_id(params[:id]) == nil
         redirect_to mockdebate_path
       end
     end
