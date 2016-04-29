@@ -10,18 +10,20 @@ class DebateController < ApplicationController
     
     
     def index
+        @empty = "no search"
         @slottype = ["government", "opposition", "judge"]
         if params[:search]
-          puts "search initiated"
           filteredebate = Debate.filter_by_title(params[:search])
           if filteredebate.empty?
             @empty = "No Results Found" 
-            puts "the search result is empty"
           end
           debate = Debate.find_future_debates(filteredebate)
-          debate.map{|i| i.id}
+        else
+          debate = Debate.find_future_debates(Debate.all) 
         end
+        debate.map{|i| i.id}
         @debate = Debate.where(:id => debate).paginate(:page => params[:page], per_page: 8)
+
         # respond_to do |format|
         #         format.html
         #         format.js
