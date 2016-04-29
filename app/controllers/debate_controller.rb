@@ -1,10 +1,17 @@
 class DebateController < ApplicationController
     before_action :authentication_precheck
+    before_action :check_admin, only: [:create, :update]
     
     def authentication_precheck
       if !user_signed_in?
         flash[:notice] = "You should log in first to see this page."
         redirect_to new_user_session_path
+      end
+    end
+    
+    def check_admin
+      if !current_user.is_admin
+        redirect_to mockdebate_path
       end
     end
     
@@ -103,7 +110,6 @@ class DebateController < ApplicationController
     
     def update
         if params[:delete]
-            puts "delete this debate"
             debate = Debate.find_by_id(params[:id])
             Slot.delete(debate.slots)
             Debate.delete(params[:id])
@@ -125,7 +131,6 @@ class DebateController < ApplicationController
     def checktime(debateid)
         debate = Debate.find_by_id(debateid)
         if current_user.debates != nil and current_user.debates.find_by_time(debate.time)
-            puts "there is a time conflict between these two debates"
             flash.delete :success if flash[:success]
             flash.now[:error] = "You cannot register this debate since it has a time conflict with your registered debate"
             return false
