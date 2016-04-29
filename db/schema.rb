@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160418021828) do
+ActiveRecord::Schema.define(version: 20160429100126) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -32,6 +32,28 @@ ActiveRecord::Schema.define(version: 20160418021828) do
     t.text   "about_content",         default: "We compete in the American Parliamentary Debate Association (APDA) circuit, which has member schools nationwide, but is most prominent along the East Coast. We've travelled to tournaments at UChicago, Harvard, Stanford, Brown, and many more - we're also holding our own tournament this spring, in late February.\n\nNetworking is an important part of debate culture. Many debaters in this league go on to become lawyers from the top 14 schools, join well-reputed consulting firms, and run for political office. If you have any intention of pursuing those kinds of career paths, you'd feel right at home in APDA.\n\nNew debaters don't need to be focused on becoming lawyers or Senators to get the most out of our team though: honing public speaking ability, mastering the elements of grounded and coherent argumentation, and understanding how to pick apart even the strongest opposition, are useful skills for any career.\n\nNo prior debate experience is necessary! The style of the APDA circuit is similar to some styles of high school debate, but is different in some very crucial ways, so all new members will have a thing or two to learn."
     t.string "announcements_heading", default: "Announcements"
     t.text   "announcements_content", default: "This is a sample announcement.\n\nLorem ipsum dolor sit amet, ea mollis invenire conclusionemque mel, oblique constituam ea per. Te putent inciderint comprehensam vel, te iudico homero gubergren pro. Te qui timeam senserit referrentur. Eos at elit debet, admodum nostrum ad mea. Tantas legere tritani eam in. Id ius idque minim blandit, nobis quidam assueverit ad vim, ancillae scaevola no est."
+    t.string "heading_image1"
+    t.string "heading_image2"
+    t.string "heading_image3"
+    t.string "heading_image4"
+    t.string "leader_name1",          default: "Leader1"
+    t.string "leader_sub1",           default: "Sub1"
+    t.string "leader_image1"
+    t.string "leader_name2",          default: "Leader2"
+    t.string "leader_sub2",           default: "Sub2"
+    t.string "leader_image2"
+    t.string "leader_name3",          default: "Leader3"
+    t.string "leader_sub3",           default: "Sub3"
+    t.string "leader_image3"
+    t.string "leader_name4",          default: "Leader4"
+    t.string "leader_sub4",           default: "Sub4"
+    t.string "leader_image4"
+    t.string "leader_name5",          default: "Leader5"
+    t.string "leader_sub5",           default: "Sub5"
+    t.string "leader_image5"
+    t.string "leader_name6",          default: "Leader6"
+    t.string "leader_sub6",           default: "Sub6"
+    t.string "leader_image6"
   end
 
   create_table "debates", force: :cascade do |t|
@@ -86,27 +108,27 @@ ActiveRecord::Schema.define(version: 20160418021828) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "",                                    null: false
-    t.string   "encrypted_password",     default: "",                                    null: false
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.string   "username"
     t.string   "password"
-    t.integer  "sign_in_count",          default: 0,                                     null: false
+    t.integer  "sign_in_count",          default: 0,  null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",                                                             null: false
-    t.datetime "updated_at",                                                             null: false
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
     t.string   "firstname"
     t.string   "lastname"
     t.string   "major"
     t.datetime "time"
     t.boolean  "is_admin"
     t.string   "code"
-    t.string   "image_url",              default: "http://www.aaea.com.ar/img/user.png"
+    t.string   "image_url"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

@@ -90,10 +90,15 @@ input[type="submit"] {
     display: inline-block;
 }
 .leader-img {
+    width: 300px;
     height: 300px;
+    overflow: hidden;
     position: relative;
     background-color: white;
     padding: 10px;
+}
+.leader-img img{
+    max-width: 300px;
 }
 .leader-description {
     height: 300px;
@@ -159,4 +164,11 @@ footer .description {
 }
 body {
     font-family: 'Playfair Display', serif;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 1;
 }

@@ -2,17 +2,18 @@
 <div class = "debate_title", id = "debate_title">APDS Mock Debate Signups</div>
 <div class = "flashcontainer", id = "flashcontainer"></div>
 <div class = "boxed", id = "boxed">
-<% if Debate.all.length != 0%>
+<% if @debate.length != 0%>
   <table class = "table-apds table table-striped" style="width:auto;">
   <%= render 'head' %>
   <tb>
     <% @debate.each do |debate| %>
       <tr>
-        <td><p style="width:170px;"><%= debate.topic%></p></td>    
-        <td><p style="width:95px;"><%= debate.time %></p></td>
+        <td><p style="width:160px;"><%= debate.topic%></p></td>    
+        <td><p style="width:85px;"><%= debate.time %></p></td>
+        <td><p style="width:85px;"><%= debate.location%></p></td>
         <% @slottype.each do |slottype|%>
-          <td>
-            <p style="width:251px;">
+          <td align = "left">
+            <p style="width:221px;">
             <% debate.slots.each do |slot| %>
               <div class="btn-group btn-group-sm">
                 <% if slot.slottype == slottype %>
@@ -22,7 +23,7 @@
                     <% if current_user.slots.include?slot %>
                       <div id = <%= slot.id %>><%= link_to "Cancel", {:action => "canceldebate", :id => slot.id, :debateid => debate.id, :method => "get", :value => "cancel", :class => 'cancel_debate', :remote => true}, class: "btn btn-danger", role: "button" %></div>
                     <% else %>
-                      <span class="label label-default customlabel"><%= Debate.parse_name(User.find_by_id(slot.user_id)) %></span>
+                      <div class = "spandiv"><span class="label label-default customlabel"><%= Debate.parse_name(User.find_by_id(slot.user_id)) %></span></div>
                     <% end%>
                   <% end%>
                 <% end %>
@@ -43,6 +44,7 @@
   </tb>
   </table>
 <% end%>
+<center><%= will_paginate @debate, renderer: BootstrapPagination::Rails%></center>
 <% if current_user.is_admin == true %>
   <div class = "createdebate">
     <%= link_to "Create Debate", {:action => "create", :method => "get"}, class: "btn btn-primary btn-lg", role: "button" %>

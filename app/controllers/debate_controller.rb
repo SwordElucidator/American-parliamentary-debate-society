@@ -11,7 +11,9 @@ class DebateController < ApplicationController
     
     def index
         @slottype = ["government", "opposition", "judge"]
-        @debate = Debate.find_future_debates(Debate.all)
+        debate = Debate.find_future_debates(Debate.all)
+        debate.map{|i| i.id}
+        @debate = Debate.where(:id => debate).paginate(:page => params[:page], per_page: 8)
     end
     
     def registerdebate
@@ -22,8 +24,12 @@ class DebateController < ApplicationController
             registeredslot = Slot.find_by_id(slotid)
             if checkprofile
                 if checkregister(@debateid)
-                   register(registeredslot)
-                   @error = "nonerror"
+                    if checktime(@debateid)
+                       register(registeredslot)
+                       @error = "nonerror"
+                    else
+                       @error = "timeConflictError"
+                    end
                 else
                    @error = "registerConflictError"
                 end
@@ -102,6 +108,17 @@ class DebateController < ApplicationController
     
     private
     
+    def checktime(debateid)
+        debate = Debate.find_by_id(debateid)
+        if current_user.debates != nil and current_user.debates.find_by_time(debate.time)
+            puts "there is a time conflict between these two debates"
+            flash.delete :success if flash[:success]
+            flash.now[:error] = "You cannot register this debate since it has a time conflict with your registered debate"
+            return false
+        else
+            return true
+        end
+    end
     
     def checkregister(debateid)
         debateslots = Debate.find_by_id(debateid).slots
@@ -121,7 +138,7 @@ class DebateController < ApplicationController
         end
         flash.delete :success if flash[:success]
         flash.now[:error] = "You need to edit your profile first to sign up for a debate."
-        return true
+        return false
     end
     
     def register(registeredslot)

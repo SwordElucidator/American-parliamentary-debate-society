@@ -31,8 +31,8 @@
                 %a.page-scroll{:href => "/#announcements"} Announcements
               %li
                 %a{:href => mockdebate_path} Mock Debate
-              %li
-                %a{:href => "/forum"} Forum
+              // %li
+              //   %a{:href => "/forum"} Forum
             - if user_signed_in? and current_user.is_admin?
               %li
                 %a.page-scroll{:href => rails_admin_path} Admin Dashboard

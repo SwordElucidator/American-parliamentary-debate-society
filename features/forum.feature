@@ -17,7 +17,8 @@ Feature: forum
     Given the following contents exist
     | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
     | default       | default         | default           | default     | default       | default               | default               |
- 
+    
+    Given a logged in user
  # Scenario: users can write posts
  # Given I am on the home page of the forum
  # When I follow "New_Post"
