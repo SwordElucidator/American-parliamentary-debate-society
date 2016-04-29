@@ -1,20 +1,26 @@
 class DebateController < ApplicationController
     before_action :authentication_precheck
     before_action :check_admin, only: [:create, :update]
+    before_action :check_item_exist, only: [:update]
     
     def authentication_precheck
-      if !user_signed_in?
-        flash[:notice] = "You should log in first to see this page."
-        redirect_to new_user_session_path
-      end
+        if !user_signed_in?
+            flash[:notice] = "You should log in first to see this page."
+            redirect_to new_user_session_path
+        end
     end
     
     def check_admin
-      if !current_user.is_admin or Debate.find_by_id(params[:id]) == nil
-        redirect_to mockdebate_path
-      end
+        if !current_user.is_admin
+            redirect_to mockdebate_path
+        end
     end
     
+    def check_item_exist
+        if Debate.find_by_id(params[:id]) == nil
+            redirect_to mockdebate_path
+        end
+    end    
     
     def index
         @empty = "no search"
