@@ -4,18 +4,44 @@ class HomeController < ApplicationController
     
   def index
     # Stores the saved updates
-    if params[:status] == "Save"
-      c = Content.create(:heading_title => params[:heading_title],
-                     :heading_content => params[:heading_content],
-                     :about_title => params[:about_title],
-                     :about_content => params[:about_content],
-                     :announcements_heading => params[:announcements_heading],
-                     :announcements_content => params[:announcements_content])
+    content = Content.last
+    @content = content
+    data = params[:content]
+    if data
+      content.heading_title = data[:heading_title]
+      content.heading_content = data[:heading_content]
+      content.about_title = data[:about_title]
+      content.about_content = data[:about_content]
+      content.announcements_heading = data[:announcements_heading]
+      content.announcements_content = data[:announcements_content]
+      content.heading_image1 = data[:heading_image1]
+      content.heading_image2 = data[:heading_image2]
+      content.heading_image3 = data[:heading_image3]
+      content.heading_image4 = data[:heading_image4]
+      content.leader_name1 = data[:leader_name1]
+      content.leader_name2 = data[:leader_name2]
+      content.leader_name3 = data[:leader_name3]
+      content.leader_name4 = data[:leader_name4]
+      content.leader_name5 = data[:leader_name5]
+      content.leader_name6 = data[:leader_name6]
+      content.leader_sub1 = data[:leader_sub1]
+      content.leader_sub2 = data[:leader_sub2]
+      content.leader_sub3 = data[:leader_sub3]
+      content.leader_sub4 = data[:leader_sub4]
+      content.leader_sub5 = data[:leader_sub5]
+      content.leader_sub6 = data[:leader_sub6]
+      content.leader_image1 = data[:leader_image1]
+      content.leader_image2 = data[:leader_image2]
+      content.leader_image3 = data[:leader_image3]
+      content.leader_image4 = data[:leader_image4]
+      content.leader_image5 = data[:leader_image5]
+      content.leader_image6 = data[:leader_image6]
+      content.save()
     end
     
     # Pulls information from the database and displays them in the webpage
-    content = Content.last
-    @content = content
+    
+    
     
     @about_content = Array.new
     paragraphs = content[:about_content].split("\n")

@@ -1,0 +1,47 @@
+%div.wrapper, :style => "margin-top: 50px"
+%h1 Edit the Home Page
+.container-edit
+  = simple_form_for @content, :url => root_path, :method => :post , :name => 'home-page-edits', :authenticity_token => "true" do |f|
+    .container
+      %h3 Heading
+      = f.input :heading_title, input_html: { class: 'input-title', value: @content.heading_title }
+      = f.file_field :heading_image1, accept: 'image/png,image/gif,image/jpeg'
+      = f.file_field :heading_image2, accept: 'image/png,image/gif,image/jpeg'
+      = f.file_field :heading_image3, accept: 'image/png,image/gif,image/jpeg'
+      = f.file_field :heading_image4, accept: 'image/png,image/gif,image/jpeg'
+    .container
+      %h3 About
+      = f.input :about_title, input_html: { class: 'input-title', value: @content.about_title }
+      = f.input :about_content, input_html: { class: 'input-content', :rows=>"20", :cols=>"26", value: @content.about_content }, as: :text
+    .container
+      %h3 Announcements
+      = f.input :announcements_heading, input_html: { class: 'input-title', value: @content.announcements_heading }
+      = f.input :announcements_content, input_html: { class: 'input-content', :rows=>"20", :cols=>"26", value: @content.announcements_content }, as: :text
+    .container
+      %h3 Leaders
+      %p Leader1
+      = f.input :leader_name1, input_html: { class: 'input-title', value: @content.leader_name1 }
+      = f.input :leader_sub1, input_html: { class: 'input-title', value: @content.leader_name1 }
+      = f.file_field :leader_image1, accept: 'image/png,image/gif,image/jpeg'
+      %p Leader2
+      = f.input :leader_name2, input_html: { class: 'input-title', value: @content.leader_name2 }
+      = f.input :leader_sub2, input_html: { class: 'input-title', value: @content.leader_name2 }
+      = f.file_field :leader_image2, accept: 'image/png,image/gif,image/jpeg'
+      %p Leader3
+      = f.input :leader_name3, input_html: { class: 'input-title', value: @content.leader_name3 }
+      = f.input :leader_sub3, input_html: { class: 'input-title', value: @content.leader_name3 }
+      = f.file_field :leader_image3, accept: 'image/png,image/gif,image/jpeg'
+      %p Leader4
+      = f.input :leader_name4, input_html: { class: 'input-title', value: @content.leader_name4 }
+      = f.input :leader_sub4, input_html: { class: 'input-title', value: @content.leader_name4 }
+      = f.file_field :leader_image4, accept: 'image/png,image/gif,image/jpeg'
+      %p Leader5
+      = f.input :leader_name5, input_html: { class: 'input-title', value: @content.leader_name5 }
+      = f.input :leader_sub5, input_html: { class: 'input-title', value: @content.leader_name5 }
+      = f.file_field :leader_image5, accept: 'image/png,image/gif,image/jpeg'
+      %p Leader6
+      = f.input :leader_name6, input_html: { class: 'input-title', value: @content.leader_name6 }
+      = f.input :leader_sub6, input_html: { class: 'input-title', value: @content.leader_name6 }
+      = f.file_field :leader_image6, accept: 'image/png,image/gif,image/jpeg'
+    %br
+      = f.submit
