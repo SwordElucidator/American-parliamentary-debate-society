@@ -9,6 +9,7 @@ class InvitationController < ApplicationController
             redirect_to root_path
           end
         end
+        flash.delete :notice if flash[:notice]
     end
     
     def index

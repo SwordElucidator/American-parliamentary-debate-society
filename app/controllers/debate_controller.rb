@@ -1,19 +1,46 @@
 class DebateController < ApplicationController
     before_action :authentication_precheck
+    before_action :check_admin, only: [:create, :update]
+    before_action :check_item_exist, only: [:update]
     
     def authentication_precheck
-      if !user_signed_in?
-        flash[:notice] = "You should log in first to see this page."
-        redirect_to new_user_session_path
-      end
+        if !user_signed_in?
+            flash[:notice] = "You should log in first to see this page."
+            redirect_to new_user_session_path
+        end
     end
     
+    def check_admin
+        if !current_user.is_admin
+            redirect_to mockdebate_path
+        end
+    end
+    
+    def check_item_exist
+        if Debate.find_by_id(params[:id]) == nil
+            redirect_to mockdebate_path
+        end
+    end    
     
     def index
+        @empty = "no search"
         @slottype = ["government", "opposition", "judge"]
-        debate = Debate.find_future_debates(Debate.all)
+        if params[:search]
+          filteredebate = Debate.filter_by_title(params[:search])
+          if filteredebate.empty?
+            @empty = "No Results Found" 
+          end
+          debate = Debate.find_future_debates(filteredebate)
+        else
+          debate = Debate.find_future_debates(Debate.all) 
+        end
         debate.map{|i| i.id}
         @debate = Debate.where(:id => debate).paginate(:page => params[:page], per_page: 8)
+
+        # respond_to do |format|
+        #         format.html
+        #         format.js
+        # end
     end
     
     def registerdebate
@@ -89,7 +116,6 @@ class DebateController < ApplicationController
     
     def update
         if params[:delete]
-            puts "delete this debate"
             debate = Debate.find_by_id(params[:id])
             Slot.delete(debate.slots)
             Debate.delete(params[:id])
@@ -111,7 +137,6 @@ class DebateController < ApplicationController
     def checktime(debateid)
         debate = Debate.find_by_id(debateid)
         if current_user.debates != nil and current_user.debates.find_by_time(debate.time)
-            puts "there is a time conflict between these two debates"
             flash.delete :success if flash[:success]
             flash.now[:error] = "You cannot register this debate since it has a time conflict with your registered debate"
             return false
