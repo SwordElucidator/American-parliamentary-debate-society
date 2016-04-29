@@ -9,10 +9,9 @@ Feature: View pictures
       | heading_title | heading_content | heading_image_url | about_title | about_content | announcements_heading | announcements_content |
       | default       | default         | default           | default     | default       | default               |  default              |
     
-    Scenario: click on "Officers"
+    Scenario: click on "Leadership"
     Given I am on the home page of the website
-    When I follow "Officers"
-    Then I should be on the "Officers" section
+    When I follow "Leadership"
+    Then I should be on the "Leadership" section
+    And I should see "Name"
     And I should see "President"
-    And I should see "Soham"
-    And I should see the picture of the President

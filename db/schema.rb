@@ -128,7 +128,8 @@ ActiveRecord::Schema.define(version: 20160429100126) do
     t.datetime "time"
     t.boolean  "is_admin"
     t.string   "code"
-    t.string   "image_url"
+    t.string   "image_url",              default: "http://www.aaea.com.ar/img/user.png"
+    t.boolean  "validated",              default: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

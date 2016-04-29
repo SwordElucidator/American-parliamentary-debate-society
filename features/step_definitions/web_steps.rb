@@ -289,3 +289,10 @@ Given /^a logged in user$/ do
   fill_in "Password", :with => "12345678"
   click_button "Sign In"
 end
+
+Given /^a logged in admin$/ do
+  visit path_to("the login page")
+  fill_in "Email", :with => "admin@gmail.com"
+  fill_in "Password", :with => "adminadmin"
+  click_button "Sign In"
+end

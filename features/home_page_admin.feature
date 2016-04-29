@@ -51,7 +51,3 @@ Feature: Editing the home page as an admin
         And I fill in "James is God" for "about_title"
         And I go to the home page of the website
         Then I should not see "James is God"
-
-
-    # Scenario: Admin can edit the about image
-
