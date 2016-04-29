@@ -4,7 +4,8 @@
     = @section.posts.count
     Posts
   %div.digg_pagination
-    = will_paginate @posts
+    %center
+      = will_paginate @posts
     
   - @posts.each do |post|
     .post
