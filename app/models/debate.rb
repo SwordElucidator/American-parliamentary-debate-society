@@ -4,6 +4,11 @@ class Debate < ActiveRecord::Base
     validate :debate_input_correct
     
     
+    def self.filter_by_title(arg)
+      record = Debate.where('topic LIKE ?', '%'+ arg.strip+ '%').all
+      return record
+    end
+    
     def debate_input_correct
         if !time.empty? and !topic.empty? and !location.empty?
             if Debate.parse_time(time).to_i + 7 * 60 * 60 - Time.now.to_i < 0

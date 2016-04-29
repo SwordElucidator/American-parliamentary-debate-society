@@ -41,35 +41,52 @@
   %h1.title Leadership Team
   .leader-profile-box
     .leader-img
-      =image_tag src= @content.officer_image1, :alt=>"Picture_President"
+      =image_tag src= @content.leader_image1
     .leader-description
-      .p Name
-      .p President
+      .p 
+        = @content.leader_name1
+      .p
+        = @content.leader_sub1
   .leader-profile-box
     .leader-img
+      =image_tag src= @content.leader_image2
     .leader-description
-      .p Name
-      .p Vice President
+      .p 
+        = @content.leader_name2
+      .p 
+        = @content.leader_sub2
   .leader-profile-box
     .leader-img
+      =image_tag src= @content.leader_image3
     .leader-description
-      .p Name
-      .p Position
+      .p 
+        = @content.leader_name3
+      .p 
+        = @content.leader_sub3
   .leader-profile-box
     .leader-img
+      =image_tag src= @content.leader_image4
     .leader-description
-      .p Name
-      .p Position
+      .p 
+        = @content.leader_name4
+      .p 
+        = @content.leader_sub4
   .leader-profile-box
     .leader-img
+      =image_tag src= @content.leader_image5
     .leader-description
-      .p Name
-      .p Position
+      .p 
+        = @content.leader_name5
+      .p 
+        = @content.leader_sub5
   .leader-profile-box
     .leader-img
+      =image_tag src= @content.leader_image6
     .leader-description
-      .p Name
-      .p Position
+      .p 
+        = @content.leader_name6
+      .p 
+        = @content.leader_sub6
 %div.container-fluid{:role => "information", :id => "join"}
   %h1.title Join Us
   // Fix this link later

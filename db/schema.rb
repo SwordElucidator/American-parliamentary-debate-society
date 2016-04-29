@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160424161330) do
+ActiveRecord::Schema.define(version: 20160429100126) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "comment"
@@ -36,12 +36,24 @@ ActiveRecord::Schema.define(version: 20160424161330) do
     t.string "heading_image2"
     t.string "heading_image3"
     t.string "heading_image4"
-    t.string "officer_image1"
-    t.string "officer_image2"
-    t.string "officer_image3"
-    t.string "officer_image4"
-    t.string "officer_image5"
-    t.string "officer_image6"
+    t.string "leader_name1",          default: "Leader1"
+    t.string "leader_sub1",           default: "Sub1"
+    t.string "leader_image1"
+    t.string "leader_name2",          default: "Leader2"
+    t.string "leader_sub2",           default: "Sub2"
+    t.string "leader_image2"
+    t.string "leader_name3",          default: "Leader3"
+    t.string "leader_sub3",           default: "Sub3"
+    t.string "leader_image3"
+    t.string "leader_name4",          default: "Leader4"
+    t.string "leader_sub4",           default: "Sub4"
+    t.string "leader_image4"
+    t.string "leader_name5",          default: "Leader5"
+    t.string "leader_sub5",           default: "Sub5"
+    t.string "leader_image5"
+    t.string "leader_name6",          default: "Leader6"
+    t.string "leader_sub6",           default: "Sub6"
+    t.string "leader_image6"
   end
 
   create_table "debates", force: :cascade do |t|
@@ -96,18 +108,20 @@ ActiveRecord::Schema.define(version: 20160424161330) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "",                                    null: false
-    t.string   "encrypted_password",     default: "",                                    null: false
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,                                     null: false
+    t.string   "username"
+    t.string   "password"
+    t.integer  "sign_in_count",          default: 0,  null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
     t.string   "firstname"
     t.string   "lastname"
     t.string   "major"

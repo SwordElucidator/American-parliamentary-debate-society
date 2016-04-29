@@ -8,6 +8,6 @@ class AddEditContent < ActiveRecord::Migration
       t.text :about_content
       t.string :announcements_heading
       t.text :announcements_content
-    end
+    __END__
   end
 end

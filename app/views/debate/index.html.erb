@@ -2,6 +2,12 @@
 <div class = "debate_title", id = "debate_title">APDS Mock Debate Signups</div>
 <div class = "flashcontainer", id = "flashcontainer"></div>
 <div class = "boxed", id = "boxed">
+<p>&nbsp;</p>
+<%= render 'search' %>
+<p>&nbsp;</p>
+<% if @empty == "No Results Found" %>
+<%= render 'empty' %>
+<% else %>
 <% if @debate.length != 0%>
   <table class = "table-apds table table-striped" style="width:auto;">
   <%= render 'head' %>
@@ -49,5 +55,6 @@
   <div class = "createdebate">
     <%= link_to "Create Debate", {:action => "create", :method => "get"}, class: "btn btn-primary btn-lg", role: "button" %>
   </div>
+<% end%>
 <% end%>
 </div>

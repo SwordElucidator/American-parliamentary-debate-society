@@ -1,12 +1,20 @@
     <div class = "boxed2">
       <label for="formGroupExampleInput">Debate Topic:</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter debate topic" name = "topic">
+      <% if params[:id] %>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder= "<%= Debate.find_by_id(params[:id]).topic%>" name = "topic">
+      <% else%>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter debate topic" name = "topic">
+      <% end%>
     </div>
     <div class = "boxed2">
       <div class="form-group">
         <label for="formGroupExampleInput2">Debate Time:</label>
         <div class='input-group date' id='datetimepicker1'>
-          <input type='text' class="form-control" name = "time" placeholder="Enter debate time">
+          <% if params[:id] %>
+            <input type='text' class="form-control" name = "time" placeholder= "<%= Debate.find_by_id(params[:id]).time%>">
+          <% else%>
+            <input type='text' class="form-control" name = "time" placeholder="Enter debate time">
+          <% end%>
           <span class="input-group-addon">
             <span class="glyphicon glyphicon-calendar"></span>
           </span>
@@ -21,5 +29,9 @@
 
     <div class="boxed2">
       <label for="formGroupExampleInput3">Debate Location:</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter debate location" name = "location">
+      <% if params[:id] %>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="<%= Debate.find_by_id(params[:id]).location%>" name = "location">
+      <% else%>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter debate location" name = "location">
+      <% end%>
     </div>
