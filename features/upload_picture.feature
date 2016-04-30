@@ -19,11 +19,11 @@ Feature: Upload pictures to the home page
         And I press "Sign In"
         And I go to the edit section of the admin dashboard
         Then I should see "Heading image1"
-        And I should see "Officer image1"
+        And I should see "Leader image1"
     
     Scenario: Non-admin users should not be able to edit pictures
         Given a logged in user
         When I go to the edit section of the admin dashboard
         Then I should not see "Heading image1"
-        And I should not see "Officer image1"
+        And I should not see "Leader image1"
         And I should be on the home page of the website

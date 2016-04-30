@@ -11,43 +11,43 @@ Feature: Editing the home page as an admin
 
     Scenario: Admin can edit the about title
         Given I am on the edit home page
-        And I fill in "James is God" for "about_title"
-        And I press "Save"
+        And I fill in "James is God" for "content_about_title"
+        And I press "Update Content"
         Then I should be on the home page of the website
         And I should see "James is God"
 
     Scenario: Admin can edit the about content
         Given I am on the edit home page
-        And I fill in "Admin is writing things" for "about_content"
-        And I press "Save"
+        And I fill in "Admin is writing things" for "content_about_content"
+        And I press "Update Content"
         Then I should be on the home page of the website
         And I should see "Admin is writing things"
 
     Scenario: Admin can edit the about title and content at the same time
         Given I am on the edit home page
-        And I fill in "Here is the change in about title" for "about_title"
-        And I fill in "Here is the change in about content" for "about_content"
-        And I press "Save"
+        And I fill in "Here is the change in about title" for "content_about_title"
+        And I fill in "Here is the change in about content" for "content_about_content"
+        And I press "Update Content"
         Then I should be on the home page of the website
         And I should see "Here is the change in about title"
         And I should see "Here is the change in about content"
 
     Scenario: Admin can edit the announcements title
         Given I am on the edit home page
-        And I fill in "James is God" for "announcements_heading"
-        And I press "Save"
+        And I fill in "James is God" for "content_announcements_heading"
+        And I press "Update Content"
         Then I should be on the home page of the website
         And I should see "James is God"
 
     Scenario: Admin can edit the announcements content
         Given I am on the edit home page
-        And I fill in "Admin is writing things" for "announcements_content"
-        And I press "Save"
+        And I fill in "Admin is writing things" for "content_announcements_content"
+        And I press "Update Content"
         Then I should be on the home page of the website
         And I should see "Admin is writing things"
 
     Scenario: Incorrect method of editing the about title
         Given I am on the edit home page
-        And I fill in "James is God" for "about_title"
+        And I fill in "James is God" for "content_about_title"
         And I go to the home page of the website
         Then I should not see "James is God"

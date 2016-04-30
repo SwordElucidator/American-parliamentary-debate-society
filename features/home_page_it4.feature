@@ -13,5 +13,4 @@ Feature: View pictures
     Given I am on the home page of the website
     When I follow "Leadership"
     Then I should be on the "Leadership" section
-    And I should see "Name"
-    And I should see "President"
+    And I should see "Leader1"
