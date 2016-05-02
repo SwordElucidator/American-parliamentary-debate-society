@@ -18,7 +18,7 @@ Feature: Login to the user account
     Then I should have field "user_email"
     And I should have field "user_password"
     And I should have button "Sign In"
-    When I follow "Sign Up"
+    When I click the link with name "Sign Up"
     Then I should be on the signup page
     
   Scenario: I'm an unregistered user on the login page, and I try to hack around

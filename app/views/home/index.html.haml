@@ -8,20 +8,20 @@
       %li{:data => {:target => "slide-images", :slide_to => "2"}}
     .carousel-inner
       .item.active
-        =image_tag src= @content.heading_image1, :class=>"header_images"
+        =image_tag src= @content.heading_image1
       .item
-        =image_tag src= @content.heading_image2, :class=>"header_images"
+        =image_tag src= @content.heading_image2
       .item
-        =image_tag src= @content.heading_image3, :class=>"header_images"
+        =image_tag src= @content.heading_image3
       .item
-        =image_tag src= @content.heading_image4, :class=>"header_images"
+        =image_tag src= @content.heading_image4
     - if not user_signed_in?
       %a.btn.btn-primary.btn-lg.page-scroll{:id => "join-button", :href => "#join"} Join Us
 %div.container-fluid{:role => "information", :id => "about"}
   .row
     .col-lg-8.col-lg-offset-2
       .h1.title
-        = @about_title
+        = @content.about_title
       .p
         - @about_content.each do |about|
           %br

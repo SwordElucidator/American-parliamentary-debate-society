@@ -1,0 +1,71 @@
+.wrapper{:style => "margin-top:70px"}
+  %h1 Edit the Home Page
+  .container-edit
+    = simple_form_for @content, :url => root_path, :method => :post , :name => 'home-page-edits', :authenticity_token => "true" do |f|
+      .container
+        %h3 Heading
+        %p Heading Title
+        = f.input :heading_title, input_html: { class: 'input-title', value: @content.heading_title }, label: false
+        %p Carousel Photos
+        %p{:style=>"width:55%"} Note: if file says "no file chosen", this does not mean that you have reupload a picture if you have already uploaded a picture.
+        = f.file_field :heading_image1, accept: 'image/png,image/gif,image/jpeg'
+        = f.file_field :heading_image2, accept: 'image/png,image/gif,image/jpeg'
+        = f.file_field :heading_image3, accept: 'image/png,image/gif,image/jpeg'
+        = f.file_field :heading_image4, accept: 'image/png,image/gif,image/jpeg'
+      .container
+        %h3 About
+        %p About Title
+        = f.input :about_title, input_html: { class: 'input-title', value: @content.about_title }, label: false
+        %p About Content
+        = f.input :about_content, input_html: { class: 'input-content', :rows=>"20", :cols=>"26", value: @content.about_content }, as: :text, label: false
+      .container
+        %h3 Announcements
+        %p Announcements Title
+        = f.input :announcements_heading, input_html: { class: 'input-title', value: @content.announcements_heading }, label: false
+        %p Announcements Content
+        = f.input :announcements_content, input_html: { class: 'input-content', :rows=>"20", :cols=>"26", value: @content.announcements_content }, as: :text, label: false
+      .container
+        %h3 Leadership
+        %h4 Officer 1
+        %p Name
+        = f.input :leader_name1, input_html: { class: 'input-title', value: @content.leader_name1 }, label: false
+        %p Position
+        = f.input :leader_sub1, input_html: { class: 'input-title', value: @content.leader_name1 }, label: false
+        = f.file_field :leader_image1, accept: 'image/png,image/gif,image/jpeg'
+        %br
+        %h4 Officer 2
+        %p Name
+        = f.input :leader_name2, input_html: { class: 'input-title', value: @content.leader_name2 }, label: false
+        %p Position
+        = f.input :leader_sub2, input_html: { class: 'input-title', value: @content.leader_name2 }, label: false
+        = f.file_field :leader_image2, accept: 'image/png,image/gif,image/jpeg'
+        %br
+        %h4 Officer 3
+        %p Name
+        = f.input :leader_name3, input_html: { class: 'input-title', value: @content.leader_name3 }, label: false
+        %p Position
+        = f.input :leader_sub3, input_html: { class: 'input-title', value: @content.leader_name3 }, label: false
+        = f.file_field :leader_image3, accept: 'image/png,image/gif,image/jpeg'
+        %br
+        %h4 Officer 4
+        %p Name
+        = f.input :leader_name4, input_html: { class: 'input-title', value: @content.leader_name4 }, label: false
+        %p Position
+        = f.input :leader_sub4, input_html: { class: 'input-title', value: @content.leader_name4 }, label: false
+        = f.file_field :leader_image4, accept: 'image/png,image/gif,image/jpeg'
+        %br
+        %h4 Officer 5
+        %p Name
+        = f.input :leader_name5, input_html: { class: 'input-title', value: @content.leader_name5 }, label: false
+        %p Position
+        = f.input :leader_sub5, input_html: { class: 'input-title', value: @content.leader_name5 }, label: false
+        = f.file_field :leader_image5, accept: 'image/png,image/gif,image/jpeg'
+        %br
+        %h4 Officer 6
+        %p Name
+        = f.input :leader_name6, input_html: { class: 'input-title', value: @content.leader_name6 }, label: false
+        %p Position
+        = f.input :leader_sub6, input_html: { class: 'input-title', value: @content.leader_name6 }, label: false
+        = f.file_field :leader_image6, accept: 'image/png,image/gif,image/jpeg'
+      %br
+        = f.submit

@@ -1,0 +1,10 @@
+<div class="col-lg-offset-3 col-sm-6" >
+    <%= form_tag(mockdebate_path, :method => "get", id: "search-form" ) do %>
+      <div class="input-group">
+      <%= text_field_tag :search, params[:search], placeholder: "search the debates you want to attend based on topics", class: "form-control" %>
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </span>
+      </div>
+    <% end %>
+</div>

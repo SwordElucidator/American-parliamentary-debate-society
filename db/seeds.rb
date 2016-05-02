@@ -5,7 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Content.create()
+Content.create([{heading_title: 'Debate Society of Berkeley'},
+                {about_title: 'About'},
+                {about_content: 'Placeholder'},
+                {announcements_heading: 'Announcements'},
+                {announcements_content: 'Placeholder'}])
 Section.create([{title: 'General'}, {title: 'Topic 1'}, {title: 'Topic 2'}])
 require 'digest/sha1'
 email = "admin@gmail.com"

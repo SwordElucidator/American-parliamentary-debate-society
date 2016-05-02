@@ -24,5 +24,5 @@ Feature: Edit user profile_controller
     And I fill in "user_major" with "Electrical Engineering and Computer Science"
     And I press "Update User"
     Then I should see "Welcome"
-    Then I should see "Your email is aabbcc@gmail.com"
-    Then I should see "Your current major is Electrical Engineering and Computer Science"
+    Then I should see "Email: aabbcc@gmail.com"
+    Then I should see "Current major: Electrical Engineering and Computer Science"
